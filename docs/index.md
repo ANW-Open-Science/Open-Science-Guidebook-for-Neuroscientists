@@ -1,23 +1,17 @@
-# Welcome to the ENIGMA-PD documentation page
+# Welcome to the Open Science Guidebook for Neuroscientists!
 
-The [ENIGMA Consortium](https://enigma.ini.usc.edu/about-2/) is an international effort by leaders worldwide. This site provides information on the XYZ WG team, ongoing and completed projects, and useful resources.  
+Welcome to the Open Science Guidebook for Neuroscientists repository. This repository aims to provide a comprehensive set of guidelines and resources to promote and apply open science principles in the field of neuroscience. Check the guidebook on our website!
+
+Our project seeks to spread Open Science in the field of Neuroscience. The guidebook offers step-by-step guidance on data management, pre-registration, protocol and code sharing, and open-access publishing. Uniquely designed for the diverse subfields of neuroscience, this resource consolidates existing knowledge and introduces new content to address specific challenges. Accessible to researchers at all levels, it aims to empower students, research technicians, and all career-level scientists, fostering collaboration, reproducibility, and transparency within the neuroscience community.
 
 <div class="grid cards" markdown>
+
+- :material-typewriter:{ .lg .middle } __Chapters__
+
+    [:octicons-arrow-right-24: Ongoing and completed projects](tabs/all_chapters.md)
 
 - :fontawesome-solid-people-group:{ .lg .middle } __Team__
 
     [:octicons-arrow-right-24: The people behind XYZ WG](working_group/team.md)
-
-- :fontawesome-solid-hospital-wide:{ .lg .middle } __Sites__
-
-    [:octicons-arrow-right-24: Overview of member sites](working_group/existing_sites.md)
-
-- :material-typewriter:{ .lg .middle } __Projects__
-
-    [:octicons-arrow-right-24: Ongoing and completed projects](projects/propose_a_project.md)
-    
-- :material-brain:{ .lg .middle } __Resources__
-
-    [:octicons-arrow-right-24: Helpful guides and tools](resources/how_to_guides/overview.md)
 
 </div>
