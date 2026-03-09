@@ -14,10 +14,10 @@ COPY THIS TO ADD ANOTHER PERSON:
  -->
 <div class="grid cards" markdown>
 
-- ![Mar](../assets/profile_pictures/mar.jpeg){ width="80" } **[Mar Barrantes Cepas](https://www.amsterdamumc.org/en/research/researchers/mar-barrantes-cepas)**  
+- ![Mar](../assets/profile_pictures/mar.jpg){ width="80" } **[Mar Barrantes Cepas](https://www.amsterdamumc.org/en/research/researchers/mar-barrantes-cepas)**  
   PhD Student at Department of Anatomy and Neurosciences, team Clinical Neuroscience
 
-- ![Eva](../assets/profile_pictures/eva.jpeg){ width="80" } **[Eva van Heese](https://www.amsterdamumc.org/en/research/researchers/eva-van-heese)**  
+- ![Eva](../assets/profile_pictures/eva.jpg){ width="80" } **[Eva van Heese](https://www.amsterdamumc.org/en/research/researchers/eva-van-heese)**  
   PhD Student at Department of Anatomy and Neurosciences, team Neuropsychiatry
 
 </div>
