@@ -1,6 +1,6 @@
 # Chapter 7: Starting Open Science methodologies and initiation within your own network
 
-**Eduarda Centeno, Mona Zimmerman, Mar Barrantes-Cepas, Diana Bocancea, Janneke Lemmerzaal, Ruxandra Coman, Linda Douw**
+**Authors: Eduarda Centeno, Mona Zimmerman, Mar Barrantes-Cepas, Diana Bocancea; Reviewers: Janneke Lemmerzaal, Ruxandra Coman, Linda Douw**
 
 In this chapter, we would like to take you on a journey and show you how our working group came about. This may inspire you to kick-start your working group and spread OS in your department. When we started to set up our group, we had just one idea: How can we make our department more *open sciency*? 
 
@@ -90,3 +90,4 @@ The FORRT (Framework for Open and Reproducible Research Training) initiative pro
 The [Turing Way](https://book.the-turing-way.org/index.html) provides a comprehensive guide encompassing best practices, tools, and resources for conducting reproducible research. Through its openly accessible and continually evolving handbook, The Turing Way cultivates a community-driven ethos, inviting contributors to share their expertise and insights. Here is a page on how to contribute to this initiative.
 
 >The OSWG experience with Turing Way: They are one of our main inspirations and a go-to page in case of doubts. Most of the essential information is explained on their website. Our only complaint is that sometimes, it isn´t specific enough for neuroscience. That’s why we have created these guidelines! 
+
