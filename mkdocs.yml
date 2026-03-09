@@ -11,20 +11,20 @@ features:
   - navigation.indexes
 
 nav:
-  - Welcome: docs/index.md
+  - Welcome: index.md
 
   - Chapters:    
-    - Introduction: docs/tabs/1-introduction.md
-    - Preregistration & Protocols: docs/tabs/2-preregistration_protocols.md
-    - Data Organisation: docs/tabs/3-data_organisation.md
-    - Open Software & Tools: docs/tabs/4-open_software_tools.md
-    - Publishing & Preprints: docs/tabs/5-publishing_preprints.md
-    - Communication: docs/tabs/6-communication.md
-    - Create Your Own Open Science Working Group: docs/tabs/7-create_open_science_working_group.md
-    - Recognition & Reward: docs/tabs/8-recognition_reward.md
-    - Open Science in Education: docs/tabs/9-educational_resources.md
+    - Introduction: tabs/1-introduction.md
+    - Preregistration & Protocols: tabs/2-preregistration_protocols.md
+    - Data Organisation: tabs/3-data_organisation.md
+    - Open Software & Tools: tabs/4-open_software_tools.md
+    - Publishing & Preprints: tabs/5-publishing_preprints.md
+    - Communication: tabs/6-communication.md
+    - Create Your Own Open Science Working Group: tabs/7-create_open_science_working_group.md
+    - Recognition & Reward: tabs/8-recognition_reward.md
+    - Open Science in Education: tabs/9-educational_resources.md
     
-  - About the team: /docs/working_group/team.md
+  - About the team: working_group/team.md
   
 markdown_extensions:
   - attr_list
