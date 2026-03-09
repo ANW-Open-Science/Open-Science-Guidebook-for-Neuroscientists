@@ -1,12 +1,4 @@
-
----
-layout: default
-title: 6. Publishing & Preprints
-nav_order: 7
----
-
-
-# Chapter 6: Open-Access Publishing and Preprints
+# Chapter 5: Open-Access Publishing and Preprints
 **Authors: Sara Said, Diana Bocancea, Eva Koderman;**
 
 **Reviewers: Niels Reijner, Eva van Heese, Laura Jonkman**
@@ -90,3 +82,4 @@ It is important to evaluate journals critically before submitting your work. Som
 The line isn't always clear — there’s a spectrum ranging from obvious fraud to lower-quality outlets that may still look professional. For a curated list of known predatory journals to help guide your evaluation, see [the predatory journal list](https://www.predatoryjournals.org/the-list).
 
 As the open access landscape evolves, staying informed and using institutional support (such as your university library or research office) can help you **publish ethically and strategically**, while keeping your work accessible to the global community.
+
