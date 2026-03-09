@@ -122,7 +122,7 @@ Once you have a good feeling of the Github lingo, the version control should be 
 
 Here is a [quick tutorial](https://docs.github.com/en/get-started/start-your-journey/hello-world) to help get you started with the basics and a visual representation of a github workflow.
 
-<img src="../assets/images/Git_branches.png.png" width="600">
+<img src="../assets/images/Git_branches.png" width="600">
 
 [Image source](https://onesignal.com/blog/converting-github-repositories-to-main/)
 
@@ -267,4 +267,5 @@ We’ll review a selection of often applied software and tools:
 ## Lab Analysis Tools
 This section is coming soon 
 {: .label .label-yellow }
+
 
