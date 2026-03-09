@@ -24,7 +24,7 @@ nav:
     - Recognition & Reward: tabs/8-recognition_reward.md
     - Open Science in Education: tabs/9-educational_resources.md
     
-  - About the team: working_group/team.hmtl
+  - About the team: working_group/team.html
   
 markdown_extensions:
   - attr_list
