@@ -1,10 +1,6 @@
 # Chapter 8: Rewards and Recognition
 
-Authors: Niels Reijner, Eduarda Centeno, Thecla van Wageningen
-
-Reviewers: Nadza Dzinalija
-
-Senior reviewer: Linda Douw
+**Authors: Niels Reijner, Eduarda Centeno, Thecla van Wageningen; Reviewers: Nadza Dzinalija, Linda Douw**
 
 In the previous chapters, this guidebook explored various concepts and methods for implementing open science in neuroscience. The central premise of the open science movement is that by making scientific practices more transparent, accessible, and collaborative, we can improve research outcomes on individual, institutional, and societal levels. This vision is compelling and worthwhile, and we hope it encourages readers to adopt open science principles in their own work. However, such a shift requires time, effort, and resources. It is natural to wonder at some point: How am I recognized and rewarded for my efforts in this domain?
 
@@ -49,3 +45,4 @@ These initial discussions should evolve into an ongoing dialogue. Mentorship is 
 **Peer-to-peer recognition**
 
 Cultivate a culture that celebrates achievements among peers; not only the major milestones, but also the small yet essential steps along the way. In science, we often overlook these modest victories, even though they are the very building blocks of larger breakthroughs. By recognizing all contributions, we give these steps the value they deserve, making them feel more meaningful and motivating. A simple first step could be to dedicate a few minutes at the start of each team meeting to announce and celebrate recent achievements, no matter their size.
+
