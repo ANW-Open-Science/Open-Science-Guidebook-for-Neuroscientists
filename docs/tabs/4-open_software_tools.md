@@ -122,7 +122,7 @@ Once you have a good feeling of the Github lingo, the version control should be 
 
 Here is a [quick tutorial](https://docs.github.com/en/get-started/start-your-journey/hello-world) to help get you started with the basics and a visual representation of a github workflow.
 
-<img src="../images/Git_branches.png.png" width="600">
+<img src="../assets/images/Git_branches.png.png" width="600">
 
 [Image source](https://onesignal.com/blog/converting-github-repositories-to-main/)
 
@@ -148,7 +148,7 @@ A **general code workflow** should include several iterations of peer review and
 The general workflow of code review that ensures correctness and reproducibility is summarized in the figure below:
 
 
-<img src="../images/Code_buddy_fig.png" width="600">
+<img src="../assets/images/Code_buddy_fig.png" width="600">
 
 As you might notice, there should always be a code owner and a code reviewer who have separate tasks. 
 
@@ -267,3 +267,4 @@ We’ll review a selection of often applied software and tools:
 ## Lab Analysis Tools
 This section is coming soon 
 {: .label .label-yellow }
+
