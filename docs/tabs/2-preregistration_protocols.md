@@ -64,7 +64,7 @@ Several preregistration platforms exist, each with its own (dis)advantages (see 
 - Zenodo
 - GitHub
 
-<img src="../images/Preregistration_Comparison_Figure.png" width="500">
+<img src="../assets/images/Preregistration_Comparison_Figure.png" width="500">
 
 **Figure 1** - Comparisons of preregistration platforms (Haroz, 2022). ★ = the criteria deemed to be a bare minimum to meet the definition of a preregistration.
 
@@ -108,3 +108,4 @@ An additional option is to search for protocols in open-access repositories. The
 Nosek, B. A., Ebersole, C. R., DeHaven, A. C., & Mellor, D. T. (2018). The preregistration revolution. Proceedings of the National Academy of Sciences, 115(11), 2600-2606.
 
 Haroz, S. (2022, February 24). Comparison of Preregistration Platforms. [https://doi.org/10.31222/osf.io/zry2u](https://doi.org/10.31222/osf.io/zry2u)
+
