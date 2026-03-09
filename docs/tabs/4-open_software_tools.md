@@ -1,5 +1,5 @@
 # Chapter 4: Open Source Software and Tools for Neuroscience
-**Authors: Mar Barrantes-Cepas, Eva van Heese, Eva Koderman, Diana Bocancea, Lucas Baudouin; Reviewers: Chris Vriend**
+**Authors: Mar Barrantes-Cepas, Eva van Heese, Eva Koderman, Diana Bocancea, Lucas Baudouin; Reviewer: Chris Vriend**
 
 ## Reproducible Science
 In this chapter, we’ll show you practical tools and software to help make your neuroscience research more reproducible. By using scripts instead of graphical user interfaces, open source software, and version control, you’ll not only make your work easier to manage, but also ensure others can replicate your findings and easily collaborate with you. This way you can easily follow the **FAIR** principles for improving **F**indability, **A**ccessibility, **I**nteroperability, and **R**eusability (see [Chapter 3](https://marbarrantescepas.github.io/OS-neuroscience/tabs/3.%20Data%20Organisation.html) for more details on the FAIR principles).
@@ -267,5 +267,6 @@ We’ll review a selection of often applied software and tools:
 ## Lab Analysis Tools
 This section is coming soon 
 {: .label .label-yellow }
+
 
 
