@@ -1,6 +1,6 @@
-# XYZ WG Core Team
+# The team behind the Open Science Guidebook for Neuroscientists
 
-Meet the people behind XYZ WG!
+Meet the people behind the scenes!
 
 <!-- 
 The section below uses a special mix of markdown and HTML to make pretty cards.
@@ -14,10 +14,10 @@ COPY THIS TO ADD ANOTHER PERSON:
  -->
 <div class="grid cards" markdown>
 
-- ![Paul](../assets/profile_pictures/paul.jpeg){ width="80" } **[Paul Thompson](https://keck.usc.edu/faculty-search/paul-m-thompson/)**  
-  University of Southern California, USA
+- ![Mar](../assets/profile_pictures/mar.jpeg){ width="80" } **[Mar Barrantes Cepas](https://www.amsterdamumc.org/en/research/researchers/mar-barrantes-cepas)**  
+  PhD Student at Department of Anatomy and Neurosciences, team Clinical Neuroscience
 
-- ![Neda](../assets/profile_pictures/neda.jpeg){ width="80" } **[Neda Jahanshad](https://keck.usc.edu/faculty-search/neda-jahanshad/)**  
-  University of Southern California, USA
+- ![Eva](../assets/profile_pictures/eva.jpeg){ width="80" } **[Eva van Heese](https://www.amsterdamumc.org/en/research/researchers/eva-van-heese)**  
+  PhD Student at Department of Anatomy and Neurosciences, team Neuropsychiatry
 
 </div>
