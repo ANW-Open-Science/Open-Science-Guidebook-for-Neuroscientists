@@ -11,7 +11,7 @@ features:
   - navigation.indexes
 
 nav:
-  - Welcome: index.md
+  - Welcome: docs/index.md
 
   - Chapters:    
     - Introduction: docs/tabs/1-introduction.md
