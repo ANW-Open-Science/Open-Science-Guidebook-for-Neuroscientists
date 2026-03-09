@@ -1,5 +1,5 @@
 # Chapter 9: Open Educational Resources and Training
-**Alexander Bijnsdorp, Ruxandra Coman, Sara Said, Geert Schenk**
+**Authors: Alexander Bijnsdorp, Ruxandra Coman, Sara Said, Reviewers: Geert Schenk, Tommy Pattij**
 
 The sections of this chapter are currently under review 
 {: .label .label-yellow }
@@ -33,3 +33,4 @@ The sections of this chapter are currently under review
 ### Recommended resources and further reading
 
 ### References
+
