@@ -1,10 +1,10 @@
-site_name: Your Working group Documentation
+site_name: Open Science Guidebook for Neuroscientists
 theme:
   name: material
   logo: assets/logos/enigma_300DPI_small.png
   favicon: assets/logos/enigma_300DPI_small.png
   palette:
-    primary: indigo
+    primary: amber
   
 
 features:
@@ -13,21 +13,19 @@ features:
 nav:
   - Welcome: index.md
 
-  - About XYZ WG:    
-    - Core team: working_group/team.md
-    - Sites: working_group/existing_sites.md
-    - Join us: working_group/join_us.md
+  - Chapters:    
+    - Introduction: docs/tabs/1-introduction.md
+    - Preregistration & Protocols: docs/tabs/2-preregistration_protocols.md
+    - Data Organisation: docs/tabs/3-data_organisation.md
+    - Open Software & Tools: docs/tabs/4-open_software_tools.md
+    - Publishing & Preprints: docs/tabs/5-publishing_preprints.md
+    - Communication: docs/tabs/6-communication.md
+    - Create Your Own Open Science Working Group: docs/tabs/7-create_open_science_working_group.md
+    - Recognition & Reward: docs/tabs/8-recognition_reward.md
+    - Open Science in Education: docs/tabs/9-educational_resources.md
     
-  - Projects:    
-    - Ongoing: projects/ongoing/overview.md
-    - Completed: projects/completed/overview.md
-    - Propose a project: projects/propose_a_project.md
-
-  - Resources:
-    - How-to guides: resources/how_to_guides/overview.md
-    - Tools: resources/tools/overview.md
-
-
+  - About the team: /docs/working_group/team.md
+  
 markdown_extensions:
   - attr_list
   - md_in_html
