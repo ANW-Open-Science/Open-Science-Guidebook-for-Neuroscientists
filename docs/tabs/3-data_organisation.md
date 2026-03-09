@@ -1,5 +1,5 @@
 # Chapter 3: Open Data in Neuroscience
-**Authors: Mar Barrantes-Cepas, Eva van Heese, Lucas Baudouin, Bernardo de Azevedo Pinto Castro Maciel, Janneke Lemmerzaal; Reviewers: Chris Vriend**
+**Authors: Mar Barrantes-Cepas, Eva van Heese, Lucas Baudouin, Bernardo de Azevedo Pinto Castro Maciel, Janneke Lemmerzaal; Reviewer: Chris Vriend**
 
 ## Data Definition 
 
@@ -216,4 +216,5 @@ Krishnankutty, B., Bellary, S., Kumar, N. B., & Moodahadu, L. S. (2012). Data ma
 Uffelmann, E., Huang, Q.Q., Munung, N.S. et al. Genome-wide association studies. Nat Rev Methods Primers 1, 59 (2021).https://doi-org.vu-nl.idm.oclc.org/10.1038/s43586-021-00056-9 
 
 Zaimi, A., Wabartha, M., Herman, V. et al. AxonDeepSeg: automatic axon and myelin segmentation from microscopy data using convolutional neural networks. Sci Rep 8, 3816 (2018). https://doi.org/10.1038/s41598-018-22181-4
+
 
