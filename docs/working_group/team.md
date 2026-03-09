@@ -2,7 +2,7 @@
 layout: default
 title: Members
 nav: members
-permalink: /working_group/
+permalink: /members/
 ---
 
 <section class="section">
@@ -10,6 +10,7 @@ permalink: /working_group/
 
   <div class="members-grid">
     {% assign sorted = site.members | sort: "role" %} 
+
     {% for member in sorted %}
       <div class="member-card" id="{{ member.slug }}">
 
