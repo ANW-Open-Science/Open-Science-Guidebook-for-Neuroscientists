@@ -8,10 +8,10 @@ Our project seeks to spread Open Science in the field of Neuroscience. The guide
 
 - :material-typewriter:{ .lg .middle } __Chapters__
 
-    [:octicons-arrow-right-24: Ongoing and completed projects](tabs/all_chapters.md)
+    [:octicons-arrow-right-24: Explore chapters](tabs/all_chapters.md)
 
 - :fontawesome-solid-people-group:{ .lg .middle } __Team__
 
-    [:octicons-arrow-right-24: The people behind XYZ WG](working_group/team.md)
+    [:octicons-arrow-right-24: The people behind this guidebook](working_group/team.md)
 
 </div>
