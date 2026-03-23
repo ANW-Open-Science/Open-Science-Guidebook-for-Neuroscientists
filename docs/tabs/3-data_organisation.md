@@ -141,19 +141,19 @@ Here’s a video if you want to know more about [SNP arrays](https://www.youtube
 SNP arrays can be seen as a bunch of lightbulbs on a plate: if the SNP is present, the well lights up, if it isn’t present, it doesn’t. This information is usually stored in VCF (variant call format) files. The first step of every genetic analysis pipeline is quality control of these reads and hard-calling them, that is, make the good quality SNPs a 0 (absent) or a 1 (present). For more information on quality control, see [this video]( https://www.youtube.com/watch?v=xkA0qRxfDLs). 
 
 #### **Genomic builds**
-One of the most crucial aspects to consider when handling a VCF file is the genomic build on which it is founded. The genomic build is a different reindexing of the genome. This has consequences for  genomic positions and SNP IDs (and rsIDs). There are two main builds, equally used, GRCh37 and GRCh38. Most of the newer big datasets are using GRCh38 but a lot of the data is still in build GRCh37. The same APOE SNP is 19:44908822:C_T in GRCh38 and 19:45412079:C_T in GRCh37, which can lead to major interpretation errors! Here’s [a video]( https://www.youtube.com/watch?v=DeZTPCOKZrg) with more information on genomic builds.
+One of the most crucial aspects to consider when handling a VCF file is the genomic build on which it is founded. The genomic build is a different reindexing of the genome. This has consequences for genomic positions and SNP IDs (and rsIDs). There are two main builds, equally used, GRCh37 and GRCh38. Most of the newer big datasets are using GRCh38 but a lot of the data is still in build GRCh37. The same APOE SNP is 19:44908822:C_T in GRCh38 and 19:45412079:C_T in GRCh37, which can lead to major interpretation errors! Here’s [a video]( https://www.youtube.com/watch?v=DeZTPCOKZrg) with more information on genomic builds.
 
 Once you have hard-called the SNP data as described above, they can be stored in VCF format or transferred to a more optimised binary format like the plink format. Plink is a popular state-of-the-art tool in statistical genetics that allows you to do all sorts of quality control, genome-wide association studies, etc. Plink format (.bim, .bed, .fam) is widely used and supported across many different genetic tools. Plink format contains 3 files. The build of the genome is not specified anywhere in these formats. You always have to mind the meta-data. 
 
 	- .bim is the file with all the variant information: chromosome (19), position (45412079), name (19:45412079:C_T), reference allele (C) and alternative allele (T). You can use the information of this file to check the build. Look for the chromosome and position of some SNPs in dbSNP to see whether they match build GRhC37 or 38.
-	- .fam file which contains subject information and relatives information (whether the subject has any relatives in the sample).
+	- .fam file which contains subject information and relatives' information (whether the subject has any relatives in the sample).
 	- .bed is a non-human readable binary file with a gigantic matrix with the information of your subjects (rows are SNPs, columns are subjects).
 
 This text serves merely as an overview. The critical aspect to consider is that these files cannot be altered manually as doing so may result in misalignment, compromising all analyses. Furthermore, these files cannot be separated as they contain complementary information, and software programs require all of them to function properly. For additional information, please refer to the following [page](https://www.cog-genomics.org/plink/1.9/formats#fam). 
 
-There are quite some steps missing to perform your analyses but this should give you an idea of the basics! For more information on all of the steps from collecting DNA to discovering processes relevant for disease you can look up the following resources:
+There are quite some steps missing to perform your analyses, but this should give you an idea of the basics! For more information on all of the steps from collecting DNA to discovering processes relevant for disease you can look up the following resources:
 [PGC Video Textbook](https://pgcanalytics.github.io/pgcvideotextbook/)
-[A molecular genetics perspective on the heritability of human behavior and group differences](http://gusevlab.org/projects/hsq/)
+[A molecular genetics perspective on the heritability of human behaviour and group differences](http://gusevlab.org/projects/hsq/)
 [GWAS Tutorial Guide](https://cloufield.github.io/GWASTutorial/)
 Or contact me! (b.maciel@vu.nl).
 
