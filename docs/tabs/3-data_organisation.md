@@ -20,6 +20,7 @@ Data without context is of no use. However, metadata and documentation can provi
 #### **For data processing and analysis**
  
 For data processing and analysis, keeping organised and descriptive documentation about the step-by-step process is key. Whereas each lab generally does this in its own manner, the movement of open data and open scripting has set some standards on how to improve documentation for yourself and others. If you want to read more specific suggestions on how to annotate your code, please check out [Chapter 4](https://marbarrantescepas.github.io/OS-neuroscience/tabs/4.%20Open%20Software%20&%20Tools.html). A couple of essential elements to include in your documentation are:
+
 - a summary of the general steps (i.e from raw data to outcome)
 	- for example in a flowchart
 	- for example a participant flowchart (mention inclusion and exclusion criteria, reasons for data exclusion or missing data)
