@@ -11,12 +11,12 @@ Although sharing data in clinical neuroscience can be challenging due to privacy
 ## Coding Fundamentals
 You might already know much of what will be discussed in the following section. Should that be the case, you can browse through the headers to double-check your knowledge! Otherwise, here is a summary of some concepts you need for best coding practices. 
 
-### 2.a) Basic concepts about programming
+### 2.1) Basic concepts about programming
 A **Graphical User Interface (GUI)** is a digital interface that allows users to interact with graphical elements such as icons, buttons, and menus (e.g., SPSS or MATLAB). GUIs are user-friendly because they provide intuitive visual cues for navigation and task execution. However, they are less effective for reproducibility, as it can be challenging to track or recall the exact steps and parameters used during analysis if you don’t note them somewhere. Moreover, scripts provide more flexibility, can optimize compute efficiency through job parallelization, and require less manual work, resulting in greater control over your data.
 
 To address these issues, it is advisable to **use scripts for your methodology**. Scripts provide a record of all actions taken and parameters used, making it easier to reproduce and share your work with others. Fortunately, many software packages and pipelines also offer the option to execute commands directly through a terminal. For instance, if properly installed, FSL commands can run from the terminal. To learn more about this, consult the log files or documentation specific to the tool you are using.
 
-### 2.b) Programming languages
+### 2.2) Programming languages
 In programming, just as in everyday life, a wide array of languages are available for writing your scripts—more than you might imagine! Check out the [List of programming languages - Wikipedia](https://en.wikipedia.org/wiki/List_of_programming_languages. The most commonly used languages for data analysis in neuroscience are **Bash, C++, Python, MATLAB, and R**. An additional language that can help with your publication manuscript is **LaTeX**. The choice of language often depends on your personal preferences and the specific needs of your project. In this section, we outline the main differences between these languages, discuss Open Science-related considerations, and offer tips for maximizing the benefits of each.
 
 [Bash](https://www.gnu.org/software/bash/) is excellent for automating command-line tasks and system administration. It enables you to execute and automate terminal commands and call various tools through scripts. 
@@ -29,7 +29,7 @@ A programming tool that is not strictly speaking a data analysis pipeline develo
 
 An extra thing to consider when choosing your programming language is your [carbon emission when coding](https://datascience.aero/green-programming-reducing-your-carbon-emissions-when-coding/). High-level languages, like Python, tend to consume more energy and need more time to run than compiled languages, like C.
 
-### 2.c) Other development tools
+### 2.3) Other development tools
 But there’s more to consider! Besides programming languages, you’ll also need to manage [libraries](https://careerfoundry.com/en/blog/web-development/programming-library-guide/). 
 
 **Libraries** are collections of pre-written code that extend the functionality of a programming language, simplifying complex tasks. Just as programming languages have different versions, libraries can also have multiple versions due to updates and bug fixes. When multiple people work on the same coding file (see below - Version control), it is important to use consistent versions of programming languages and libraries across the team. In addition, different versions of libraries may introduce, change, or remove functions, so a specific function might only work with a particular version due to compatibility requirements. **Software tools** can act as GUIs to simplify data analysis. However, tools can be built using programming that is not open source (i.e., Matlab) and therefore the tools themselves are also not open source. 
@@ -48,7 +48,7 @@ Containerised software is particularly useful in neuroscience research because i
 
 Useful open-source tools within science also include LibreOffice and Inkscape. [LibreOffice](https://www.libreoffice.org/download/download-libreoffice/) is a free and open-source alternative to Microsoft Office applications like Word, PowerPoint, Excel, and Access. It offers similar functionalities for document creation, presentations, spreadsheets, and database management. For poster creation or data visualisation, you can opt for [Inkscape](https://inkscape.org/). It is a free and open-source vector graphics editor that is widely used for creating and editing scalable vector graphics (SVG) files. 
 
-### 2.d) Tips and tricks on the coding fundamentals
+### 2.4) Tips and tricks on the coding fundamentals
 To make your project  as *open sciency* as possible, we provide a few tips:
 - GUIs might help you get acquainted with the preprocessing or analysis steps. However, once you have that understanding, it might be better to **switch to scripts**.
 - Opt for open-source programming languages and tools that don’t require a paid license. While MATLAB might be available through your institute, remember that someone still pays for it. 
@@ -60,7 +60,7 @@ To make your project  as *open sciency* as possible, we provide a few tips:
 ## Code annotation and Version Control
 This section offers guidance on optimising version control and annotation practices. It covers best practices for streamlining version control, how to integrate them within your team, and the ideal workflow to adopt for maximum efficiency.
 
-### 3.a) Code annotation 
+### 3.1) Code annotation 
 When working on a script, it is important to annotate your code. Annotation is essential to make code understandable, discoverable, citable, and reusable. Check out [Chapter 3](https://github.com/marbarrantescepas/OS-neuroscience/blob/main/tabs/3.%20Data%20Organisation.md) to obtain a better general understanding of code annotation. More specific to code annotation, it is important to keep in mind the following:
 
 - At the top of your script, you should describe the aim of the script
@@ -74,7 +74,7 @@ When working on a script, it is important to annotate your code. Annotation is e
 
 To help get you started, you can check out these (script templates)[https://github.com/marbarrantescepas/script-templates], guidance, and examples. This tool is also useful for formatting your code (and making it beautiful!) - [Black Vercel](https://black.readthedocs.io/en/latest/). 
 
-### 3.b) Git and GitHub
+### 3.2) Git and GitHub
 [Version control](https://book.the-turing-way.org/reproducible-research/vcs) is a method used to document and manage changes to a file or collection of files over time. It allows you and your collaborators to monitor the history of revisions, review modifications, and revert to previous versions when necessary. This is useful, especially when working together on a script. The most prevalent version control system that can help with that is Git.
 
 **Git** is a [version control](https://en.wikipedia.org/wiki/Version_control) system that tracks file changes. This can be helpful when working on your own scripts, as well as for the coordination of work among multiple people on a project. **GitHub** and **GitLab** are web-based platforms that host **Git repositories**, along with additional features like issue tracking, code reviews, and continuous integration. The main difference between them is that GitHub is more focused on open-source collaboration and has a large user community, while GitLab offers more built-in tools and is known for its flexibility in deployment options, including self-hosting. Both of them allow the creation of private and public repositories. 
@@ -142,7 +142,7 @@ A [CONTRIBUTING.md](https://docs.github.com/en/communities/setting-up-your-proje
 ### Licences 
 To check more about licences and licensing, check [Chapter 3](https://marbarrantescepas.github.io/OS-neuroscience/tabs/3.%20Data%20Organisation.html). 
 
-## 3.c) Code Review and Code Test
+## 3.3) Code Review and Code Test
 A **general code workflow** should include several iterations of peer review and end with the scripts being uploaded on GitHub. Peer review ensures that the code is correct and functions well, while the publication of scripts online ensures these are shared with the wider scientific community and improves the reproducibility. In scripts, **correctness** refers to the code's ability to produce the intended results accurately according to specified requirements. In contrast, **reproducibility** ensures that these results can be consistently obtained by different users or in different environments when the same code is run with identical inputs. While correctness confirms that the code functions as intended, reproducibility guarantees that the outcomes can be reliably replicated, which is essential for validating research findings.
 
 The general workflow of code review that ensures correctness and reproducibility is summarized in the figure below:
@@ -183,7 +183,7 @@ Ensuring the quality of your data is a crucial step in minimising errors and avo
 
 As emphasized in this chapter, adopting ‘bottom-up’ practices, like using scripts, version control, and code review/code test, can help you create more reproducible workflows which can significantly increase the reliability of your findings. Quality assessment is at the core of these practices - helping you catch errors, identify inconsistencies, and ensure that your data is solid, facilitating transparency and collaboration. Cleaning and assessing your data thoroughly can prevent small issues from snowballing into larger problems down the line. By prioritising data quality control (QC) at critical steps during your analysis, you set the foundation for reliable and reproducible research. Below we guide you through practical approaches to assess data quality, from visualizing distributions to performing neuroimaging checks, while highlighting open-source tools that make these tasks more efficient and accessible. 
 
-### 4.a) Packages for Data Descriptives and Visualization in Python and R
+### 4.1) Packages for Data Descriptives and Visualization in Python and R
 Descriptive statistics and data visualisation are critical first steps in assessing the quality and distribution of your dataset. Visualizing your data, you can quickly identify outliers, assess distributions, and spot inconsistencies that might not be obvious by the raw values. While the exact procedures are dataset and modality specific, here are some **general guidelines** and examples for visualizing data for quality checks, along with the tools to implement them:
 
 - **Check Distributions:** Understanding the distribution of each variable is a fundamental step in quality assessment. Look for unexpected skewness, multimodal distributions, or values outside a plausible range. Visual tools: histograms, box plots.
@@ -208,7 +208,7 @@ There are various open-source tools that provide functionalities to easily check
 | DataExplorer        | R        | Generating comprehensive data reports to identify missing data, outliers, and distributions                                                                                |
 
 
-### 4.b) Quality Control of Neuroimaging Data
+### 4.2) Quality Control of Neuroimaging Data
 
 Quality control of structural neuroimaging data is important as errors in brain segmentation can lead to inaccurate volume/thickness estimates. Visual inspection is still the gold standard, but as dataset sizes grow, this approach becomes more time-consuming. Thus, automated QC tools are becoming more necessary. Researchers are actively developing tools to handle QC across different imaging modalities, and while many tools are still in development, there are some noteworthy options already available. Automated QC methods are an ongoing area of development, and it's essential to stay updated on new tools that can improve the QC process in neuroimaging.
 
