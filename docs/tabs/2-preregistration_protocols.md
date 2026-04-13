@@ -49,12 +49,15 @@ Anyone! Whether you are an undergraduate student, PhD candidate, postdoctoral or
 
 ### Types of preregistrations
 There are a few main types of preregistrations:
+
 - **Basic preregistration**
 
-  This is the most used preregistration and it is not peer-reviewed before submission. Here, you create a detailed description of your research plans before you begin your research and save them in an online repository that has a timestamp and is no longer editable after submission. You can also put an embargo date on your submission so that it only becomes widely available after a desired period of time has passed. 
+  This is the most used preregistration and it is not peer-reviewed before submission. Here, you create a detailed description of your research plans before you begin your research and save them in an online repository that has a timestamp and is no longer editable after submission. You can also put an embargo date on your submission so that it only becomes widely available after a desired period of time has passed.
+  
 - **Secondary data preregistrations**
 
   This is a variant of the first preregistration, where a preregistration of analyses plans is made after the data has already been collected but before analyses have been done. This form of preregistration is applied when you are using an existing dataset (for example an open dataset) for new analyses.
+  
 - **Registered report**
 
   This type of peer-reviewed preregistration is done in collaboration with a journal. Note that only some journals offer this, for instance [Imaging Neuroscience](https://direct.mit.edu/imag) (see a comprehensive list of participating journals [here](https://www.cos.io/initiatives/registered-reports)). In a registered report, you follow similar steps as above and your preregistration is subsequently subjected to a peer-review process, whereby the journal pledges to publish your findings regardless of the outcome if they accept your preregistration. 
