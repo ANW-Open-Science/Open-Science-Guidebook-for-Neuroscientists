@@ -1,4 +1,5 @@
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
-  height: 56px;
+  height: 56px !important;
+  width: auto !important;
 }
