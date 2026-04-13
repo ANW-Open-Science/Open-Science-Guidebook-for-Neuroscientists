@@ -21,9 +21,11 @@ Many researchers have concerns or misconceptions about preregistration that hold
 - **Fear of being scooped**
 
   This concern is common but often overstated. Preregistration timestamps your ideas, establishing clear priority. Additionally, many platforms let you keep your preregistration private under an embargo until you’re ready to share publicly, protecting your work while you proceed.
+
 - **Fear of losing flexibility and limiting exploratory analyses**
 
   Preregistration doesn’t lock you into rigid plans. It allows transparent reporting of any changes or new analyses. This approach clarifies what was planned versus what emerged during the study, supporting both confirmatory and exploratory work without limiting creativity.
+
 - **Fear of additional work that slows down research**
 
   While preregistration requires upfront effort, it often streamlines the research process by improving planning and reducing duplicated efforts. The initial time investment can save time later by making analysis and reporting clearer and more efficient. The first time can feel a bit tough, but the easiest way to understand its value is to jump in and give it a shot!
