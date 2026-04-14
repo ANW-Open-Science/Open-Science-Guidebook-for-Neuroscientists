@@ -1,8 +1,8 @@
 site_name: Open Science Guidebook for Neuroscientists
 theme:
   name: material
-  logo: assets/logos/logo_OS_Guidebook.png
-  favicon: assets/logos/logo_OS_Guidebook.png
+  logo: assets/logos/logo_OS_Guidebook(1).png
+  favicon: assets/logos/logo_OS_Guidebook(1).png
   palette:
     primary: deep purple
   
