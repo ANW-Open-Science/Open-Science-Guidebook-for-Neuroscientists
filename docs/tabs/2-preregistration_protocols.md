@@ -75,14 +75,21 @@ Several preregistration platforms exist, each with its own (dis)advantages (see 
 
 ## Essential Elements
 It is essential to include all confirmatory analyses in your preregistration. This will look different for every study, so a good rule of thumb is to imagine you were writing the method section of your paper and include anything that you would typically include there. Among others, you can consider including:
+
 - **Study population**: inclusion/exclusion criteria; if data has already been collected, include demographics like age and sex. 
+
 - **Materials**: how concepts were operationalized or quantified, what cut-offs or criteria were used in the process.
 It is essential to list all measures taken, not only the ones you plan to use for your analyses. For example, a study may have incorporated multiple questionnaires, but you may focus on just one for your analysis - you should still list all the questionnaires participants completed. If you pick one outcome measure over another similar measure, explain how/why you operationalized it that way. For example, you may have multiple items on a questionnaire that measure a construct like ‘quality of life’, or you may have two timepoints at which you assess treatment effects - be specific about which you use as your outcome measures and why you selected that measure.
+
 - **Methods**: procedures followed; if you have a Standard Operating Procedure (SOP) for your study this can serve as an excellent basis for this section. 
+
 - **Processing** (*optional, if relevant*): the software and tools (and links to their resources) you will use to process the acquired data, versions and required packages, parameters and predefined cut-offs, guidelines for quality control.
+
 - **Analyses**: specific statistical tests you will run; the (in)dependent variables and how these are obtained; the inference criteria you will use from those tests. If multiple testing problems may occur, mention how you correct for those. Also report any sensitivity analyses you plan to perform. 
+
 - **Hypotheses**: depending on the nature of the research, you may consider formulating a hypothesis for each analytic test you plan to do. This may be appropriate when there is substantial prior research that specifies a direction of effects (e.g, higher values in patients than controls). Alternatively, there may not be sufficient prior work on which to base your hypotheses, in which case you might adopt a hypothesis-free approach to avoid experimenter bias. A case where this is applicable may be a machine learning analysis where you allow an algorithm to ‘solve’ a particular problem, for instance by using factor analysis to create subgroups of patients. There may be sub-hypotheses under larger hypotheses when there are multiple groups to capture the relationships between all groups.
 If you base your hypotheses on previous literature, be sure to cite the relevant sources. This can be done in a brief introduction at the start of the preregistration.
+
 - **Power analysis**: if a power analysis was done, report it, otherwise, report what power you infer post-hoc from the sample you already have.
 
 
