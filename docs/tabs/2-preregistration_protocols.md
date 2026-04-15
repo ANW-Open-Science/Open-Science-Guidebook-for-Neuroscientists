@@ -64,6 +64,7 @@ There are a few main types of preregistrations:
 
 ### Platforms
 Several preregistration platforms exist, each with its own (dis)advantages (see Figure 1 for an overview). These platforms are not specific to neuroscience and can be used across a wide range of scientific disciplines. A personal account is required to view the available templates and select one for your preregistration. It is generally possible to invite future co-authors to collaborate on a pre-registration, allowing you to collect input from important stakeholders in the research.
+
 - Open Science Framework
 - AsPredicted
 - Zenodo
@@ -99,6 +100,7 @@ It is not essential to include exploratory analyses when you do not (yet) have a
 After you’ve completed your preregistered study and gathered your results, it’s important to share what you found, even if the outcomes are null, unexpected, or not as exciting as hoped.
 
 As you prepare a manuscript to report your preregistered research, here are a few key things to keep in mind:
+
 - Include a link to your original preregistration in your manuscript or report.
 - Be clear and honest about any deviations from your preregistered plan.
 - Report the results of all preregistered analyses, not just those with significant or interesting outcomes.
