@@ -60,6 +60,7 @@ Preprints can be shared either on dedicated preprint platforms, such as bioRxiv,
 
 
 Different fields use different preprint servers; a list of commonly used platforms is provided below. 
+
 - [Open Science Framework (OSF Preprints)](https://osf.io/preprints) - general preprint repository with multiple disciplines
 - [Preprint](https://www.preprints.org/) - general preprint repository for multiple disciplines
 - [arXiv](https://arxiv.org/) - for physics, mathematics, computer science, and related fields
