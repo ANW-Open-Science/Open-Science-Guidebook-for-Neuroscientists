@@ -180,6 +180,7 @@ Figure 3.4 - DANS repository - choosing a license.
 
 ### Data curation
 Data curation, in other words, means “cleaning up your data for them to be used for any purpose”. After data collection, the process of data curation can be broken down into several steps:
+
 - **Appraisal:** Select the appropriate data
 Enter, digitise, transcribe, check, validate, clean, and (pseudo)anonymise the data
 - **Disposal:** Discard data based on the appraisal step
