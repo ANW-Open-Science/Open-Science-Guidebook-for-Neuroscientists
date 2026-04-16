@@ -50,6 +50,7 @@ Useful open-source tools within science also include LibreOffice and Inkscape. [
 
 ### 2.4) Tips and tricks on the coding fundamentals
 To make your project  as *open sciency* as possible, we provide a few tips:
+
 - GUIs might help you get acquainted with the preprocessing or analysis steps. However, once you have that understanding, it might be better to **switch to scripts**.
 - Opt for open-source programming languages and tools that don’t require a paid license. While MATLAB might be available through your institute, remember that someone still pays for it. 
 - If you need a specific tool available in MATLAB, **consider finding an open-source alternative**. For example, [bctpy](https://pypi.org/project/bctpy/) is an open-source Python version of the MATLAB-based tool Brain Connectivity Toolbox. 
@@ -115,6 +116,7 @@ Now Git is linked to your GitHub account, and you can push, pull, and collaborat
 
 ### How to use Git & GitHub
 Once you have a good feeling of the Github lingo, the version control should be easy peasy. Here are some basics on the terminology and a tutorial to help get you started:
+
 - A **repository** (or "repo") is a central location where a project's code, along with its version history, is stored and managed. It is essentially a folder in which your project's files and folders reside, along with all the necessary information to track changes, collaborate with others, and version control the project over time.
 - A **branch** is an independent line of development within a repository. It allows you to work on different features, bug fixes, or experiments without affecting the main codebase. By default, every repository starts with a ‘**main**‘ (or previously ‘**master**’) branch, which is typically considered the primary or production-ready branch.
 - **Pulling** a branch means fetching the latest changes from a remote repository (like GitHub) to your local environment. It updates your local copy with any new commits made by others.
@@ -153,6 +155,7 @@ The general workflow of code review that ensures correctness and reproducibility
 As you might notice, there should always be a code owner and a code reviewer who have separate tasks. 
 
 **For the code owner:**
+
 1. Start with your script. Try to write documentation in parallel with your computations, as this will save you time and help build good habits.
 2. Talk to your supervisor about work ethic - are there standards on how the data should be stored? Data privacy guidelines? 
 3. Create a GitHub account and version control your codes. At the end of your project, you should transfer your version controlled codes to the public repository.
@@ -168,6 +171,7 @@ As you might notice, there should always be a code owner and a code reviewer who
 
 **For the reviewer:**
 Please confirm that the code is understandable and well-documented. It is not your job to rewrite the code for the code owner or to test the code’s functionality. If you have to spend too much time on it, send it back to the owner with your remarks and ask them to improve it before your final revision.
+
 1. Please check if the owner indicated the mandatory information (what the script is about, who wrote the code and when, declaring libraries with their versions)
 2. Code peer review tutorials suggest not revising more than 400 lines in one go. Split the job to keep your eyes fresh!
 3. If your revision is more on the computation/mathematical side, please ensure everything is correct, and results will not be compromised
