@@ -56,7 +56,7 @@ Preprints can be shared either on dedicated preprint platforms, such as bioRxiv,
 
 <img src="https://github.com/marbarrantescepas/OS-neuroscience/blob/main/images/Preprint_postprint_published.png" width="400">
 
-*Figure 1.* - The process of article submission, starting with a preprint; source: [Wikipedia on Preprints](https://en.wikipedia.org/wiki/Preprint).
+*Figure 5.1* - The process of article submission, starting with a preprint; source: [Wikipedia on Preprints](https://en.wikipedia.org/wiki/Preprint).
 
 
 Different fields use different preprint servers; a list of commonly used platforms is provided below. 
