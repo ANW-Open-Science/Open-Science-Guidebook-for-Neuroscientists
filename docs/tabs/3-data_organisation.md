@@ -119,6 +119,7 @@ As the original format was designed for human studies, an additional description
 
 #### **What kind of information may be found?**
 As explained in the previous part, all details regarding the parameters used to acquire an image can be found into the accompanying .json files. It must contain the same type of critical information that should be included into a material and method section of a publication to ensure the reproducibility of the experiment. This include parameters such as:
+	
 	- Image acquisition (pixels size, lens numerical aperture, magnification)
 	- Sample characteristics and how it has been proceeded (body localization, fixative/embedding used, coloration/staining)
 	- Chunk transformations (in case the field acquire is composed by multiples tiles)
