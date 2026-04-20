@@ -129,8 +129,8 @@ Different manufacturers typically utilise various file formats to store metadata
 
 In summary, this type of data storage, which is constantly evolving and improving, provides a consistent way to associate a file with the necessary metadata needed to perform further image analysis (Fig 3.3). A more comprehensive and exhaustive overview concerning how to properly apply the BIDS format on your dataset can be found [here](https://bids-specification.readthedocs.io/en/stable/modality-specific-files/microscopy.html). 
 
-<img src="../assets/images/BIDS3.png" width="600">
-*Figure 3.3* - Illustration of rat spinal cord SEM overview following a BIDS format, modified from Zaimi et al., 2018 and extract from Bourget et al. 2022.
+<img src="../assets/images/BIDS3.png", width="600">
+*Figure 3.2* - Illustration of rat spinal cord SEM overview following a BIDS format, modified from Zaimi et al., 2018 and extract from Bourget et al. 2022.
 
 ### **Big Genetic Datasets**
 There are many ways to capture interindividual genetic variation. In order to make it simple, we are going to look at the most commonly analysed variants: Single Nucleotide Polymorphisms (SNPs). SNPs are places in the genome where one letter differs between people, for example, in chromosome 19, position 44908822 some people have a C (Cytosine) base, others have a T (Thymine). This is the APOE SNP, an important genetic factor for Alzheimer’s disease. This SNP would be represented either by a SNP ID - in this case, <mark style="background-color: #FFFF00">19</mark>:<mark style="background-color: #00FF77">45412079</mark>:<mark style="background-color: #00FFFF">C_T</mark> (usually written in the form  <mark style="background-color: #FFFF00">chromosome</mark>:<mark style="background-color: #00FF77">base pair</mark>:<mark style="background-color: #00FFFF">allele1_allele2</mark>) - or by its rsID - rs7412 (which you have to look up online).
