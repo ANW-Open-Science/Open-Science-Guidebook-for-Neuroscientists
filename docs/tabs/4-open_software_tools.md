@@ -122,11 +122,11 @@ Once you have a good feeling of the Github lingo, the version control should be 
 - **Pulling** a branch means fetching the latest changes from a remote repository (like GitHub) to your local environment. It updates your local copy with any new commits made by others.
 - **Pushing** a branch means sending your local changes to the remote repository, making them available to others by updating the remote branch. You can also opt to use a private repository which means even pushing to the remote branch won’t make the changes public.
 
-Here is a [quick tutorial](https://docs.github.com/en/get-started/start-your-journey/hello-world) to help get you started with the basics and a visual representation of a github workflow.
+Here is a [quick tutorial](https://docs.github.com/en/get-started/start-your-journey/hello-world) to help get you started with the basics and a visual representation of a GitHub workflow.
 
 <img src="../assets/images/Git_branches.png" width="600">
 
-[Image source](https://onesignal.com/blog/converting-github-repositories-to-main/)
+*Figure 4.1* - Visual representation of a GitHub workflow. [Image source.](https://onesignal.com/blog/converting-github-repositories-to-main/)
 
 The main (or previously called the master branch) is where your code lives as the main character. All the other branches are created for the development of a specific feature (or you can think of them as side quests). After the feature development is complete and the code is fully tested and functional, you can merge it back into the main branch. Continue this process until all the feature development is complete.
 
@@ -151,7 +151,7 @@ The general workflow of code review that ensures correctness and reproducibility
 
 
 <img src="../assets/images/Code_buddy_fig.png" width="600">
-
+*Figure 4.2* - Visualisation of the workflow for code review.
 As you might notice, there should always be a code owner and a code reviewer who have separate tasks. 
 
 **For the code owner:**
