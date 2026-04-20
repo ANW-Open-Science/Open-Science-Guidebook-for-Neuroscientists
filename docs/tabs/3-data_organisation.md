@@ -78,7 +78,7 @@ Briefly, each project has a main folder containing a *sourcedata*, *rawdata* and
 
 <img src="../assets/images/BIDS1.png" width="600">
 
-Figure 3.1 -  (a) Structure of the project folder organised according to BIDS format. (b) Different modalities specifications. Image from [1].
+*Figure 3.1* -  (a) Structure of the project folder organised according to BIDS format. (b) Different modalities specifications. Image from [1].
 
 Inside *sourcedata* and *rawdata*, we should have a folder for each subject of the study named **sub-SUBID**, where SUBID is the code or identifier of that particular participant, and a **tsv file** containing the information of our dataset. Inside the subject folder, it is expected to have a subfolder per session in case of longitudinal data. We would recommend adding a session folder even in cross-sectional studies. You never know if it will be longitudinal later on! 
 Inside the session (if it exists) or the subject folder, we should have a subfolder for each modality i.e. anat, func, dwi, etc., containing anatomical, functional, diffusion or other type of data respectively. See more information about the [specifications of different modalities](https://bids-specification.readthedocs.io/en/stable/modality-agnostic-files.html). 
@@ -89,7 +89,7 @@ Finally, the files MUST be named in a certain way to be machine-readable. There 
 
 <img src="../assets/images/BIDS2.png" width="600">
 
-Figure 3.2 - Structure of the file name following the BIDS format. Image from [2]
+*Figure 3.2* - Structure of the file name following the BIDS format. Image from [2]
 
 {: .warning }
 > If at this point you are lost and don’t know where to start, we recommend you check the [BIDS starter kit](https://bids-standard.github.io/bids-starter-kit/) and consult experienced people on the field or the BIDS community. 
@@ -130,7 +130,7 @@ Different manufacturers typically utilise various file formats to store metadata
 In summary, this type of data storage, which is constantly evolving and improving, provides a consistent way to associate a file with the necessary metadata needed to perform further image analysis (Fig 3.3). A more comprehensive and exhaustive overview concerning how to properly apply the BIDS format on your dataset can be found [here](https://bids-specification.readthedocs.io/en/stable/modality-specific-files/microscopy.html). 
 
 <img src="../assets/images/BIDS3.png" width="600">
-Fig 3.3: Illustration of rat spinal cord SEM overview following a BIDS format, modified from Zaimi et al., 2018 and extract from Bourget et al. 2022.
+*Figure 3.3* - Illustration of rat spinal cord SEM overview following a BIDS format, modified from Zaimi et al., 2018 and extract from Bourget et al. 2022.
 
 ### **Big Genetic Datasets**
 There are many ways to capture interindividual genetic variation. In order to make it simple, we are going to look at the most commonly analysed variants: Single Nucleotide Polymorphisms (SNPs). SNPs are places in the genome where one letter differs between people, for example, in chromosome 19, position 44908822 some people have a C (Cytosine) base, others have a T (Thymine). This is the APOE SNP, an important genetic factor for Alzheimer’s disease. This SNP would be represented either by a SNP ID - in this case, <mark style="background-color: #FFFF00">19</mark>:<mark style="background-color: #00FF77">45412079</mark>:<mark style="background-color: #00FFFF">C_T</mark> (usually written in the form  <mark style="background-color: #FFFF00">chromosome</mark>:<mark style="background-color: #00FF77">base pair</mark>:<mark style="background-color: #00FFFF">allele1_allele2</mark>) - or by its rsID - rs7412 (which you have to look up online).
@@ -176,7 +176,7 @@ Importantly, always ensure you know what you are permitted to share and what is 
 
 <img src="../assets/images/DANS_license.png" width="600">
 
-Figure 3.4 - DANS repository - choosing a license.
+*Figure 3.4* - DANS repository - choosing a license.
 
 ### Data curation
 Data curation, in other words, means “cleaning up your data for them to be used for any purpose”. After data collection, the process of data curation can be broken down into several steps:
