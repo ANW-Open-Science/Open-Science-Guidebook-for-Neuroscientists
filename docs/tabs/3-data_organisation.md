@@ -105,7 +105,7 @@ Be nice and don’t forget to cite in your study the BIDS citations if you are u
 
 ### **BIDS in Microscopic Data**
 
-Whereas BIDS has been originally designed for macroscale data, the BIDS specification has recently been extended to the microscopy field (Bourget et al. 2022), which included a wild variety of applications. 
+Whereas BIDS has been originally designed for macroscale data, the BIDS specification has recently been extended to the microscopy field, which included a wild variety of applications. 
 
 As explained at the beginning of this section, the ideas behind this initiative remain the same: to properly identify which type of experiments have been conducted on one sample and have a track record of the parameters used during the acquisition of the specimen. All to avoid confusion and facilitate the comprehension of methods.  
 
