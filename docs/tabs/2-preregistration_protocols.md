@@ -72,7 +72,7 @@ Several preregistration platforms exist, each with its own (dis)advantages (see 
 
 <img src="/docs/assets/images/Preregistration_Comparison_Figure.png" width="500">
 
-**Figure 1** - Comparisons of preregistration platforms (Haroz, 2022). ★ = the criteria deemed to be a bare minimum to meet the definition of a preregistration.
+*Figure 2.1* - Comparisons of preregistration platforms (Haroz, 2022). ★ = the criteria deemed to be a bare minimum to meet the definition of a preregistration.
 
 ## Essential Elements
 It is essential to include all confirmatory analyses in your preregistration. This will look different for every study, so a good rule of thumb is to imagine you were writing the method section of your paper and include anything that you would typically include there. Among others, you can consider including:
