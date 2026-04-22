@@ -121,6 +121,6 @@ An additional option is to search for protocols in open-access repositories. The
 ## References
 Haroz, S. (2022). *Comparison of Preregistration Platforms* \[Preprint\]. *MetaArxiv*. [https://doi.org/10.31222/osf.io/zry2u](https://doi.org/10.31222/osf.io/zry2u)
 
-Nosek, B. A., Ebersole, C. R., DeHaven, A. C., & Mellor, D. T. (2018). *The preregistration revolution*. *Proceedings of the National Academy of Sciences*, 115(11), 2600-2606. [https://doi.org/10.1073/pnas.1708274114](https://doi.org/10.1073/pnas.1708274114) 
+Nosek, B. A., Ebersole, C. R., DeHaven, A. C., & Mellor, D. T. (2018). The preregistration revolution. *Proceedings of the National Academy of Sciences*, 115(11), 2600-2606. [https://doi.org/10.1073/pnas.1708274114](https://doi.org/10.1073/pnas.1708274114) 
 
 
