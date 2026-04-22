@@ -160,7 +160,7 @@ Or contact me! (b.maciel@vu.nl).
 
 
 ### Clinical data management
-For clinical, demographic, and behavioural data, accurate and meticulous data management is essential to create a high-quality database for statistical analysis. Procedures to ensure high-quality standards include database designing, data entry, data annotation, data validation, discrepancy management, and database locking. A review article highlights the processes and recommended tools for clinical data management (Krishnankutty et al., 2012). Common software for Electronic Data Capture (EDC) include: REDcap, Castor, Greenlight Guru Clinical, Medidata Rave, Clinion.
+For clinical, demographic, and behavioural data, accurate and meticulous data management is essential to create a high-quality database for statistical analysis. Procedures to ensure high-quality standards include database designing, data entry, data annotation, data validation, discrepancy management, and database locking. A review article highlights the processes and recommended tools for clinical data management. Common software for Electronic Data Capture (EDC) include: REDcap, Castor, Greenlight Guru Clinical, Medidata Rave, Clinion.
 
 Spreadsheets and documents are widely used for various purposes including collecting, storing, manipulating, analysing, and documenting research data. However, it's important to exercise caution as improper use of them can lead to significant errors in workflows. Our recommendation is to follow the [Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage). 
 
@@ -210,14 +210,13 @@ CellMarker 2.0 | [CellMarker WebPage](http://bio-bigdata.hrbmu.edu.cn/CellMarker
 | A call for public archives for biological image data | [Review Ellenberg et al., 2018](https://www.nature.com/articles/s41592-018-0195-8) | This comprehensive review published in 2018 lists a consistent and impressive array of open databases for all disciplines and expertise, some of which are listed above, highlighting the necessity to promote the accessibility of billions of data ready to be re-used. |
 
 ### References
-Bourget M-H, Kamentsky L, Ghosh SS, Mazzamuto G, Lazari A, Markiewicz CJ, Oostenveld R, Niso G, Halchenko YO, Lipp I, Takerkart S, Toussaint P-J, Khan AR, Nilsonne G, Castelli FM, The BIDS Maintainers and Cohen-Adad J (2022) Microscopy-BIDS: An Extension to the Brain Imaging Data Structure for Microscopy Data. Front. Neurosci. 16:871228. doi: 10.3389/fnins.2022.871228
+Bourget, M., Kamentsky, L., Ghosh, S. S., Mazzamuto, G., Lazari, A., Markiewicz, C. J., Oostenveld, R., Niso, G., Halchenko, Y. O., Lipp, I., Takerkart, S., Toussaint, P., Khan, A. R., Nilsonne, G., Castelli, F. M., Maintainers, B., & Cohen-Adad, J. (2022). Microscopy-BIDS: An Extension to the Brain Imaging Data Structure for Microscopy Data. *Frontiers in Neuroscience*, *16*, 871228. [https://doi.org/10.3389/fnins.2022.871228](https://doi.org/10.3389/fnins.2022.871228)
 
-Gorgolewski, K. J., Auer, T., Calhoun, V. D., Craddock, R. C., Das, S., Duff, E. P., ... & Poldrack, R. A. (2016). The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments. Scientific data, 3(1), 1-9.
+Gorgolewski, K. J., Auer, T., Calhoun, V. D., Craddock, R. C., Das, S., Duff, E. P., Flandin, G., Ghosh, S. S., Glatard, T., Halchenko, Y. O., Handwerker, D. A., Hanke, M., Keator, D., Li, X., Michael, Z., Maumet, C., Nichols, B. N., Nichols, T. E., Pellman, J., . . . Poldrack, R. A. (2016). The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments. *Scientific Data*, *3*(1), 160044. [https://doi.org/10.1038/sdata.2016.44](https://doi.org/10.1038/sdata.2016.44)
 
-Krishnankutty, B., Bellary, S., Kumar, N. B., & Moodahadu, L. S. (2012). Data management in clinical research: an overview. Indian journal of pharmacology, 44(2), 168-172.
+Krishnankutty, B., Bellary, S., Kumar, B. N., & Moodahadu, L. (2012). Data management in clinical research: An overview. *Indian Journal Of Pharmacology*, *44*(2), 168. [https://doi.org/10.4103/0253-7613.93842](https://doi.org/10.4103/0253-7613.93842)
 
-Uffelmann, E., Huang, Q.Q., Munung, N.S. et al. Genome-wide association studies. Nat Rev Methods Primers 1, 59 (2021).https://doi-org.vu-nl.idm.oclc.org/10.1038/s43586-021-00056-9 
+Uffelmann, E., Huang, Q. Q., Munung, N. S., De Vries, J., Okada, Y., Martin, A. R., Martin, H. C., Lappalainen, T., & Posthuma, D. (2021). Genome-wide association studies. *Nature Reviews Methods Primers*, *1*(1). [https://doi.org/10.1038/s43586-021-00056-9](https://doi.org/10.1038/s43586-021-00056-9)
 
-Zaimi, A., Wabartha, M., Herman, V. et al. AxonDeepSeg: automatic axon and myelin segmentation from microscopy data using convolutional neural networks. Sci Rep 8, 3816 (2018). https://doi.org/10.1038/s41598-018-22181-4
-
+Zaimi, A., Wabartha, M., Herman, V., Antonsanti, P., Perone, C. S., & Cohen-Adad, J. (2018). AxonDeepSeg: automatic axon and myelin segmentation from microscopy data using convolutional neural networks. *Scientific Reports*, *8*(1), 3816. [https://doi.org/10.1038/s41598-018-22181-4](https://doi.org/10.1038/s41598-018-22181-4)
 
