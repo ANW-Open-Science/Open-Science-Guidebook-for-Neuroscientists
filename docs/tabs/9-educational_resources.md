@@ -4,34 +4,34 @@
 The sections of this chapter are currently under review 
 {: .label .label-yellow }
 
-## Introduction
+## 1. Introduction
 
-### What does open science mean in an educational context?
+### 1.1) What does open science mean in an educational context?
 
-### What are Open Educational Resources (OERs)?
+### 1.2) What are Open Educational Resources (OERs)?
 
-### Why is open science in an educational context important?
+### 1.3) Why is open science in an educational context important?
 
-### What are the reasons to adopt open science in an educational context? 
+### 1.4) What are the reasons to adopt open science in an educational context? 
 
-## Licensing Resources for open use
+## 2. Licensing Resources for open use
 
-### What is an Open License?
+### 2.1) What is an Open License?
 
-### Who are the Creative Commons?
+### 2.2) Who are the Creative Commons?
 
-## Practical steps to open up your education
+## 3.Practical steps to open up your education
 
-### Where to share?
+### 3.1) Where to share?
 
-### Copyright issues
+### 3.2) Copyright issues
 
-### How can you ensure the quality of the materials?
+### 3.3) How can you ensure the quality of the materials?
 
-## Best practices/tips for implementing open education on a departmental/ workgroup level
+## 4. Best practices/tips for implementing open education on a departmental/ workgroup level
 
-### Recommended resources and further reading
+### 4.1 Recommended resources and further reading
 
-### References
+## References
 
 
