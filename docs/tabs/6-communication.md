@@ -20,7 +20,7 @@ This is especially true with neuroscience, a field rife with pseudoscience and f
 There are a myriad of ways of doing SciComm; from citizenship science and direct engagement, through documentary filmmaking and writing. In all of these cases science communicators must be mindful of their audience, craft an engaging narrative, and choose the right medium. This section explores the essential elements of successful science communication and offers practical advice on engaging different audiences.
 
 ### 3.1) The language of scientific communication 
-One of the biggest barriers in science communication is language. Since the 1920s, more than 90% of research papers have been written in English (*How Did English Become The Language Of Science? - The World From PRX, 2014*). While having a common language can be helpful, it also creates a significant barrier, as most people do not speak English as their first language. 
+One of the biggest barriers in science communication is language. Since the 1920s, more than 90% of research papers have been written in English. While having a common language can be helpful, it also creates a significant barrier, as most people do not speak English as their first language. 
 
 Although we call English the language of science, this does not hold up when talking about SciComm to the general audience. Doing science in local languages is crucial for promoting inclusivity, enhancing comprehension, and empowering communities. When scientific knowledge is shared in a language people understand, it ensures that more individuals can access information regardless of their educational and cultural background. 
 
