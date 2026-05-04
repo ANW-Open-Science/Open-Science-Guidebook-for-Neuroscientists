@@ -17,7 +17,7 @@ A **Graphical User Interface (GUI)** is a digital interface that allows users to
 To address these issues, it is advisable to **use scripts for your methodology**. Scripts provide a record of all actions taken and parameters used, making it easier to reproduce and share your work with others. Fortunately, many software packages and pipelines also offer the option to execute commands directly through a terminal. For instance, if properly installed, FSL commands can run from the terminal. To learn more about this, consult the log files or documentation specific to the tool you are using.
 
 ### 2.2) Programming languages
-In programming, just as in everyday life, a wide array of languages are available for writing your scripts—more than you might imagine! Check out the [List of programming languages - Wikipedia](https://en.wikipedia.org/wiki/List_of_programming_languages. The most commonly used languages for data analysis in neuroscience are **Bash, C++, Python, MATLAB, and R**. An additional language that can help with your publication manuscript is **LaTeX**. The choice of language often depends on your personal preferences and the specific needs of your project. In this section, we outline the main differences between these languages, discuss Open Science-related considerations, and offer tips for maximizing the benefits of each.
+In programming, just as in everyday life, a wide array of languages are available for writing your scripts—more than you might imagine! Check out the [List of programming languages - Wikipedia](https://en.wikipedia.org/wiki/List_of_programming_languages). The most commonly used languages for data analysis in neuroscience are **Bash, C++, Python, MATLAB, and R**. An additional language that can help with your publication manuscript is **LaTeX**. The choice of language often depends on your personal preferences and the specific needs of your project. In this section, we outline the main differences between these languages, discuss Open Science-related considerations, and offer tips for maximizing the benefits of each.
 
 [Bash](https://www.gnu.org/software/bash/) is excellent for automating command-line tasks and system administration. It enables you to execute and automate terminal commands and call various tools through scripts. 
 
@@ -25,7 +25,7 @@ In programming, just as in everyday life, a wide array of languages are availabl
 
 [Python](https://www.python.org/), [MATLAB](https://nl.mathworks.com/products/matlab.html), and [R](https://www.r-project.org/about.html#:~:text=R%20is%20a%20language%20and,by%20John%20Chambers%20and%20colleagues.) are high-level languages, meaning they are easy to use, understand, portable, and independent from specific hardware. Python is a versatile and user-friendly programming language, making it an ideal choice for data analysis. R is designed specifically for statistical analysis and data visualisation, making it popular among statisticians and data scientists. MATLAB excels in numerical computation and visualisation but requires a paid licence.
 
-A programming tool that is not strictly speaking a data analysis pipeline development tool but can still help you in the preparation of your manuscript for publication is [LaTeX](https://www.latex-project.org/). Some journals even offer their LaTeX templates! It is specifically useful when your manuscript contains formulas, graphs that are still in the making, or pieces of code, since it allows you to easily add everything beautifully without spending too much time looking for the correct character. Different editors, such as Overleaf or Visual Studio Code, will enable you to use it. Some extra tools that will enhance your experience with LaTeX are [Detexify](https://detexify.kirelabs.org/classify.html), which helps to find characters you might not know how they are called, or a [Tables converter] (https://www.tablesgenerator.com/) into LaTeX format.
+A programming tool that is not strictly speaking a data analysis pipeline development tool but can still help you in the preparation of your manuscript for publication is [LaTeX](https://www.latex-project.org/). Some journals even offer their LaTeX templates! It is specifically useful when your manuscript contains formulas, graphs that are still in the making, or pieces of code, since it allows you to easily add everything beautifully without spending too much time looking for the correct character. Different editors, such as Overleaf or Visual Studio Code, will enable you to use it. Some extra tools that will enhance your experience with LaTeX are [Detexify](https://detexify.kirelabs.org/classify.html), which helps to find characters you might not know how they are called, or a [Tables converter](https://www.tablesgenerator.com/) into LaTeX format.
 
 An extra thing to consider when choosing your programming language is your [carbon emission when coding](https://datascience.aero/green-programming-reducing-your-carbon-emissions-when-coding/). High-level languages, like Python, tend to consume more energy and need more time to run than compiled languages, like C.
 
@@ -38,7 +38,7 @@ Virtual environments and containers are tools used in software development to cr
 
 A **virtual environment** in Python is an isolated environment that allows you to install and manage dependencies for a specific project without affecting the global Python installation or other projects. It helps ensure that each project can have its dependencies and versions, avoiding conflicts between projects.
 
-A **container** is an isolated unit, and is much more comprehensive tool that isolates not just the programming environment but the entire software environment, including the operating system, system libraries, runtime, and application code - making it more versatile for deploying and running consistent environments across different systems. Containers offer several advantages ([reference](https://www.ibm.com/think/insights/the-benefits-of-containerization-and-what-it-means-for-you):
+A **container** is an isolated unit, and is much more comprehensive tool that isolates not just the programming environment but the entire software environment, including the operating system, system libraries, runtime, and application code - making it more versatile for deploying and running consistent environments across different systems. Containers offer several advantages [reference](https://www.ibm.com/think/insights/the-benefits-of-containerization-and-what-it-means-for-you):
 
 - _Portability and consistency_: Whether a container runs on a developer’s laptop or server, the bundled application will run consistently in various environments. 
 - _Resource efficiency_: Containers are lightweight and use less memory and CPU compared to traditional virtual machines. 
@@ -73,7 +73,7 @@ When working on a script, it is important to annotate your code. Annotation is e
 - Annotate your code using [Docstrings](https://en.wikipedia.org/wiki/Docstring)
 - Leave useful comments throughout the script to help others understand your code (i.e., what does a function do?). Avoid unnecessary comments (i.e., if the function’s role is already evident from the function name).
 
-To help get you started, you can check out these (script templates)[https://github.com/marbarrantescepas/script-templates], guidance, and examples. This tool is also useful for formatting your code (and making it beautiful!) - [Black Vercel](https://black.readthedocs.io/en/latest/). 
+To help get you started, you can check out these [script templates](https://github.com/marbarrantescepas/script-templates), guidance, and examples. This tool is also useful for formatting your code (and making it beautiful!) - [Black Vercel](https://black.readthedocs.io/en/latest/). 
 
 ### 3.2) Git and GitHub
 [Version control](https://book.the-turing-way.org/reproducible-research/vcs) is a method used to document and manage changes to a file or collection of files over time. It allows you and your collaborators to monitor the history of revisions, review modifications, and revert to previous versions when necessary. This is useful, especially when working together on a script. The most prevalent version control system that can help with that is Git.
@@ -86,7 +86,7 @@ To help get you started, you can check out these (script templates)[https://gith
 To create a GitHub account, link it with Git on your local machine, and verify the connection, follow these steps:
 
 1. Create a GitHub Account:
-- Go to (github.com)[github.com] and click **Sign up**.
+- Go to [github.com](github.com) and click **Sign up**.
 - Enter your email, password, and username. Then verify your email when prompted.
 - After completing the sign-up steps, your account will be created.
 
