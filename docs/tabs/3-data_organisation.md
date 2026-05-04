@@ -1,17 +1,17 @@
 # Chapter 3: Open Data in Neuroscience
 **Authors: Mar Barrantes-Cepas, Eva van Heese, Lucas Baudouin, Bernardo de Azevedo Pinto Castro Maciel, Janneke Lemmerzaal; Reviewer: Chris Vriend**
 
-## Data Definition 
+## 1. Data Definition 
 
 First, what is neuroscience data? Neuroscience data encompasses everything you use or produce during the research cycle, from raw to derived datasets, software, code, workflow, models, figures, tables, articles, etc. Everything contains a piece of information, such as brain imaging (for instance, MRI, PET, EEG, MEG), cognitive and behavioural data, and cellular, histological, and molecular evaluations of brain samples from humans or animals. All this data follows a [lifecycle](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-data) that involves data creation, use, publication and sharing, archiving, and re-use or destruction. 
 
 The scope of the present chapter includes data organisation and (open) sharing; all information related to software, code, and workflows is explained in [Chapter 4](https://marbarrantescepas.github.io/OS-neuroscience/tabs/4.%20Open%20Software%20&%20Tools.html).  
 
-### Personal data
+### 1.1) Personal data
 
 Personal data in neuroscience refers to an individual's personal information that can identify the person, i.e. birth date, address, security number, raw (structural) MRI scan, genetic information, etc. The use of personal data has significant implications for privacy and ethical considerations. Personal data is not always as evident or attainable to identify as we think. For example, imaging DICOM headers might contain the person’s name or date of birth, or from structural MRI scans, we can easily identify the person’s face if it’s not defaced (see software and tools in [Chapter 4](https://marbarrantescepas.github.io/OS-neuroscience/tabs/4.%20Open%20Software%20&%20Tools.html)). As researchers, we must ensure responsible handling of personal data by anonymising our data properly in case of storing and sharing it, following the ethical protocols.
 
-### Documentation and Metadata
+### 1.2) Documentation and Metadata
 
 #### **For datasets**
  
@@ -39,7 +39,7 @@ For data processing and analysis, keeping organised and descriptive documentatio
 
 Documentation will look different for each analysis and can be described in many formats: a (shared) document, spreadsheet, or environment that allows for files and code to be incorporated (for example [Github](https://github.com/) or [Zenodo](https://zenodo.org/)). Important is that the documentation can be understood by anyone (with the expected background knowledge) and used as a guide to perform the analysis described. 
 
-### Creative Commons and data licensing
+### 1.3) Creative Commons and data licensing
 
 Licenses provide a standardized way for others to use your creative work under copyright legislation. The different Creative Commons (CC) licenses describe what permissions the public has to do with your work. The license types are formed by combinations of sharing principles:
 
@@ -50,17 +50,17 @@ Licenses provide a standardized way for others to use your creative work under c
 
 Together, they result in six licence types (CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, CC BY-NC-ND). A seventh licence type (CC Zero or CC0) allows the creator to give up their copyright and all public users to adapt, build upon, and distribute the original work without any conditions. You can consult the online tool [Licence Chooser from CC](https://chooser-beta.creativecommons.org/) if you struggle to choose a license for your work. Interested to read more about CC licenses? Check out [this page](https://creativecommons.org/share-your-work/cclicenses/). 
 
-## Data Management Plan
+## 2. Data Management Plan
 
 How to manage your data is usually described in a Data Management Plan (DMP). It provides information on six main topics: **(i)** roles and responsibilities, **(ii)** type and size of the data collected and documentation or metadata generated, **(iii)** type of data stored used and backup procedures that are in place, **(iv)** preservation of the research outputs after the project, **(v)** re-use of your research outputs by others and **(vi)** costs (see more details at [Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp#rr-rdm-dmp)). 
 
 Before creating your own DMP, we recommend consulting with your institution to see if they have a specific template for the DMP. If you are from the Amsterdam UMC, please check [their page](https://www.amsterdamumc.org/en/research/support/services-facilities/data-management/data-management-plan-dmp.htm). Moreover, we recommend creating a checklist/roadmap before starting your research with the steps that need to be performed in order to make your project as according to open science principles, and the requirement or things you need to check for each step. For example, can everyone from your team understand how the data is organised or where to find it with the minimum knowledge? More information can be found at [Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-checklist) or in the case of [Amsterdam UMC](https://www.amsterdamumc.org/en/research/research-roadmap.htm).   
 
-## FAIR principles  
+## 3. FAIR principles  
 
 It's recommended to follow the FAIR principles in data for improving **F**indability, **A**ccessibility, **I**nteroperability, and **R**eusability. If you plan it from the beginning, it is easier to make data [FAIR](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-fair). Making data FAIR is not the same as making it open. **Keep in mind that data should be as open as possible and as closed as necessary.** Accessible means that there is a procedure in place to access the data that could benefit sharing data or methods within your own group, department or institute and re-use existing pipelines without having to put much effort into finding data. 
 
-## Data Storage and Organisation 
+## 4. Data Storage and Organisation 
 
 Storing your data correctly is important to prevent data loss, which happens more often than we would like. To avoid data loss, it’s recommended to pick a suitable storage system and back up your data frequently (if not already done automatically by the storage facility). Your institution will usually provide information on how to store your data. Consult what the different storage systems of your institution are and how you can back up data correctly. You can either consider using cloud storage if your data protection allows it or encrypting your data before storage (ensure keep the decryption password safely!).  
 
@@ -68,7 +68,7 @@ At the same time, organising data in a meaningful and FAIR way may be challengin
 
 In the following paragraphs, we divided our recommendations depending on which kind of **neuroscience data** you are working with: brain imaging (MRI, PET, EEG, MEG), cognitive, behavioural, cellular, histological, or molecular data. 
 
-### Brain Imaging Data Standards
+### 4.1) Brain Imaging Data Standards
 
 Brain Imaging Data Standards (BIDS) is a community-driven consensus on how to organise and share data obtained in neuroimaging experiments (everybody can become part of the [community](https://bids.neuroimaging.io/get_involved.html)). Lack of consensus led to time wasted on rearranging data or rewriting scripts to fit the data structure. More information about the guidelines and [specifications](https://bids-specification.readthedocs.io/en/stable/index.html) can be found at [BIDS webpage] (https://bids.neuroimaging.io/).  
 
@@ -103,7 +103,7 @@ Furthermore, there is a validator available to check if your data is correctly o
 #### **BIDS citations**
 Be nice and don’t forget to cite in your study the BIDS citations if you are using them! 
 
-### **BIDS in Microscopic Data**
+### 4.2) **BIDS in Microscopic Data**
 
 Whereas BIDS has been originally designed for macroscale data, the BIDS specification has recently been extended to the microscopy field, which included a wild variety of applications. 
 
@@ -133,7 +133,7 @@ In summary, this type of data storage, which is constantly evolving and improvin
 <img src="../assets/images/BIDS3.png", width="600">
 *Figure 3.2* - Illustration of rat spinal cord SEM overview following a BIDS format, modified from Zaimi et al., 2018 and extract from Bourget et al. 2022.
 
-### **Big Genetic Datasets**
+### 4.3) **Big Genetic Datasets**
 There are many ways to capture interindividual genetic variation. In order to make it simple, we are going to look at the most commonly analysed variants: Single Nucleotide Polymorphisms (SNPs). SNPs are places in the genome where one letter differs between people, for example, in chromosome 19, position 44908822 some people have a C (Cytosine) base, others have a T (Thymine). This is the APOE SNP, an important genetic factor for Alzheimer’s disease. This SNP would be represented either by a SNP ID - in this case, <mark style="background-color: #FFFF00">19</mark>:<mark style="background-color: #00FF77">45412079</mark>:<mark style="background-color: #00FFFF">C_T</mark> (usually written in the form  <mark style="background-color: #FFFF00">chromosome</mark>:<mark style="background-color: #00FF77">base pair</mark>:<mark style="background-color: #00FFFF">allele1_allele2</mark>) - or by its rsID - rs7412 (which you have to look up online).
 
 “Genomic data” usually refers to data either from whole genome/exome sequencing or from SNP arrays. Because we mostly know which positions of the DNA are SNPs, we mostly use SNP arrays to genotype people as this technology is more accessible than whole genome sequencing, especially for genotyping (large) datasets of clinical populations, which is why we will focus on this method in this chapter. However, it is important to keep in mind that this approach has certain limitations: it may fail to detect genetic variations that are not part of the SNP array being used, which is particularly important to keep in mind if we are interested in rare genetic variation. 
@@ -159,27 +159,27 @@ There are quite some steps missing to perform your analyses, but this should giv
 Or contact me! (b.maciel@vu.nl).
 
 
-### Clinical data management
+### 4.4) Clinical data management
 For clinical, demographic, and behavioural data, accurate and meticulous data management is essential to create a high-quality database for statistical analysis. Procedures to ensure high-quality standards include database designing, data entry, data annotation, data validation, discrepancy management, and database locking. A review article highlights the processes and recommended tools for clinical data management. Common software for Electronic Data Capture (EDC) include: REDcap, Castor, Greenlight Guru Clinical, Medidata Rave, Clinion.
 
 Spreadsheets and documents are widely used for various purposes including collecting, storing, manipulating, analysing, and documenting research data. However, it's important to exercise caution as improper use of them can lead to significant errors in workflows. Our recommendation is to follow the [Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage). 
 
-### **Work in progress**
+### 4.5) **Work in progress**
 For some data types, there is no standard yet. Efforts are ongoing in various fields to develop standardised approaches for data storage and sharing. While there's still progress to be made, we recommend reaching out to colleagues engaged in similar work or data. Collaborating and sharing experiences can provide valuable insights into effective data storage practices.
 
-## Sharing your own data
+## 5. Sharing your own data
 Besides sharing your results in a manuscript, it is becoming good practice to also share your methods (scripts, pipelines) and even your data (raw or processed) with the world. This way, others can apply your methods to their own data, or even replicate or further investigate your results in the original dataset. We’ve already discussed the sharing of analysis documentation earlier in this chapter. Several platforms exist to facilitate the sharing of raw and processed data. 
 
 Importantly, always ensure you know what you are permitted to share and what is restricted. Before sharing anything, we recommend consulting with your institution's legal team and privacy officer. If data sharing is not allowed (e.g., due to a lack of participant consent), shift your focus to sharing other valuable components like metadata or documentation as part of promoting transparency. 
 
-### DANS: Data Archiving and Networked Services (Dans-KNAW)
+### 5.1) DANS: Data Archiving and Networked Services (Dans-KNAW)
 [DANS](https://dans.knaw.nl/nl/) is a service offered by the Dutch national centre of expertise and repository for research data, which supports researchers in making their data available for reuse. DANS is not specific to neuroscience but ensures sustainable access to research data in fields ranging from social sciences to life, and physical sciences. DANS currently offers more than 200.000 datasets in their repository. It is possible to either [deposit data](https://dans.knaw.nl/en/depositing-data-manual/) or search for data in their field-specific data stations. When depositing data, you sign a deposit agreement, stating the terms of the licences for reuse. There are two access categories: open access (accessible to everyone, no login required) and restricted access (with your prior consent users may view and download data). After publication by DANS, the dataset receives a persistent identifier and will be permanently archived and accessible to others. When downloading a dataset from the repository, users have to accept a data use agreement (Fig. 3.4). Note that for pseudonymous data, most institute ethical boards require that the data are deleted after 15 years. This is possible, but not facilitated by DANS (the user agreement states that you may request changes, temporary unavailability, or permanent removal of your data from the platform). 
 
 <img src="../assets/images/DANS_license.png" width="600">
 
 *Figure 3.4* - DANS repository - choosing a license.
 
-### Data curation
+### 5.2) Data curation
 Data curation, in other words, means “cleaning up your data for them to be used for any purpose”. After data collection, the process of data curation can be broken down into several steps:
 
 - **Appraisal:** Select the appropriate data
@@ -192,7 +192,7 @@ Archive, transfer ownership of, or destroy the data
   
 More information on these data curation steps and tips to help you curate your data can be found [here](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-data-curation). 
 
-## Using Open Datasets
+## 5.3) Using Open Datasets
 Besides repositories such as DANS - where researchers can share their datasets collected for specific projects and research questions - there are some large open datasets out there which are collected for the purpose of being used by anyone interested. These datasets generally contain a wide range of variables (demographic, clinical, lab, neuroimaging) that are less specific, but collected in many participants. Some can be accessed for free, some require a membership for which the costs can range between a couple hundred to ten thousand euros.
 
 Wikipedia hosts an extensive list of available open datasets related to neuroscience [here](https://en.wikipedia.org/wiki/List_of_neuroscience_databases). We summarised a couple of well-known open datasets below:
@@ -209,7 +209,7 @@ Wikipedia hosts an extensive list of available open datasets related to neurosci
 CellMarker 2.0 | [CellMarker WebPage](http://bio-bigdata.hrbmu.edu.cn/CellMarker/ ) and [Paper Hu et al., 2023](https://academic.oup.com/nar/article/51/D1/D870/6775381) | CellMarker, version 2.0, is an extensive database of marker, based on single-cell RNAseq approach, from a wild variety of tissue and cell types from human and mouse samples. Ideal if you don’t know where to look for immunostaining or qPCR. |
 | A call for public archives for biological image data | [Review Ellenberg et al., 2018](https://www.nature.com/articles/s41592-018-0195-8) | This comprehensive review published in 2018 lists a consistent and impressive array of open databases for all disciplines and expertise, some of which are listed above, highlighting the necessity to promote the accessibility of billions of data ready to be re-used. |
 
-### References
+## References
 Bourget, M., Kamentsky, L., Ghosh, S. S., Mazzamuto, G., Lazari, A., Markiewicz, C. J., Oostenveld, R., Niso, G., Halchenko, Y. O., Lipp, I., Takerkart, S., Toussaint, P., Khan, A. R., Nilsonne, G., Castelli, F. M., Maintainers, B., & Cohen-Adad, J. (2022). Microscopy-BIDS: An Extension to the Brain Imaging Data Structure for Microscopy Data. *Frontiers in Neuroscience*, *16*, 871228. [https://doi.org/10.3389/fnins.2022.871228](https://doi.org/10.3389/fnins.2022.871228)
 
 Gorgolewski, K. J., Auer, T., Calhoun, V. D., Craddock, R. C., Das, S., Duff, E. P., Flandin, G., Ghosh, S. S., Glatard, T., Halchenko, Y. O., Handwerker, D. A., Hanke, M., Keator, D., Li, X., Michael, Z., Maumet, C., Nichols, B. N., Nichols, T. E., Pellman, J., . . . Poldrack, R. A. (2016). The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments. *Scientific Data*, *3*(1), 160044. [https://doi.org/10.1038/sdata.2016.44](https://doi.org/10.1038/sdata.2016.44)
