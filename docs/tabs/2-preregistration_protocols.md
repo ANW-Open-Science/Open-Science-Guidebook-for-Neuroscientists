@@ -3,10 +3,10 @@
 **Authors: Nadza Dzinalija, Eva van Heese, Lucas Baudouin;**
 **Reviewers: Juliette Castelot, Dorien Maas**
 
-## 1. In this Chapter
+## In this Chapter
 This chapter explores protocols and analysis plans in the scientific process, emphasising the importance of sharing these documents openly and early. It provides practical guidance on how to disseminate preregistrations and protocols, as well as tips for finding those shared by other researchers. The first part of this chapter focuses on preregistration, an approach that is applicable to all types of neuroscience projects. The second part highlights the use of open protocols, particularly in neuroscience-related laboratory work.
 
-## 2. The Preregistration Revolution
+## 1. The Preregistration Revolution
 Progress in scientific studies relies on two processes: prediction and postdiction. Prediction involves the generation of hypotheses from existing data (exploratory), and postdiction includes testing hypotheses with new data (confirmatory). The same data cannot be used to do both, but this can happen unintentionally as the distinction between the two is generally appreciated on a conceptual level, but not always respected in practice. The blurring between prediction and postdiction reduces the credibility of research as natural biases in human reasoning (i.e. the hindsight bias) are difficult to avoid (Nosek et al., 2018). For example, a researcher may collect data on the effectiveness of an intervention, and after half the data is collected, perform a preliminary analysis that shows the intervention is effective only in one subgroup of patients. When all the data is collected, the researcher may focus on this subgroup of patients and do post-hoc analyses in this group, despite not having had a hypothesis about this subgroup before seeing the data at the half-way point. In this way, the same data (or a part of it) is used for both generating the hypothesis and testing that same hypothesis.
 
 Research ideas and hypotheses should be defined before observing outcomes to keep a clear separation between prediction and postdiction. This is the main aim of **preregistration**. 
@@ -15,7 +15,7 @@ Preregistration is the practice of registering research questions and hypotheses
 
 Widespread adoption of the practice of preregistration will increase the distinction between hypothesis-generating and hypothesis-testing research and improve the credibility of science. 
 
-## 3. Common Fears Debunked
+## 2. Common Fears Debunked
 Many researchers have concerns or misconceptions about preregistration that hold them back in publishing a preregistration. Understanding the facts can help overcome these fears and highlight the true benefits of preregistering your research.
 
 - **Fear of being scooped**
@@ -30,7 +30,7 @@ Many researchers have concerns or misconceptions about preregistration that hold
 
   While preregistration requires upfront effort, it often streamlines the research process by improving planning and reducing duplicated efforts. The initial time investment can save time later by making analysis and reporting clearer and more efficient. The first time can feel a bit tough, but the easiest way to understand its value is to jump in and give it a shot!
 
-## 4. Pros and Cons
+## 3. Pros and Cons
 Writing a preregistration comes with pros and cons. The table below sets out the most essential points to consider.
 
 | Pro           | Con           |
@@ -43,11 +43,11 @@ Writing a preregistration comes with pros and cons. The table below sets out the
 | Can help when **publishing null results** |  |
 
 
-## 5. Practical Decisions
-### 5.1) Who can publish a preregistration?
+## 4. Practical Decisions
+### 4.1) Who can publish a preregistration?
 Anyone! Whether you are an undergraduate student, PhD candidate, postdoctoral or more senior researcher, you can write and publish a preregistration. Regardless of whether the final product of your research will be published in a scientific journal, your analysis plan can be described and published beforehand.
 
-### 5.2) Types of preregistrations
+### 4.2) Types of preregistrations
 There are a few main types of preregistrations:
 
 - **Basic preregistration**
@@ -62,7 +62,7 @@ There are a few main types of preregistrations:
 
   This type of peer-reviewed preregistration is done in collaboration with a journal. Note that only some journals offer this, for instance [Imaging Neuroscience](https://direct.mit.edu/imag) (see a comprehensive list of participating journals [here](https://www.cos.io/initiatives/registered-reports)). In a registered report, you follow similar steps as above and your preregistration is subsequently subjected to a peer-review process, whereby the journal pledges to publish your findings regardless of the outcome if they accept your preregistration. 
 
-### 5.3) Platforms
+### 4.3) Platforms
 Several preregistration platforms exist, each with its own (dis)advantages (see Figure 1 for an overview). These platforms are not specific to neuroscience and can be used across a wide range of scientific disciplines. A personal account is required to view the available templates and select one for your preregistration. It is generally possible to invite future co-authors to collaborate on a pre-registration, allowing you to collect input from important stakeholders in the research.
 
 - Open Science Framework
@@ -74,7 +74,7 @@ Several preregistration platforms exist, each with its own (dis)advantages (see 
 
 *Figure 2.1* - Comparisons of preregistration platforms (Haroz, 2022). ★ = the criteria deemed to be a bare minimum to meet the definition of a preregistration.
 
-## 6. Essential Elements
+## 5. Essential Elements
 It is essential to include all confirmatory analyses in your preregistration. This will look different for every study, so a good rule of thumb is to imagine you were writing the method section of your paper and include anything that you would typically include there. Among others, you can consider including:
 
 - **Study population**: inclusion/exclusion criteria; if data has already been collected, include demographics like age and sex. 
@@ -96,7 +96,7 @@ If you base your hypotheses on previous literature, be sure to cite the relevant
 
 It is not essential to include exploratory analyses when you do not (yet) have a clear idea of what you will test or what results you may expect. Consider including any additional analyses you know you want to perform. The rules are not so strict as they are for confirmatory analyses, so if it is not yet clear how you will define a particular variable, or if you need to see whether specific patterns emerge from the data before you do a particular test, that can be described here. It is encouraged but not always necessary to describe the statistical analyses and hypotheses for exploratory analyses in detail. There isn’t always a clear distinction between ‘exploratory’ and ‘confirmatory’ research, and for your own study, you are responsible for where you draw the line. 
 
-## 7. Publishing after Preregistration
+## 6. Publishing after Preregistration
 After you’ve completed your preregistered study and gathered your results, it’s important to share what you found, even if the outcomes are null, unexpected, or not as exciting as hoped.
 
 As you prepare a manuscript to report your preregistered research, here are a few key things to keep in mind:
@@ -106,7 +106,7 @@ As you prepare a manuscript to report your preregistered research, here are a fe
 - Report the results of all preregistered analyses, not just those with significant or interesting outcomes.
 
 
-## 8. Open Protocols
+## 7. Open Protocols
 We have all faced the dilemma of who to seek advice from when we wish to test a particular antibody or protocol that we have encountered in a publication. Regrettably, we may not have anyone in our circle of colleagues who can provide the guidance we need, and we may end up conducting a series of fruitless trials before arriving at a definitive outcome. However, as fate would have it, we may later stumble upon a protocol that could have spared us valuable time and resources. This situation is not uncommon, and open protocols and sharing of negative results could remedy this (see more in Chapter 7). This section focuses on protocol sharing, as protocols serve as the foundation of many research projects but are not typically featured in scientific publications. 
 
 - **eLab Journal**: eLab is a collaborative, digital lab-management environment that allows documenting research workflows, protocols, and other important laboratory information. It may seem obvious, but more and more institutions are transitioning from the paper lab notebook to the digital lab notebook, enabling information sharing within a group or a department. eLab journals are the first source of information for anyone in search of a protocol. However, this manner of sharing remains limited and cannot be extended to an entire community.
