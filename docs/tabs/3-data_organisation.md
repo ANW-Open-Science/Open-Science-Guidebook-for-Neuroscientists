@@ -21,21 +21,21 @@ Data without context is of no use. However, metadata and documentation can provi
  
 For data processing and analysis, keeping organised and descriptive documentation about the step-by-step process is key. Whereas each lab generally does this in its own manner, the movement of open data and open scripting has set some standards on how to improve documentation for yourself and others. If you want to read more specific suggestions on how to annotate your code, please check out [Chapter 4](https://marbarrantescepas.github.io/OS-neuroscience/tabs/4.%20Open%20Software%20&%20Tools.html). A couple of essential elements to include in your documentation are:
 
-- a summary of the general steps (i.e from raw data to outcome)
-	- for example in a flowchart
-	- for example a participant flowchart (mention inclusion and exclusion criteria, reasons for data exclusion or missing data)
-- the software, automated pipelines, scripts or other tools applied
-	- specify version, platform, and other environmental details
-	- specify decisions made (manual settings)
-	- for code: provide examples from your actual code
-	- correctly cite these tools and their documentation
-- troubleshooting: issues you encountered and their solutions
-	- describe common mistakes
-	- describe steps that require a cautious approach
-	- cite solutions or workarounds provided online
-- quality assessment
-	- which checks should and could be performed?
-	- how does good/bad data look? provide examples (images!)
+- A summary of the general steps (i.e from raw data to outcome)
+	- For example in a flowchart
+	- For example a participant flowchart (mention inclusion and exclusion criteria, reasons for data exclusion or missing data)
+- The software, automated pipelines, scripts or other tools applied
+	- Specify version, platform, and other environmental details
+	- Specify decisions made (manual settings)
+	- For code: provide examples from your actual code
+	- Correctly cite these tools and their documentation
+- Troubleshooting: issues you encountered and their solutions
+	- Describe common mistakes
+	- Describe steps that require a cautious approach
+	- Cite solutions or workarounds provided online
+- Quality assessment
+	- Which checks should and could be performed?
+	- How does good/bad data look? Provide examples (images!)
 
 Documentation will look different for each analysis and can be described in many formats: a (shared) document, spreadsheet, or environment that allows for files and code to be incorporated (for example [Github](https://github.com/) or [Zenodo](https://zenodo.org/)). Important is that the documentation can be understood by anyone (with the expected background knowledge) and used as a guide to perform the analysis described. 
 
@@ -43,8 +43,8 @@ Documentation will look different for each analysis and can be described in many
 
 Licenses provide a standardized way for others to use your creative work under copyright legislation. The different Creative Commons (CC) licenses describe what permissions the public has to do with your work. The license types are formed by combinations of sharing principles:
 
-- **BY:** credit must be given to the creator
-- **NC:** only non-commercial uses of the work are permitted
+- **BY:** Credit must be given to the creator
+- **NC:** Only non-commercial uses of the work are permitted
 - **SA:** Adaptations must be shared under the same terms
 - **ND:** No derivatives or adaptations of the work are permitted
 
