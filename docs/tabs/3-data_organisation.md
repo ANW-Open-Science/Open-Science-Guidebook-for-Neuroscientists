@@ -53,6 +53,7 @@ Together, they result in six licence types (CC BY-SA, CC BY-NC, CC BY-NC-SA, CC 
 ## 2. Data Management Plan
 
 How to manage your data is usually described in a Data Management Plan (DMP). It provides information on six main topics: 
+
 1. Roles and responsibilities
 2. Type and size of the data collected and documentation or metadata generated
 3. Type of data stored used and backup procedures that are in place
