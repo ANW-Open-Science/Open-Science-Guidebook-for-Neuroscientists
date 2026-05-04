@@ -39,7 +39,7 @@ As our group was quite large from the get-go, we quickly noticed that delegating
 The communication crew is responsible for events, seminars, and creating a cool bi-monthly newsletter (Find them here[https://osf.io/v9fru/]). We found it very important to continuously show our department what we are currently doing and what we have achieved. Especially since we are running this working group voluntarily, next to our ‘real’ work, our PIs found it essential to know what we invest our time in and whether it is fruitful. Also, the newsletter allowed us to give timely, neuroscience-specific advice and tips in an accessible manner. 
 
 
-### 5.2) Workshop Wizards*
+### 5.2) Workshop Wizards
 Getting hands-on with practical interventions. How can we teach about OS and bring the word of OS to everyone in the department and beyond? These are the main questions that the workshop team ask themselves. The workshop wizards are responsible for the educational part of our working group and organise OS afternoons, presentations and seminars for the department. They are also responsible for teaching about the OS group outside our department to inspire others to create their own working group. It is beneficial to have a team specifically dedicated to this task, as preparing practical presentations and organising a time and place to give them turned out to be more work than anticipated. 
  
 
