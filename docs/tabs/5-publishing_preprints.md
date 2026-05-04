@@ -1,9 +1,10 @@
 # Chapter 5: Open-Access Publishing and Preprints
 **Authors: Sara Said, Diana Bocancea, Eva Koderman; Reviewers: Niels Reijner, Eva van Heese, Laura Jonkman**
 
+## About this chapter
 Publishing remains the primary way researchers share their knowledge with the broader scientific community. It’s how we contribute to a growing body of knowledge that others can learn from, question, replicate, and build upon. In this chapter, we explore key questions around publishing: What is Open Access? Why does publishing matter? What should we publish? And how can we do it responsibly and openly? Whether you're making sense of negative findings or preparing a journal submission, this section offers guidance to help you navigate the publishing process with clarity, purpose, and impact.
 
-## What is Open Access?
+## 1. What is Open Access?
 
 Publishing an article in an open access form means making it freely available with various degrees of accessibility and funding:
 
@@ -20,15 +21,15 @@ In addition to these main types, there are more complex or combined models of op
 
 *APCs can vary a lot, depending on the journal, ranging from a few hundred dollars for lower-impact journals to around $5,000–$10,000 for high-impact journals. Importantly, these costs are not paid by individual authors out of pocket, but are typically covered by the research group’s budget or grant funding. Since grant budgets vary greatly between research groups, these high APCs can limit publishing opportunities for groups with less funding.
 
-## Why should we publish open access?
+## 2. Why should we publish open access?
 
 **Open access publishing** makes research freely available to all. This makes it easier for other scientists, students, and the general public to read and use your work. It increases visibility and accelerates discovery by removing **access barriers**. Open access also matters to the scientific community as a whole because it makes science **more transparent, inclusive and fair**. It also **encourages collaboration across disciplines**, particularly valuable in neuroscience’s cross-disciplinary landscape. Additionally, by making research accessible to the general public, it allows for **clearer dissemination of information** and **promotes trust in science**.
 In short, we publish not just for ourselves, but for the wider world. Open access publishing supports open knowledge exchange, making it easier for others to learn from and extend your work. 
 
-## What should we publish?
+## 3. What should we publish?
 There are many valuable research contributions worth publishing, including peer-reviewed journal articles, conference abstracts, preregistrations (see [Chapter 2](https://marbarrantescepas.github.io/OS-neuroscience/tabs/2.%20Preregistration%20&%20Protocols.html)), data and analysis scripts (see [Chapter 4](https://marbarrantescepas.github.io/OS-neuroscience/tabs/4.%20Open%20Software%20&%20Tools.html)). While journal articles are often seen as the “gold standard,” each format plays a role in sharing knowledge and all benefit from being openly available. This section will focus on two areas that are often overlooked or discouraged: negative or inconclusive findings, and preprints.
 
-###  Publishing when results aren’t what you expected - null and replication findings
+###  3.1) Publishing when results aren’t what you expected - null and replication findings
 Of course, it's ideal when your data support your hypothesis and yield statistically significant results that advance the field. However, science doesn't always work this way. **Negative or null results are a natural part of the research process**,  they provide valuable information that helps prevent duplication of effort. They guide researchers away from the dead ends, enabling them to build on what’s already been tried. Without this transparency, we fall into what's known as the **“file drawer effect”**: studies with non-significant results get tucked away and forgotten, leading to a skewed view of what’s actually known. Unfortunately, this is what often happens in science.
 Replication studies, too, are often undervalued but crucial. They test the reliability of findings and strengthen the foundation of scientific knowledge. In fields like neuroscience, where complex methods and small sample sizes are common, replication is key to building trust in the results we report.
 
@@ -40,7 +41,7 @@ We know that high-impact journals don’t always prioritize these kinds of studi
 - Combine several null results or replications into a comprehensive paper that stands on its own
 - Add null results or replications into the supplement of a paper with related analyses
 
-### Preprints
+### 3.2) Preprints
 
 #### What are preprints?
  A preprint is **an early version of a research paper shared publicly before formal peer review**. Posting a preprint allows researchers to communicate findings rapidly, enabling early access, feedback, and potential collaboration from the scientific community.
@@ -67,13 +68,13 @@ Different fields use different preprint servers; a list of commonly used platfor
 - [bioRxiv](https://www.biorxiv.org/) - for biological sciences
 - [medRxiv](https://www.medrxiv.org/) - for health sciences, clinical research, and medical fields
 
-## Practical Considerations when publishing your research
+## 4. Practical Considerations when publishing your research
 
-### Article Processing Charges (APCs)
+### 4.1) Article Processing Charges (APCs)
 Once you've decided to share your work, it's important to consider how best to make it openly accessible. In many countries, including the Netherlands, open access is now the **default for publicly funded research**. Funders often require that research outputs be freely available to ensure transparency and public accountability.
 Fortunately, open access publishing has become much more accessible. Many universities and national consortia have agreements with publishers that **waive or reduce article processing charges (APCs)**. In the Netherlands, for example, it is common — and often straightforward — to publish open access without paying high fees, thanks to institutional deals with many journals. However, these agreements often cover only the main, higher-impact titles, while companion “Communications” journals (such as Brain Communications or Acta Neuropathologica Communications) are excluded, even though they are frequently chosen by researchers over the flagship journals. Check out this link for the Amsterdam Vrije Universiteit (VU)APC covered journals: [VU journal browser](https://journalpublishingguide.vu.nl/WebQuery/vubrowser?q=*). 
 
-### Selecting a Journal
+### 4.2) Selecting a Journal
 That said, it's important to find the right balance. Publishing in a **high-impact journal** is often a strategic goal, but it should be weighed against the costs and the journal’s open access policy. Many reputable journals now offer open access options or have fully open models. To check whether a journal is open access, you can use [DOAJ](https://doaj.org/). 
 
 It is important to evaluate journals critically before submitting your work. Some publishers exploit the open access model by charging fees without providing proper peer review or editorial standards. These **predatory journals** can appear legitimate at first glance, so it’s essential to evaluate a journal’s transparency, peer review process, and reputation. Also pay attention to the license type and copyright terms. Some journals apply restrictive Creative Commons licenses (see Chapter X) or require copyright transfer, which can limit how you reuse your own work or how openly it can be shared, even if the article is labelled "open access." 
