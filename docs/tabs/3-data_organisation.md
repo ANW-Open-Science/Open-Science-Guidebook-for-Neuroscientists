@@ -60,7 +60,7 @@ How to manage your data is usually described in a Data Management Plan (DMP). It
 5. Re-use of your research outputs by others
 6. Costs
    
-*(see more details at [Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp#rr-rdm-dmp))* 
+*(See more details at [Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp#rr-rdm-dmp))* .
 
 Before creating your own DMP, we recommend consulting with your institution to see if they have a specific template for the DMP. If you are from the Amsterdam UMC, please check [their page](https://www.amsterdamumc.org/en/research/support/services-facilities/data-management/data-management-plan-dmp.htm). Moreover, we recommend creating a checklist/roadmap before starting your research with the steps that need to be performed in order to make your project as according to open science principles, and the requirement or things you need to check for each step. For example, can everyone from your team understand how the data is organised or where to find it with the minimum knowledge? More information can be found at [Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-checklist) or in the case of [Amsterdam UMC](https://www.amsterdamumc.org/en/research/research-roadmap.htm).   
 
