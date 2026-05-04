@@ -3,7 +3,7 @@
 **Authors: Nadza Dzinalija, Eva van Heese, Lucas Baudouin;**
 **Reviewers: Juliette Castelot, Dorien Maas**
 
-## In this Chapter
+## About this Chapter
 This chapter explores protocols and analysis plans in the scientific process, emphasising the importance of sharing these documents openly and early. It provides practical guidance on how to disseminate preregistrations and protocols, as well as tips for finding those shared by other researchers. The first part of this chapter focuses on preregistration, an approach that is applicable to all types of neuroscience projects. The second part highlights the use of open protocols, particularly in neuroscience-related laboratory work.
 
 ## 1. The Preregistration Revolution
