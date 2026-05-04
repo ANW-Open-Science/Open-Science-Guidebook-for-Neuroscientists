@@ -201,7 +201,7 @@ Archive, transfer ownership of, or destroy the data
   
 More information on these data curation steps and tips to help you curate your data can be found [here](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-data-curation). 
 
-## 5.3) Using Open Datasets
+## 6. Using Open Datasets
 Besides repositories such as DANS - where researchers can share their datasets collected for specific projects and research questions - there are some large open datasets out there which are collected for the purpose of being used by anyone interested. These datasets generally contain a wide range of variables (demographic, clinical, lab, neuroimaging) that are less specific, but collected in many participants. Some can be accessed for free, some require a membership for which the costs can range between a couple hundred to ten thousand euros.
 
 Wikipedia hosts an extensive list of available open datasets related to neuroscience [here](https://en.wikipedia.org/wiki/List_of_neuroscience_databases). We summarised a couple of well-known open datasets below:
