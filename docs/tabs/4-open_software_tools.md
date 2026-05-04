@@ -141,10 +141,10 @@ A [README](https://en.wikipedia.org/wiki/README) is a text file that introduces 
 ### Contributing File
 A [CONTRIBUTING.md](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) file is a document placed in the root of a project that provides clear guidelines for anyone who wants to contribute to the project. It explains the different ways people can help, such as reporting bugs, suggesting features, improving documentation, or submitting code, and outlines the steps for setting up the project locally, following coding standards, and submitting pull requests. Including this file helps create a welcoming environment, sets expectations, and makes collaboration easier and more organized.
 
-### Licences 
+#### Licences 
 To check more about licences and licensing, check [Chapter 3](https://marbarrantescepas.github.io/OS-neuroscience/tabs/3.%20Data%20Organisation.html). 
 
-## 3.3) Code Review and Code Test
+### 3.3) Code Review and Code Test
 A **general code workflow** should include several iterations of peer review and end with the scripts being uploaded on GitHub. Peer review ensures that the code is correct and functions well, while the publication of scripts online ensures these are shared with the wider scientific community and improves the reproducibility. In scripts, **correctness** refers to the code's ability to produce the intended results accurately according to specified requirements. In contrast, **reproducibility** ensures that these results can be consistently obtained by different users or in different environments when the same code is run with identical inputs. While correctness confirms that the code functions as intended, reproducibility guarantees that the outcomes can be reliably replicated, which is essential for validating research findings.
 
 The general workflow of code review that ensures correctness and reproducibility is summarized in the figure below:
