@@ -1,14 +1,14 @@
 # Chapter 4: Open Source Software and Tools for Neuroscience
 **Authors: Mar Barrantes-Cepas, Eva van Heese, Eva Koderman, Diana Bocancea, Lucas Baudouin; Reviewer: Chris Vriend**
 
-## Reproducible Science
+## 1. Reproducible Science
 In this chapter, we’ll show you practical tools and software to help make your neuroscience research more reproducible. By using scripts instead of graphical user interfaces, open source software, and version control, you’ll not only make your work easier to manage, but also ensure others can replicate your findings and easily collaborate with you. This way you can easily follow the **FAIR** principles for improving **F**indability, **A**ccessibility, **I**nteroperability, and **R**eusability (see [Chapter 3](https://marbarrantescepas.github.io/OS-neuroscience/tabs/3.%20Data%20Organisation.html) for more details on the FAIR principles).
 
 **Reproducibility** is at the core of good science – it helps move the field forward by making sure discoveries can be verified and expanded upon. Increasing reproducibility in neuroscience can be approached in two ways: ‘top-down’, where institutions reshape incentives and frameworks (i.e. changes at the meso-level, see [here](https://zenodo.org/records/10663903), and from the ‘bottom-up‘, where individual researchers adopt better practices. While both approaches are necessary, this chapter focuses on the bottom-up approach, providing you with the tools and guidelines to enhance your work. 
 
 Although sharing data in clinical neuroscience can be challenging due to privacy, legal concerns and logistical barriers, this shouldn’t be an excuse not to share your code and materials. Developing your work with this in mind, you can help promote transparency and reproducibility by ensuring that your code is shareable and accessible to others.
 
-## Coding Fundamentals
+## 2. Coding Fundamentals
 You might already know much of what will be discussed in the following section. Should that be the case, you can browse through the headers to double-check your knowledge! Otherwise, here is a summary of some concepts you need for best coding practices. 
 
 ### 2.1) Basic concepts about programming
@@ -58,7 +58,7 @@ To make your project  as *open sciency* as possible, we provide a few tips:
 - Opt for open-source tools that can be easily put in a container. For example, Python with Docker is far more container-friendly than MATLAB. 
 - To ensure consistency and avoid issues, **it's crucial to keep track of the versions of both the programming language and the libraries you use**. When using Python, we recommend using [virtual environments](https://docs.python.org/3/library/venv.html) to manage multiple project environments and to keep your libraries and their versions organised. This approach will make it easier to handle libraries, maintain your projects, and share them with others. 
 
-## Code annotation and Version Control
+## 3. Code annotation and Version Control
 This section offers guidance on optimising version control and annotation practices. It covers best practices for streamlining version control, how to integrate them within your team, and the ideal workflow to adopt for maximum efficiency.
 
 ### 3.1) Code annotation 
@@ -82,7 +82,7 @@ To help get you started, you can check out these (script templates)[https://gith
 
 :tulip: If you want to learn more about pros and cons and the current status of Git(-related) tools at Amsterdam UMC, please check [this link](https://zenodo.org/records/11065899). Check with your (co)supervisors about the best option to use or if they already have an account for the group. If the account hasn’t been created yet, take the initiative and set it up yourself by following the simple instructions below.
 
-### How to create your own GitHub account
+#### How to create your own GitHub account
 To create a GitHub account, link it with Git on your local machine, and verify the connection, follow these steps:
 
 1. Create a GitHub Account:
@@ -114,7 +114,7 @@ If successful, you'll see a message like: `Hi username! You've successfully auth
 
 Now Git is linked to your GitHub account, and you can push, pull, and collaborate on projects directly from your local machine. Not sure what these terms mean? Check below!
 
-### How to use Git & GitHub
+#### How to use Git & GitHub
 Once you have a good feeling of the Github lingo, the version control should be easy peasy. Here are some basics on the terminology and a tutorial to help get you started:
 
 - A **repository** (or "repo") is a central location where a project's code, along with its version history, is stored and managed. It is essentially a folder in which your project's files and folders reside, along with all the necessary information to track changes, collaborate with others, and version control the project over time.
@@ -130,15 +130,15 @@ Here is a [quick tutorial](https://docs.github.com/en/get-started/start-your-jou
 
 The main (or previously called the master branch) is where your code lives as the main character. All the other branches are created for the development of a specific feature (or you can think of them as side quests). After the feature development is complete and the code is fully tested and functional, you can merge it back into the main branch. Continue this process until all the feature development is complete.
 
-### Git Ignore File
+#### Git Ignore File
 Before creating a new GIT repository and linking it to GitHub or GitLab, it is **EXTREMELY** important to make a .gitignore file. Without it, all files in your project, including potentially sensitive or personal data, will be tracked and uploaded by default. This could lead to unintentional data exposure that cannot be shared due to privacy regulations. 
 
 To avoid this, make sure to create a .gitignore file listing all the file types and folders you want to exclude from version control. You can find more detailed guidance in the [Ignoring files - GitHub Docs](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) and browse [Some common .gitignore configurations](https://github.com/github/gitignore) for examples. 
 
-### Readme File
+#### Readme File
 A [README](https://en.wikipedia.org/wiki/README) is a text file that introduces and explains a repository because no one can read your mind (yet). If you want to learn how to properly create a README file check: [Make a README](https://www.makeareadme.com/) (they also provide templates!) 
 
-### Contributing File
+#### Contributing File
 A [CONTRIBUTING.md](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) file is a document placed in the root of a project that provides clear guidelines for anyone who wants to contribute to the project. It explains the different ways people can help, such as reporting bugs, suggesting features, improving documentation, or submitting code, and outlines the steps for setting up the project locally, following coding standards, and submitting pull requests. Including this file helps create a welcoming environment, sets expectations, and makes collaboration easier and more organized.
 
 #### Licences 
@@ -227,11 +227,11 @@ Quality control of structural neuroimaging data is important as errors in brain 
 | [fMRIPrep](https://fmriprep.org/en/stable/)                                                                  | While primarily used for preprocessing, fMRIPrep includes built-in QC features that help flag problematic scans in fMRI datasets, offering both visual reports and metrics for each scan.               | fully open                                             |
 | [FSQC](https://github.com/Deep-MI/fsqc)                                                                      | Open-source tool designed to perform quality assessment of FreeSurfer outputs.                                                                                                                          | fully open                                             |
 
-### Quality Assessment of Other Types of Data
+### 4.3) Quality Assessment of Other Types of Data
 This section is coming soon 
 {: .label .label-yellow }
 
-## Anonymising Data: Defacing and Editing Headers
+## 5. Anonymising Data: Defacing and Editing Headers
 To anonymize and deface brain scan data (typically MRI or CT scans in DICOM or NIfTI formats), several well-established tools are used in neuroimaging research. These tools help remove or obscure facial features and metadata that could be used to identify participants, which is essential for complying with privacy regulations.
 Theyers and colleagues (2021) found that the defacing algorithms provided below vary in their defacing efficiency. Specifically, their analysis shows that the afni_reface and pydeface had the highest accuracy rates. Keep this in mind when choosing your own defacing header!
 
@@ -245,7 +245,7 @@ Theyers and colleagues (2021) found that the defacing algorithms provided below 
 | dicom-anonymizer | [Java-based GUI tool for anonymizing DICOM files](http://dicom-anonymizer.sourceforge.net/)                 | ✅ Yes            |
 
 
-## Open Neuroimaging Analysis Tools
+## 6. Open Neuroimaging Analysis Tools
 Within the neuroimaging field of neuroscience, many tools are open source Some require a free licence that can be requested. 
 We’ll review a selection of often applied software and tools:
 
@@ -269,7 +269,7 @@ We’ll review a selection of often applied software and tools:
 | [QSIPREP](#)                                                                   | Diffusion images                                      | BIDS-compatible preprocessing pipeline that standardizes and automates processing of diffusion MRI data, including denoising, motion correction, and reconstruction to prepare for analysis                                        | fully open                                                     |                                                                                                    |
 
 
-## Lab Analysis Tools
+## 7. Lab Analysis Tools
 This section is coming soon 
 {: .label .label-yellow }
 
