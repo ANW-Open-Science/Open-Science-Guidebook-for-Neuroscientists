@@ -38,11 +38,11 @@ Before embarking on any science communication project, it’s crucial to clearly
 
 Having specific learning outcomes in mind helps you stay focused and prevents you from wandering away from your stated goal. Even if you’re working alone, writing down these goals at the outset keeps your message clear and helps you stay on track. A simple yet effective way to approach this is by using the AEIOU framework:
 
-- Awareness: introduce the audience to new information or a novel perspective
-- Enjoyment: make the learning process engaging and enjoyable
-- Interest: inspire the audience to care about the subject
-- Opinion-forming: provide balanced information that allows the audience to form their own views
-- Understanding: deepen the audience’s knowledge of a particular topic
+- **Awareness**: introduce the audience to new information or a novel perspective
+- **Enjoyment**: make the learning process engaging and enjoyable
+- **Interest**: inspire the audience to care about the subject
+- **Opinion-forming**: provide balanced information that allows the audience to form their own views
+- **Understanding**: deepen the audience’s knowledge of a particular topic
 
 By aligning your communication with these pillars, you can tailor your approach to meet the specific needs of your audience.
 
@@ -71,12 +71,12 @@ Randy Olsen described a narrative technique based on story beats, which ensures 
 ### 3.7) Some tips for clear scientific writing
 To deliver scientific content effectively, it’s vital to use simple language while maintaining scientific rigour. Here are some tips to keep your writing clear and engaging:
 
-1. Avoid jargon: use everyday language instead of technical terms whenever possible.
-2. Explain concepts: don’t assume everyone knows the background. Introduce key ideas clearly.
-3. Limit abbreviations: too many abbreviations can confuse readers. Use them sparingly.
-4. Short sentences: keep sentences concise to make your message easier to digest.
-5. Use metaphors and analogies to explain difficult ideas. For example, if you're trying to explain the concept of protein translation in the neuron, you could compare it to an assembly of a LEGO. This helps the audience visualise the process while keeping the scientific accuracy intact. However, be careful not to rely on clichéd metaphors, as they can feel tired or overused.
-6. Use visual aids. Well-designed infographics or data visualisations can convey complex information quickly and clearly, helping your audience to see the data in a way that raw numbers on a page may not.
+- **Avoid jargon**: use everyday language instead of technical terms whenever possible.
+- **Explain concepts**: don’t assume everyone knows the background. Introduce key ideas clearly.
+- **Limit abbreviations**: too many abbreviations can confuse readers. Use them sparingly.
+- **Short sentences**: keep sentences concise to make your message easier to digest.
+- **Use metaphors and analogies to explain difficult ideas**: For example, if you're trying to explain the concept of protein translation in the neuron, you could compare it to an assembly of a LEGO. This helps the audience visualise the process while keeping the scientific accuracy intact. However, be careful not to rely on clichéd metaphors, as they can feel tired or overused.
+- **Use visual aids**: Well-designed infographics or data visualisations can convey complex information quickly and clearly, helping your audience to see the data in a way that raw numbers on a page may not.
 
 By focusing on clarity and accessibility, we can break down barriers and foster a more inclusive scientific community. 
 
