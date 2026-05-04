@@ -21,19 +21,19 @@ Data without context is of no use. However, metadata and documentation can provi
  
 For data processing and analysis, keeping organised and descriptive documentation about the step-by-step process is key. Whereas each lab generally does this in its own manner, the movement of open data and open scripting has set some standards on how to improve documentation for yourself and others. If you want to read more specific suggestions on how to annotate your code, please check out [Chapter 4](https://marbarrantescepas.github.io/OS-neuroscience/tabs/4.%20Open%20Software%20&%20Tools.html). A couple of essential elements to include in your documentation are:
 
-- A summary of the general steps (i.e from raw data to outcome)
+- **A summary of the general steps (i.e from raw data to outcome)**
 	- For example in a flowchart
 	- For example a participant flowchart (mention inclusion and exclusion criteria, reasons for data exclusion or missing data)
-- The software, automated pipelines, scripts or other tools applied
+- **The software, automated pipelines, scripts or other tools applied**
 	- Specify version, platform, and other environmental details
 	- Specify decisions made (manual settings)
 	- For code: provide examples from your actual code
 	- Correctly cite these tools and their documentation
-- Troubleshooting: issues you encountered and their solutions
+- **Troubleshooting: issues you encountered and their solutions**
 	- Describe common mistakes
 	- Describe steps that require a cautious approach
 	- Cite solutions or workarounds provided online
-- Quality assessment
+- **Quality assessment**
 	- Which checks should and could be performed?
 	- How does good/bad data look? Provide examples (images!)
 
@@ -103,7 +103,7 @@ Furthermore, there is a validator available to check if your data is correctly o
 #### **BIDS citations**
 Be nice and don’t forget to cite in your study the BIDS citations if you are using them! 
 
-### 4.2) **BIDS in Microscopic Data**
+### 4.2) BIDS in Microscopic Data
 
 Whereas BIDS has been originally designed for macroscale data, the BIDS specification has recently been extended to the microscopy field, which included a wild variety of applications. 
 
@@ -133,7 +133,7 @@ In summary, this type of data storage, which is constantly evolving and improvin
 <img src="../assets/images/BIDS3.png", width="600">
 *Figure 3.2* - Illustration of rat spinal cord SEM overview following a BIDS format, modified from Zaimi et al., 2018 and extract from Bourget et al. 2022.
 
-### 4.3) **Big Genetic Datasets**
+### 4.3) Big Genetic Datasets
 There are many ways to capture interindividual genetic variation. In order to make it simple, we are going to look at the most commonly analysed variants: Single Nucleotide Polymorphisms (SNPs). SNPs are places in the genome where one letter differs between people, for example, in chromosome 19, position 44908822 some people have a C (Cytosine) base, others have a T (Thymine). This is the APOE SNP, an important genetic factor for Alzheimer’s disease. This SNP would be represented either by a SNP ID - in this case, <mark style="background-color: #FFFF00">19</mark>:<mark style="background-color: #00FF77">45412079</mark>:<mark style="background-color: #00FFFF">C_T</mark> (usually written in the form  <mark style="background-color: #FFFF00">chromosome</mark>:<mark style="background-color: #00FF77">base pair</mark>:<mark style="background-color: #00FFFF">allele1_allele2</mark>) - or by its rsID - rs7412 (which you have to look up online).
 
 “Genomic data” usually refers to data either from whole genome/exome sequencing or from SNP arrays. Because we mostly know which positions of the DNA are SNPs, we mostly use SNP arrays to genotype people as this technology is more accessible than whole genome sequencing, especially for genotyping (large) datasets of clinical populations, which is why we will focus on this method in this chapter. However, it is important to keep in mind that this approach has certain limitations: it may fail to detect genetic variations that are not part of the SNP array being used, which is particularly important to keep in mind if we are interested in rare genetic variation. 
@@ -164,7 +164,7 @@ For clinical, demographic, and behavioural data, accurate and meticulous data ma
 
 Spreadsheets and documents are widely used for various purposes including collecting, storing, manipulating, analysing, and documenting research data. However, it's important to exercise caution as improper use of them can lead to significant errors in workflows. Our recommendation is to follow the [Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage). 
 
-### 4.5) **Work in progress**
+### 4.5) Work in progress
 For some data types, there is no standard yet. Efforts are ongoing in various fields to develop standardised approaches for data storage and sharing. While there's still progress to be made, we recommend reaching out to colleagues engaged in similar work or data. Collaborating and sharing experiences can provide valuable insights into effective data storage practices.
 
 ## 5. Sharing your own data
