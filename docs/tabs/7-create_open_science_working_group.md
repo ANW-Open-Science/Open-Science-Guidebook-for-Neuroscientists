@@ -35,15 +35,15 @@ Cue the monthly meet-ups! We brainstormed, laughed a lot, and cooked up a vision
 ## 5. Team Trio
 As our group was quite large from the get-go, we quickly noticed that delegating tasks was messy. As a solution, we split into three squads for maximum impact:
 
-### 5.1) **Communication Crew** 
+### 5.1) Communication Crew
 The communication crew is responsible for events, seminars, and creating a cool bi-monthly newsletter (Find them here[https://osf.io/v9fru/]). We found it very important to continuously show our department what we are currently doing and what we have achieved. Especially since we are running this working group voluntarily, next to our ‘real’ work, our PIs found it essential to know what we invest our time in and whether it is fruitful. Also, the newsletter allowed us to give timely, neuroscience-specific advice and tips in an accessible manner. 
 
 
-### 5.2) **Workshop Wizards** 
+### 5.2) Workshop Wizards*
 Getting hands-on with practical interventions. How can we teach about OS and bring the word of OS to everyone in the department and beyond? These are the main questions that the workshop team ask themselves. The workshop wizards are responsible for the educational part of our working group and organise OS afternoons, presentations and seminars for the department. They are also responsible for teaching about the OS group outside our department to inspire others to create their own working group. It is beneficial to have a team specifically dedicated to this task, as preparing practical presentations and organising a time and place to give them turned out to be more work than anticipated. 
  
 
-### 5.3) **Grant Gang** 
+### 5.3) Grant Gang
 Money, Money, Money - such a necessary thing to have in science. Our team established a grant gang to scour the land for funds. We thought money would be helpful to be able, for instance, to properly organise department workshops and hackathons and to set up an OS infrastructure for data and data sharing in our department (e.g., paying for server storage to store the vast NIfTI images of all those brains). Importantly, obtaining money through grants, as a side effect, helped us gain independence and status in the department. Also, this money ensures we can continue our work in the coming years (i.e. sustainability).
   	
 ## 6. Searching for important collaborations
