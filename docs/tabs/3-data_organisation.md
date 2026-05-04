@@ -79,7 +79,7 @@ In the following paragraphs, we divided our recommendations depending on which k
 
 ### 4.1) Brain Imaging Data Standards
 
-Brain Imaging Data Standards (BIDS) is a community-driven consensus on how to organise and share data obtained in neuroimaging experiments (everybody can become part of the [community](https://bids.neuroimaging.io/get_involved.html)). Lack of consensus led to time wasted on rearranging data or rewriting scripts to fit the data structure. More information about the guidelines and [specifications](https://bids-specification.readthedocs.io/en/stable/index.html) can be found at [BIDS webpage] (https://bids.neuroimaging.io/).  
+Brain Imaging Data Standards (BIDS) is a community-driven consensus on how to organise and share data obtained in neuroimaging experiments (everybody can become part of the [community](https://bids.neuroimaging.io/get_involved.html)). Lack of consensus led to time wasted on rearranging data or rewriting scripts to fit the data structure. More information about the guidelines and [specifications](https://bids-specification.readthedocs.io/en/stable/index.html) can be found at [BIDS webpage](https://bids.neuroimaging.io/).  
 
 #### **BIDS project folder structure**
 
