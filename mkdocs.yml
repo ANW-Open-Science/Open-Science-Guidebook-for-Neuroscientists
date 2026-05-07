@@ -25,6 +25,8 @@ nav:
     - Open Educational Resources: tabs/9-educational_resources.md
     
   - About the team: working_group/team.md
+
+  - Amsterdam UMC Open Science Awards: awards/aumc_awards.md
   
 markdown_extensions:
   - attr_list
