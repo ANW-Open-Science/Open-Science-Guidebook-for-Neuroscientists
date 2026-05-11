@@ -2,7 +2,7 @@
 
 **Supported by the [2nd Research Integrity and Open Science (RIOS) Collaborative Program 2026](https://rios-vu.nl/)**
 
-<a href="https://rios-vu.nl/"><img src="../assets/logos/RIOS_logo.png" alt="RIOS Logo" width="200"></a>
+[![RIOS Logo](../assets/logos/RIOS_logo.png){ width="200" }](https://rios-vu.nl/)
 
 ---
 
@@ -12,19 +12,9 @@ After the success of last year's edition, the Amsterdam UMC Open Science Awards 
 
 🏆 Five winning projects will receive €100 each, and five runners-up will receive €50 each.
 
-**Who can apply?** Open to all researchers (from MSc students to senior researchers) who worked at Amsterdam UMC in 2025 or 2026. Projects must have been initiated or completed in 2025 or 2026. Apply by submitting a short description (200 words or less) of your project, its scientific or societal relevance, and its contribution to open research practices.
-
-### Award categories
-
-1. **Open Science as a Core Objective.** For projects where open science is the primary goal. This includes initiatives specifically designed to develop, promote, or systematically implement open science practices, such as building open infrastructure, developing open-science training programmes, or advancing reproducibility frameworks across your team/department.
-2. **Open Science as a Research Component.** For research projects where open science practices play a meaningful but supporting role. This includes studies that incorporate preregistration, FAIR data sharing, open materials, registered reports, or open-source tools as part of a broader scientific investigation.
-3. **Science Communication.** For projects that prioritize making science accessible, engaging, and understandable within and beyond the academic community. This includes public outreach, citizen science initiatives, open educational resources, or any effort to bridge the gap between research and society.
-
-**Selection process:** Submit your proposal through [this form](https://forms.gle/CoAgDU4dFqM15e968). Shortlisted applicants will be invited to deliver a 5-minute in-person pitch at the Amsterdam UMC Open Science Awards ceremony on November 5th 2026. All shortlisted applicants are guaranteed a monetary prize; the amount (€50 or €100) is determined by the pitch and will be announced during the event.
-
 **Submission deadline:** September 30th, 2026
 
-For more information, check out this website or reach out to **[open.science.anw@amsterdamumc.nl](mailto:open.science.anw@amsterdamumc.nl)**.
+**👉 [Submit your proposal through this form](https://forms.gle/CoAgDU4dFqM15e968)**
 
 ---
 
@@ -47,6 +37,16 @@ Beyond the recognition itself, an Open Science Award is a concrete addition to y
 If you are an early-career researcher who has experienced pushback for prioritising openness, this award can be especially meaningful. External recognition of your efforts is a useful counterweight when you have been told that open science "isn't worth the time" or "doesn't count for evaluation". Your work deserves to be seen.
 
 And there is the prize money: every shortlisted applicant goes home with a monetary award.
+
+---
+
+## Award categories
+
+There are three categories you can apply under. Each has its own scoring criteria (see [How applications are reviewed](#how-applications-are-reviewed)).
+
+1. **Open Science as a Core Objective.** For projects where open science is the primary goal. This includes initiatives specifically designed to develop, promote, or systematically implement open science practices, such as building open infrastructure, developing open-science training programmes, or advancing reproducibility frameworks across your team/department.
+2. **Open Science as a Research Component.** For research projects where open science practices play a meaningful but supporting role. This includes studies that incorporate preregistration, FAIR data sharing, open materials, registered reports, or open-source tools as part of a broader scientific investigation.
+3. **Science Communication.** For projects that prioritize making science accessible, engaging, and understandable within and beyond the academic community. This includes public outreach, citizen science initiatives, open educational resources, or any effort to bridge the gap between research and society.
 
 ---
 
