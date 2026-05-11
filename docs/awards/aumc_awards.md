@@ -12,7 +12,7 @@ After the success of last year's edition, the Amsterdam UMC Open Science Awards 
 
 🏆 Five winning projects will receive €100 each, and five runners-up will receive €50 each.
 
-**Submission deadline:** September 30th, 2026
+**Submission deadline:** September 30th 2026
 
 **👉 [Submit your proposal through this form](https://forms.gle/CoAgDU4dFqM15e968)**
 
@@ -52,12 +52,32 @@ There are three categories you can apply under. Each has its own scoring criteri
 
 ## Timeline
 
-| When | What |
-|------|------|
-| Early May 2026 | Call for applications opens |
-| 30 September 2026 | Submission deadline |
-| October 2026 | Review period; all applicants notified of the outcome |
-| 5 November 2026 | Award ceremony with shortlisted pitches and winner announcements |
+<table style="font-size: 1.1em;">
+  <thead>
+    <tr>
+      <th>When</th>
+      <th>What</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Early May 2026</td>
+      <td>Call for applications opens</td>
+    </tr>
+    <tr>
+      <td>30 September 2026</td>
+      <td>Submission deadline</td>
+    </tr>
+    <tr>
+      <td>October 2026</td>
+      <td>Review period; all applicants notified of the outcome</td>
+    </tr>
+    <tr>
+      <td>5 November 2026</td>
+      <td>Award ceremony with shortlisted pitches and winner announcements</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -70,7 +90,7 @@ At the award ceremony on November 5th, each shortlisted applicant gives a 5-minu
 - 5 **winners** receive **€100** each
 - 5 **runners-up** receive **€50** each
 
-In other words, everyone who is shortlisted leaves with a prize. 🎉
+In other words, everyone who is shortlisted leaves with a prize.
 
 ---
 
@@ -125,6 +145,13 @@ The application asks you to select the open science pillar that best fits your p
 6. **Education & Skills.** Training and supporting researchers, students, and others in open science practices. This includes workshops, tutorials, open educational materials, and tools that lower the barrier to practising open science.
 
 7. **Rewards & Incentives.** Promoting recognition of open science practices within teams, departments, and institutions. This includes advocating for open science in evaluation criteria, and embedding open science in research group culture.
+
+---
+
+!!! info "About the Open Science Guidebook"
+    This awards initiative is part of the [Open Science Guidebook for Neuroscientists](../index.md), a resource from our open science working group. The guidebook offers step-by-step guidance on data management, preregistration, protocol and code sharing, and open-access publishing. It is designed for the diverse subfields of neuroscience and accessible to researchers at any career stage, with the aim of fostering collaboration, reproducibility, and transparency in the field.
+
+    Parts of the site are still being updated, but you are very welcome to explore.
 
 ---
 
