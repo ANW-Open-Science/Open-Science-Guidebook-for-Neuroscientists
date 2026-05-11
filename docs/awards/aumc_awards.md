@@ -149,7 +149,7 @@ The application asks you to select the open science pillar that best fits your p
 ---
 
 !!! info "About the Open Science Guidebook"
-    This awards initiative is part of the [Open Science Guidebook for Neuroscientists](../index.md), a resource from our open science working group. The guidebook offers step-by-step guidance on data management, preregistration, protocol and code sharing, and open-access publishing. It is designed for the diverse subfields of neuroscience and accessible to researchers at any career stage, with the aim of fostering collaboration, reproducibility, and transparency in the field.
+    You may have noticed that this website also hosts the [Open Science Guidebook for Neuroscientists](../index.md), a resource from our open science working group - which is always looking for new members from across the Amsterdam UMC btw! The guidebook offers step-by-step guidance on data management, preregistration, protocol and code sharing, and open-access publishing. It is designed for the diverse subfields of neuroscience and accessible to researchers at any career stage, with the aim of fostering collaboration, reproducibility, and transparency in the field.
 
     Parts of the site are still being updated, but you are very welcome to explore.
 
