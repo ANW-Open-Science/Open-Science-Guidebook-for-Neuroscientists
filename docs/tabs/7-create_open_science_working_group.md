@@ -36,7 +36,7 @@ Cue the monthly meet-ups! We brainstormed, laughed a lot, and cooked up a vision
 As our group was quite large from the get-go, we quickly noticed that delegating tasks was messy. As a solution, we split into three **squads** for maximum impact:
 
 ### 5.1) Communication Crew
-The communication crew is responsible for events, seminars, and creating a cool bi-monthly newsletter (Find them here[https://osf.io/v9fru/]). We found it very important to continuously show our department what we are currently doing and what we have achieved. Especially since we are running this working group voluntarily, next to our ‘real’ work, our PIs found it essential to know what we invest our time in and whether it is fruitful. Also, the newsletter allowed us to give timely, neuroscience-specific advice and tips in an accessible manner. 
+The communication crew is responsible for events, seminars, and creating a cool bi-monthly newsletter (Find them [here](https://osf.io/v9fru/)). We found it very important to continuously show our department what we are currently doing and what we have achieved. Especially since we are running this working group voluntarily, next to our ‘real’ work, our PIs found it essential to know what we invest our time in and whether it is fruitful. Also, the newsletter allowed us to give timely, neuroscience-specific advice and tips in an accessible manner. 
 
 
 ### 5.2) Workshop Wizards
