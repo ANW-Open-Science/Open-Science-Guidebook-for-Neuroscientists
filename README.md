@@ -6,14 +6,12 @@ Our project seeks to spread Open Science in the field of Neuroscience. The guide
 
 ## Contributors
 
-[![All Contributors](https://img.shields.io/github/all-contributors/ANW-Open-Science/Open-Science-Guidebook-for-Neuroscientists)](#contributors) 
+[![All Contributors](https://img.shields.io/github/all-contributors/ANW-Open-Science/Open-Science-Guidebook-for-Neuroscientists?color=ee8449&style=flat-square)](#contributors)
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
