@@ -70,7 +70,7 @@ Several preregistration platforms exist, each with its own (dis)advantages (see 
 - Zenodo
 - GitHub
 
-<img src="./docs/assets/images/Preregistration_Comparison_Figure.png" width="500">
+<img src="../docs/assets/images/Preregistration_Comparison_Figure.png" width="500">
 
 *Figure 2.1* - Comparisons of preregistration platforms (Haroz, 2022). ★ = the criteria deemed to be a bare minimum to meet the definition of a preregistration.
 
