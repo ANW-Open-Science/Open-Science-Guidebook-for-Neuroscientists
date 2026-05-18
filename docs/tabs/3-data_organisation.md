@@ -85,7 +85,7 @@ Brain Imaging Data Standards (BIDS) is a community-driven consensus on how to or
 
 Briefly, each project has a main folder containing a *sourcedata*, *rawdata* and *derivatives* folder, where different types of data will be stored. *Sourcedata* is meant to be for data before any kind of conversion, reconstruction and/or harmonisation (i.e. DICOM), *rawdata* is expected to contain the data converted to NIFTI and JSON format, and finally, *derivatives* should contain all the files derived from your analysis. 
 
-[![BIDS1](../assets/images/BIDS1.png){ width="200" }]()
+[![BIDS1](../assets/images/BIDS1.png){ width="600" }]()
 
 *Figure 3.1* -  (a) Structure of the project folder organised according to BIDS format. (b) Different modalities specifications.
 
