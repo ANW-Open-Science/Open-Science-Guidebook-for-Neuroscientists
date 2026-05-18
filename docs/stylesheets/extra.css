@@ -3,3 +3,9 @@
   height: 56px !important;
   width: auto !important;
 }
+
+/* Header title size */
+.md-header__title {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
