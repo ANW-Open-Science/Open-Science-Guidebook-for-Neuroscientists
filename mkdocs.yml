@@ -14,15 +14,15 @@ nav:
   - Welcome: index.md
 
   - Chapters:    
-    - Introduction: tabs/1-introduction.md
-    - Preregistration & Protocols: tabs/2-preregistration_protocols.md
-    - Data Organisation: tabs/3-data_organisation.md
-    - Open Software & Tools: tabs/4-open_software_tools.md
-    - Publishing & Preprints: tabs/5-publishing_preprints.md
-    - Science Communication: tabs/6-communication.md
-    - Set up Your Own Working Group: tabs/7-create_open_science_working_group.md
-    - Recognition & Reward: tabs/8-recognition_reward.md
-    - Open Educational Resources: tabs/9-educational_resources.md
+    - 1. Introduction: tabs/1-introduction.md
+    - 2. Preregistration & Protocols: tabs/2-preregistration_protocols.md
+    - 3. Data Organisation: tabs/3-data_organisation.md
+    - 4. Open Software & Tools: tabs/4-open_software_tools.md
+    - 5. Publishing & Preprints: tabs/5-publishing_preprints.md
+    - 6. Science Communication: tabs/6-communication.md
+    - 7. Set up Your Own Working Group: tabs/7-create_open_science_working_group.md
+    - 8. Recognition & Reward: tabs/8-recognition_reward.md
+    - 9. Open Educational Resources: tabs/9-educational_resources.md
     
   - About the team: working_group/team.md
 
