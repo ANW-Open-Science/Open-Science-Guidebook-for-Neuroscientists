@@ -186,7 +186,7 @@ Importantly, always ensure you know what you are permitted to share and what is 
 
 <img src="../assets/images/DANS_license.png" width="600">
 
-*Figure 3.4* - DANS repository - choosing a license.
+*Figure 3.4* - [DANS repository](https://dans.knaw.nl/nl/) - choosing a license.
 
 ### 5.2) Data curation
 Data curation, in other words, means “cleaning up your data for them to be used for any purpose”. After data collection, the process of data curation can be broken down into several steps:
