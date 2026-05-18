@@ -51,10 +51,7 @@ Different platforms offer different opportunities for reaching people. Blogs, ne
 
 **Podcasts or radio shows**, on the other hand, provide an intimate platform for in-depth, more informal or personal discussions where you can explore the nuances of a topic. However, you will face the challenge of a lack of visual aids. **Written formats**, such as blog posts, articles, or books, allow readers to re-read and digest information at their own pace. As you determine the best medium for your message, consider how your audience consumes information.
 
-### 3.5) Modes of communicating science
-Here are some pros and cons to help you decide which way you would like to communicate with the general audience. 
-
-### 3.6) Crafting the narrative
+### 3.5) Crafting the narrative
 At the heart of any successful science communication effort is a compelling story. Humans are natural storytellers, and we engage deeply with narratives that resonate emotionally or challenge us intellectually. Even when discussing complex scientific topics, you can use storytelling techniques to capture your audience’s attention and make the information more relatable. In order to craft a story, begin by asking yourself: 
 
 - What is your subject?
@@ -68,7 +65,7 @@ By answering these questions, you can structure your narrative to reflect the up
 
 Randy Olsen described a narrative technique based on story beats, which ensures a logical flow of the narrative. The idea is to write facts or events down, these are your story beats and connect them using “but” and “therefore”. This avoids the disjointed feeling of a story told with a series of disconnected “and then” statements.
 
-### 3.7) Some tips for clear scientific writing
+### 3.6) Some tips for clear scientific writing
 To deliver scientific content effectively, it’s vital to use simple language while maintaining scientific rigour. Here are some tips to keep your writing clear and engaging:
 
 - **Avoid jargon**: use everyday language instead of technical terms whenever possible.
@@ -80,14 +77,14 @@ To deliver scientific content effectively, it’s vital to use simple language w
 
 By focusing on clarity and accessibility, we can break down barriers and foster a more inclusive scientific community. 
 
-### 3.8) Engaging your audience
+### 3.7) Engaging your audience
 One of the most effective ways to engage people in science is to inspire curiosity. Instead of overwhelming your audience with facts, aim to pique their interest by offering just enough information to leave them wanting more. For example, you might introduce a scientific concept and then pose an intriguing question that invites the audience to explore further on their own.
 
 Asking questions is also a powerful tool when communicating with people who may be skeptical or hesitant about science. Instead of directly confronting misinformation or disbelief, try engaging your audience in a dialogue. By posing thoughtful questions, you encourage them to think critically and consider new perspectives. This approach is especially effective when addressing contentious topics like climate change or vaccine hesitancy.
 
 In addition, humour can be a valuable asset in SciComm. When used appropriately, humour makes learning more enjoyable and can help maintain the audience’s attention. A well-placed joke or lighthearted comment can make even the driest topics feel more approachable, but it’s important to strike a balance between being informative and entertaining.
 
-### 3.9) Assessing your impact
+### 3.8) Assessing your impact
 Finally, effective SciComm involves not just delivering your message but also evaluating whether it was received and understood as intended. To do this, reflect on three key questions:
 
 1. What did I want to communicate?
