@@ -63,7 +63,7 @@ There are a few main types of preregistrations:
   This type of peer-reviewed preregistration is done in collaboration with a journal. Note that only some journals offer this, for instance [Imaging Neuroscience](https://direct.mit.edu/imag) (see a comprehensive list of participating journals [here](https://www.cos.io/initiatives/registered-reports)). In a registered report, you follow similar steps as above and your preregistration is subsequently subjected to a peer-review process, whereby the journal pledges to publish your findings regardless of the outcome if they accept your preregistration. 
 
 ### 4.3) Platforms
-Several preregistration platforms exist, each with its own (dis)advantages (see Figure 1 for an overview). These platforms are not specific to neuroscience and can be used across a wide range of scientific disciplines. A personal account is required to view the available templates and select one for your preregistration. It is generally possible to invite future co-authors to collaborate on a pre-registration, allowing you to collect input from important stakeholders in the research.
+Several preregistration platforms exist, each with its own (dis)advantages (see Figure 2.1 for an overview). These platforms are not specific to neuroscience and can be used across a wide range of scientific disciplines. A personal account is required to view the available templates and select one for your preregistration. It is generally possible to invite future co-authors to collaborate on a pre-registration, allowing you to collect input from important stakeholders in the research.
 
 - Open Science Framework
 - AsPredicted
