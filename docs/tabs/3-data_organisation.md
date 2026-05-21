@@ -85,7 +85,7 @@ Brain Imaging Data Standards (BIDS) is a community-driven consensus on how to or
 
 Briefly, each project has a main folder containing a *sourcedata*, *rawdata* and *derivatives* folder, where different types of data will be stored. *Sourcedata* is meant to be for data before any kind of conversion, reconstruction and/or harmonisation (i.e. DICOM), *rawdata* is expected to contain the data converted to NIFTI and JSON format, and finally, *derivatives* should contain all the files derived from your analysis. 
 
-[![BIDS1](../assets/images/BIDS1.png){ width="600" }]()
+![BIDS1](../assets/images/BIDS1.png){ width="600" }
 
 *Figure 3.1* -  (a) Structure of the project folder organised according to BIDS format. (b) Different modalities specifications.
 
@@ -96,7 +96,7 @@ Inside the session (if it exists) or the subject folder, we should have a subfol
 
 Finally, the files MUST be named in a certain way to be machine-readable. There are three main types of data (or extensions): **.json** files containing metadata, **.tsv** files containing tables of metadata and raw data images (with **.jpg** or **.nii.gz**). All files follow a similar structure that includes using **keys**, the corresponding **value** to that key, a **suffix** and, finally, the **extension**. Keys are always paired with values, some of them are mandatory to have, for instance, the subject name (i.e. key would be sub- and the value is the corresponding SUBJID). Others are recommended or optional. Suffixes are mandatory and indicate the kind of data. For a given sequence (recognized by its suffix), some so-called “entities” are required (Fig. 3.2). An entity is a key-value pair that provides metadata about a file, such as subject ID, session, modality, or acquisition parameters. More information about the specifications for each kind of data can be found [here](https://bids-specification.readthedocs.io/en/stable/modality-agnostic-files.html). 
 
-<img src="../assets/images/BIDS2.png" width="600">
+![BIDS file name structure](../assets/images/BIDS2.png){width="600"}
 
 *Figure 3.2* - Structure of the file name following the BIDS format.
 
@@ -139,8 +139,8 @@ Different manufacturers typically utilise various file formats to store metadata
 
 In summary, this type of data storage, which is constantly evolving and improving, provides a consistent way to associate a file with the necessary metadata needed to perform further image analysis (Fig 3.3). A more comprehensive and exhaustive overview concerning how to properly apply the BIDS format on your dataset can be found [here](https://bids-specification.readthedocs.io/en/stable/modality-specific-files/microscopy.html). 
 
-<img src="../assets/images/BIDS3.png" width="600">
-*Figure 3.2* - Illustration of rat spinal cord SEM overview following a BIDS format, modified from Zaimi et al., 2018 and extract from Bourget et al. 2022.
+![illustration following BIDS format](../assets/images/BIDS3.png){width="600"}
+*Figure 3.3* - Illustration of rat spinal cord SEM overview following a BIDS format, modified from Zaimi et al., 2018 and extract from Bourget et al. 2022.
 
 ### 4.3) Big Genetic Datasets
 There are many ways to capture interindividual genetic variation. In order to make it simple, we are going to look at the most commonly analysed variants: Single Nucleotide Polymorphisms (SNPs). SNPs are places in the genome where one letter differs between people, for example, in chromosome 19, position 44908822 some people have a C (Cytosine) base, others have a T (Thymine). This is the APOE SNP, an important genetic factor for Alzheimer’s disease. This SNP would be represented either by a SNP ID - in this case, <mark style="background-color: #FFF9A0">19</mark>:<mark style="background-color: #C3F5BB">45412079</mark>:<mark style="background-color: #A8E8F5">C_T</mark> (usually written in the form  <mark style="background-color: #FFF9A0">chromosome</mark>:<mark style="background-color: #C3F5BB">base pair</mark>:<mark style="background-color: #A8E8F5">allele1_allele2</mark>) - or by its rsID - rs7412 (which you have to look up online).
@@ -184,7 +184,7 @@ Importantly, always ensure you know what you are permitted to share and what is 
 ### 5.1) DANS: Data Archiving and Networked Services (Dans-KNAW)
 [DANS](https://dans.knaw.nl/nl/) is a service offered by the Dutch national centre of expertise and repository for research data, which supports researchers in making their data available for reuse. DANS is not specific to neuroscience but ensures sustainable access to research data in fields ranging from social sciences to life, and physical sciences. DANS currently offers more than 200.000 datasets in their repository. It is possible to either [deposit data](https://dans.knaw.nl/en/depositing-data-manual/) or search for data in their field-specific data stations. When depositing data, you sign a deposit agreement, stating the terms of the licences for reuse. There are two access categories: open access (accessible to everyone, no login required) and restricted access (with your prior consent users may view and download data). After publication by DANS, the dataset receives a persistent identifier and will be permanently archived and accessible to others. When downloading a dataset from the repository, users have to accept a data use agreement (Fig. 3.4). Note that for pseudonymous data, most institute ethical boards require that the data are deleted after 15 years. This is possible, but not facilitated by DANS (the user agreement states that you may request changes, temporary unavailability, or permanent removal of your data from the platform). 
 
-<img src="../assets/images/DANS_license.png" width="600">
+![choosing a license](../assets/images/DANS_license.png){width="600"}
 
 *Figure 3.4* - [DANS repository](https://dans.knaw.nl/nl/) - choosing a license.
 

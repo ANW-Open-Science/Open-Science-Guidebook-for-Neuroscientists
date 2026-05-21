@@ -55,7 +55,7 @@ Preprints can be shared either on dedicated preprint platforms, such as bioRxiv,
 #### What happens when the peer-reviewed manuscript is accepted at a journal?
 **The ideal time to post a preprint is before journal submission**. Once the peer-reviewed version is accepted and published, the preprint typically remains online but may be linked to or replaced with the final, formatted version, depending on the preprint server’s and journal’s policies.
 
-<img src="https://github.com/marbarrantescepas/OS-neuroscience/blob/main/images/Preprint_postprint_published.png" width="400">
+![process of article submission](../assets//images/Preprint_postprint_published.png){width="400"}
 
 *Figure 5.1* - The process of article submission, starting with a preprint; source: [Wikipedia on Preprints](https://en.wikipedia.org/wiki/Preprint).
 
