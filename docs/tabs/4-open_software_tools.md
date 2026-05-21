@@ -124,7 +124,7 @@ Once you have a good feeling of the Github lingo, the version control should be 
 
 Here is a [quick tutorial](https://docs.github.com/en/get-started/start-your-journey/hello-world) to help get you started with the basics and a visual representation of a GitHub workflow.
 
-<img src="../assets/images/Git_branches.png" width="600">
+![github workflow](../assets/images/Git_branches.png){width="600"}
 
 *Figure 4.1* - Visual representation of a GitHub workflow. [Image source.](https://onesignal.com/blog/converting-github-repositories-to-main/)
 
@@ -150,7 +150,7 @@ A **general code workflow** should include several iterations of peer review and
 The general workflow of code review that ensures correctness and reproducibility is summarized in the figure below:
 
 
-<img src="../assets/images/Code_buddy_fig.png" width="600">
+![code review workflow](../assets/images/Code_buddy_fig.png){width="600"}
 
 *Figure 4.2* - Visualisation of the workflow for code review.
 As you might notice, there should always be a code owner and a code reviewer who have separate tasks. 
