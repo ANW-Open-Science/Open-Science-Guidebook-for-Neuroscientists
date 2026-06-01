@@ -153,8 +153,7 @@ A **general code workflow** should include several iterations of peer review and
 The general workflow of code review that ensures correctness and reproducibility is summarized in the figure below:
 
 
-![code review workflow](../assets/images/Code_buddy_fig.png){width="600"}
-![code review workflow](../assets/images/Code_buddy_fig_Improved_Sanne.png){width="600"}
+![code review workflow](../assets/images/Code_buddy_fig_Improved_Sanne2.png){width="600"}
 
 *Figure 4.2* - Visualisation of the workflow for code review.
 As you might notice, there should always be a code owner and a code reviewer who have separate tasks. 
