@@ -3,6 +3,12 @@
 **Authors: Sara Carracedo, Tomás Garnier, Meera Chandra, Juan Garcia-Ruiz;**
 **Reviewers: Mar Barrantes-Cepas, Mona Zimmermann**
 
+### This chapter:
+- defines science communication and its role in connecting science with society;
+- offers practical tips for effective science communication;
+- outlines common challenges in communicating science to the public;
+- lists tools, resources, and initiatives for getting involved in science communication.
+
 ## 1. What is science communication?
 The role of science communication, often referred to as **SciComm**, is to connect science and society. Its goal is to educate people, inform politicians, shape policy, and engage the public with the neuroscience community. This includes **inreach**, when referring to communication between experts, and **outreach**, when communicating between an expert and a non-expert.
 When we think of *science*, we often picture research happening at universities or private industries. But science goes beyond that: it’s a tool for benefiting society as a whole. The knowledge produced in these settings is usually shared through scientific publications. Yet, much of this research never reaches the non-scientific community, as most publications are written in technical English with field-specific jargon, making it hard for non-experts to understand the subject. Good science communication breaks down complex research topics, making them clear and accessible to everyone. That’s the essence of SciComm: any effort to bring people closer to science!
