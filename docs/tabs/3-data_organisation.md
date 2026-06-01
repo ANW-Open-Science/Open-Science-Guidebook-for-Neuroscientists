@@ -105,7 +105,7 @@ Finally, the files MUST be named in a certain way to be machine-readable. There 
 
 #### **BIDS converter and validation tools**
 
-There are some tools that organise DICOM data directly to BIDS format. From our personal experience, we recommend **BIDScoin** and **dcm2bids**. However, there are more tools available that can be used for converting your source data into BIDS format. Find more about these tools at https://bids.neuroimaging.io/benefits.html#software-currently-supporting-bids.
+There are some tools that organise DICOM data directly to BIDS format. From our personal experience, we recommend **BIDScoin** and **dcm2bids**. However, there are more tools available that can be used for converting your source data into BIDS format. Find more about these tools [on this page](https://bids.neuroimaging.io/benefits.html#software-currently-supporting-bids).
 
 Furthermore, there is a validator available to check if your data is correctly organised, called [BIDS validator](https://github.com/bids-standard/bids-validator). Although the tool can be useful, the validator is not always up to date with the latest version of the BIDS structure. If you are struggling with the validator, please check it with someone more experienced or contact the BIDS community directly. 
 
