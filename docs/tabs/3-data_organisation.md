@@ -1,6 +1,15 @@
 # Chapter 3: Open Data in Neuroscience
 **Authors: Mar Barrantes-Cepas, Eva van Heese, Lucas Baudouin, Bernardo de Azevedo Pinto Castro Maciel, Janneke Lemmerzaal; Reviewer: Chris Vriend**
 
+### This chapter...
+- describes basic meta data for data;
+- describes documentation for data processing and analysis;
+- explains different licenses;
+- introduces the FAIR principles;
+- provides guidance on data organisation for different data types;
+- provides tips on sharing your own data openly;
+- lists openly available datasets.
+
 ## 1. Data Definition 
 
 First, what is neuroscience data? Neuroscience data encompasses everything you use or produce during the research cycle, from raw to derived datasets, software, code, workflow, models, figures, tables, articles, etc. Everything contains a piece of information, such as brain imaging (for instance, MRI, PET, EEG, MEG), cognitive and behavioural data, and cellular, histological, and molecular evaluations of brain samples from humans or animals. All this data follows a [lifecycle](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-data) that involves data creation, use, publication and sharing, archiving, and re-use or destruction. 
