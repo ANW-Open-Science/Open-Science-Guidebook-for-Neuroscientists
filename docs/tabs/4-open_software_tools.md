@@ -1,6 +1,13 @@
 # Chapter 4: Open Source Software and Tools for Neuroscience
 **Authors: Mar Barrantes-Cepas, Eva van Heese, Eva Koderman, Diana Bocancea, Lucas Baudouin; Reviewer: Chris Vriend**
 
+### This chapter...
+- provides an introduction to **coding fundamentals**; 
+- shares **practical pointers** on code annotation;
+- advises on version control using **git/github**;
+- suggests a workflow for **code review** and **testing**;
+- supplies lists of **open-source packages** and **tools** for data processing & visualisation, quality control, and anonymisation.
+
 ## 1. Reproducible Science
 In this chapter, we’ll show you practical tools and software to help make your neuroscience research more reproducible. By using scripts instead of graphical user interfaces, open source software, and version control, you’ll not only make your work easier to manage, but also ensure others can replicate your findings and easily collaborate with you. This way you can easily follow the **FAIR** principles for improving **F**indability, **A**ccessibility, **I**nteroperability, and **R**eusability (see [GO FAIR](https://www.go-fair.org/fair-principles/) for more details on the FAIR principles).
 
@@ -261,3 +268,5 @@ We’ll review a selection of often applied software and tools:
 | [CAT12](#)                                                                     | Anatomical T1w/T2w images                             | Perform diverse morphometric analyses such as VBM, SBM, DBM, RBM                                                                                                                                                                    | Tool itself is open, but requires Matlab (paid licence) & SPM  | [Andy's Brain Book - VBM in CAT12](#)                                                               |
 | [QSIPREP](#)                                                                   | Diffusion images                                      | BIDS-compatible preprocessing pipeline that standardizes and automates processing of diffusion MRI data, including denoising, motion correction, and reconstruction to prepare for analysis                                        | fully open                                                     |                                                                                                    |
 
+References
+Github documentation https://docs.github.com/en
