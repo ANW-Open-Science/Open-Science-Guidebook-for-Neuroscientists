@@ -86,17 +86,14 @@ If you want to learn more about pros and cons and the current status of Git(-rel
 To create a GitHub account, link it with Git on your local machine, and verify the connection, follow these steps:
 
 1. Create a GitHub Account:
-   
       - Go to [github.com](github.com) and click **Sign up**.
       - Enter your email, password, and username. Then verify your email when prompted.
       - After completing the sign-up steps, your account will be created.
 
 2. Install Git (if not already installed):
-   
       - Download Git from git-scm.com and follow the installation instructions for your operating system.
 
 3. Link Git with Your GitHub Account:
-   
       - Open a terminal or command prompt and configure your Git username and email (these should match your GitHub account):
 `git config --global user.name "YourGitHubUsername"`
 `git config --global user.email "your_email@example.com"`
@@ -108,9 +105,8 @@ To create a GitHub account, link it with Git on your local machine, and verify t
      - Go to your GitHub profile, click **Settings → SSH and GPG keys**, and paste the SSH key.
     
 4. **Verify the Connection:**
-   
-         - In the terminal, test the connection with GitHub: `ssh -T git@github.com`
-         - If successful, you'll see a message like: `Hi username! You've successfully authenticated.`
+      - In the terminal, test the connection with GitHub: `ssh -T git@github.com`
+      - If successful, you'll see a message like: `Hi username! You've successfully authenticated.`
 
 Now Git is linked to your GitHub account, and you can push, pull, and collaborate on projects directly from your local machine. Not sure what these terms mean? Check below!
 
