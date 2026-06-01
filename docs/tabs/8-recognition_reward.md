@@ -3,10 +3,10 @@
 **Authors: Niels Reijner, Eduarda Centeno, Thecla van Wageningen; Reviewers: Nadza Dzinalija, Linda Douw**
 
 ### This chapter...
-- explains why current reward systems need to change
-- describes initiatives reshaping research assessment
-- introduces examples like DORA and evidence-based CVs
-- highlights the role of team science, mentorship, and peer recognition
+- explains why **current reward systems** need to change;
+- describes initiatives **reshaping research assessment**;
+- introduces examples like **DORA** and **evidence-based CVs**;
+- highlights the role of **team science**, **mentorship**, and **peer recognition**.
 
 ## 1. Introduction
 In the previous chapters, this guidebook explored various concepts and methods for implementing open science in neuroscience. The central premise of the open science movement is that by making scientific practices more transparent, accessible, and collaborative, we can improve research outcomes on individual, institutional, and societal levels. This vision is compelling and worthwhile, and we hope it encourages readers to adopt open science principles in their own work. However, such a shift requires time, effort, and resources. It is natural to wonder at some point: How am I recognized and rewarded for my efforts in this domain?
