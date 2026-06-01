@@ -106,11 +106,10 @@ To create a GitHub account, link it with Git on your local machine, and verify t
   - **Add the SSH key to your GitHub account**
   - Copy the SSH key to your clipboard: `cat ~/.ssh/id_ed25519.pub`
   - Go to your GitHub profile, click **Settings → SSH and GPG keys**, and paste the SSH key.
-  
+    
 4. **Verify the Connection:**
-In the terminal, test the connection with GitHub: `ssh -T git@github.com`
-
-If successful, you'll see a message like: `Hi username! You've successfully authenticated.`
+  - In the terminal, test the connection with GitHub: `ssh -T git@github.com`
+  - If successful, you'll see a message like: `Hi username! You've successfully authenticated.`
 
 Now Git is linked to your GitHub account, and you can push, pull, and collaborate on projects directly from your local machine. Not sure what these terms mean? Check below!
 
