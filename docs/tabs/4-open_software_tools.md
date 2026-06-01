@@ -129,7 +129,7 @@ Here is a [quick tutorial](https://docs.github.com/en/get-started/start-your-jou
 
 ![github workflow](../assets/images/Git_branches.png){width="600"}
 
-*Figure 4.1* - Visual representation of a GitHub workflow. [Image source.](https://onesignal.com/blog/converting-github-repositories-to-main/)
+*Figure 4.1* - Visual representation of a GitHub workflow - Image source: [OneSignal](https://onesignal.com/blog/converting-github-repositories-to-main/).
 
 The main (or previously called the master branch) is where your code lives as the main character. All the other branches are created for the development of a specific feature (or you can think of them as side quests). After the feature development is complete and the code is fully tested and functional, you can merge it back into the main branch. Continue this process until all the feature development is complete.
 
