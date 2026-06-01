@@ -1,8 +1,12 @@
 # Chapter 5: Open-Access Publishing and Preprints
 **Authors: Sara Said, Diana Bocancea, Eva Koderman; Reviewers: Niels Reijner, Eva van Heese, Laura Jonkman**
 
-## About this Chapter
-Publishing remains the primary way researchers share their knowledge with the broader scientific community. It’s how we contribute to a growing body of knowledge that others can learn from, question, replicate, and build upon. In this chapter, we explore key questions around publishing: What is Open Access? Why does publishing matter? What should we publish? And how can we do it responsibly and openly? Whether you're making sense of negative findings or preparing a journal submission, this section offers guidance to help you navigate the publishing process with clarity, purpose, and impact.
+### This chapter:
+- defines **open access** and its various degrees;
+- explains the value of publishing **null and replication findings**;
+- introduces **preprints** and lists commonly used platforms across disciplines;
+- offers guidance on **article processing charges (APCs)**;
+- provides tips for **selecting a journal** and avoiding predatory ones.
 
 ## 1. What is Open Access?
 
