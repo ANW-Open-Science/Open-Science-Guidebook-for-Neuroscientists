@@ -96,7 +96,7 @@ Briefly, each project has a main folder containing a *sourcedata*, *rawdata* and
 
 ![BIDS1](../assets/images/BIDS1.png){ width="600" }
 
-*Figure 3.1* -  (a) Structure of the project folder organised according to BIDS format. (b) Different modalities specifications.
+*Figure 3.1* -  Structure of the project folder organised according to BIDS format.
 
 Inside *sourcedata* and *rawdata*, we should have a folder for each subject of the study named **sub-SUBID**, where SUBID is the code or identifier of that particular participant, and a **tsv file** containing the information of our dataset. Inside the subject folder, it is expected to have a subfolder per session in case of longitudinal data. We would recommend adding a session folder even in cross-sectional studies. You never know if it will be longitudinal later on! 
 Inside the session (if it exists) or the subject folder, we should have a subfolder for each modality i.e. anat, func, dwi, etc., containing anatomical, functional, diffusion or other type of data respectively. See more information about the [specifications of different modalities](https://bids-specification.readthedocs.io/en/stable/modality-agnostic-files.html). 
