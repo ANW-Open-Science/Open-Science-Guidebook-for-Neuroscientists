@@ -4,10 +4,14 @@
 **Reviewers: Juliette Castelot, Dorien Maas**
 
 ### This chapter...
-- explains why current reward systems need to change;
-- describes initiatives reshaping research assessment;
-- introduces examples like DORA and evidence-based CVs;
-- highlights the role of team science, mentorship, and peer recognition.
+- explains the **main goal** of preregistration;
+- debunks **common fears** relating to preregistration;
+- provides **pros and cons** of writing a preregistration;
+- explains the **different types** of preregistrations;
+- describes **platforms** to publish a preregistration;
+- lists **essential elements** to include in a preregistration;
+- outlines approaches to share **lab protocols**;
+- explains how to **search** for lab protocols in repositories.
 
 ## 1. The Preregistration Revolution
 Progress in scientific studies relies on two processes: prediction and postdiction. Prediction involves the generation of hypotheses from existing data (exploratory), and postdiction includes testing hypotheses with new data (confirmatory). The same data cannot be used to do both, but this can happen unintentionally as the distinction between the two is generally appreciated on a conceptual level, but not always respected in practice. The blurring between prediction and postdiction reduces the credibility of research as natural biases in human reasoning (i.e. the hindsight bias) are difficult to avoid. For example, a researcher may collect data on the effectiveness of an intervention, and after half the data is collected, perform a preliminary analysis that shows the intervention is effective only in one subgroup of patients. When all the data is collected, the researcher may focus on this subgroup of patients and do post-hoc analyses in this group, despite not having had a hypothesis about this subgroup before seeing the data at the half-way point. In this way, the same data (or a part of it) is used for both generating the hypothesis and testing that same hypothesis.
