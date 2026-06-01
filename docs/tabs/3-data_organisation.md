@@ -109,7 +109,6 @@ Finally, the files MUST be named in a certain way to be machine-readable. There 
 
 *Figure 3.2* - Structure of the file name following the BIDS format.
 
-{: .warning }
 > If at this point you are lost and don’t know where to start, we recommend you check the [BIDS starter kit](https://bids-standard.github.io/bids-starter-kit/) and consult experienced people on the field or the BIDS community. 
 
 #### **BIDS converter and validation tools**
