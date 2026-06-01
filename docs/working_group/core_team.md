@@ -24,13 +24,13 @@ Authors & Reviewers
   Amsterdam UMC, The Netherlands
 - ![Eva](../assets/profile_pictures/evah.png){ width="80" } **[<br>Eva van Heese](https://pure.amsterdamumc.nl/en/persons/eva-van-heese)**  
   Amsterdam UMC, The Netherlands
-- ![Rikke](../assets/profile_pictures/mar.png){ width="80" } **[<br>Rikke Waard]()**  
+- ![eduarda](../assets/profile_pictures/eduarda.png){ width="80" } **[<br>Eduarda Centeno]()**  
   Amsterdam UMC, The Netherlands
-- ![Tess](../assets/profile_pictures/tess.png){ width="80" } **[<br>Tess Molenaar]()**  
+- ![Nadza](../assets/profile_pictures/nadza.png){ width="80" } **[<br>Nadza Dzinalija]()**  
   Amsterdam UMC, The Netherlands
-- ![Sanne](../assets/profile_pictures/sanne.png){ width="80" } **[<br>Sanne Korbijn]()**  
+- ![Diana](../assets/profile_pictures/diana.png){ width="80" } **[<br>Diana Bocancea]()**  
   Amsterdam UMC, The Netherlands
-- ![Lotte](../assets/profile_pictures/lotte.png){ width="80" } **[<br>Lotte Woltheus]()**  
+- ![EvaK](../assets/profile_pictures/evak.png){ width="80" } **[<br>Eva Koderman]()**  
   Amsterdam UMC, The Netherlands
 </div>
 
