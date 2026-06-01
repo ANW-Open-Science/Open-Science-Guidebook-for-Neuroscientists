@@ -137,10 +137,10 @@ As the original format was designed for human studies, an additional description
 #### **What kind of information may be found?**
 As explained in the previous part, all details regarding the parameters used to acquire an image can be found into the accompanying .json files. It must contain the same type of critical information that should be included into a material and method section of a publication to ensure the reproducibility of the experiment. This include parameters such as:
 	
-	- Image acquisition (pixels size, lens numerical aperture, magnification)
-	- Sample characteristics and how it has been proceeded (body localization, fixative/embedding used, coloration/staining)
-	- Chunk transformations (in case the field acquire is composed by multiples tiles)
-	- Hardware information (Manufacturer and software characteristics) 
+- Image acquisition (pixels size, lens numerical aperture, magnification)
+- Sample characteristics and how it has been proceeded (body localization, fixative/embedding used, coloration/staining)
+- Chunk transformations (in case the field acquire is composed by multiples tiles)
+- Hardware information (Manufacturer and software characteristics) 
 
 #### **Which format can be used for metadata?**
 Different manufacturers typically utilise various file formats to store metadata, such as .czi for ZEISS, .lif for Leica, and .vsi for Olympus. However, these specific formats often necessitate the use of specialised (non-open access) software, which can hinder the process of data sharing. In this context, it is recommended to prioritise the OME-TIFF file format (.ome.tif) as it allows for multiple image planes and supports multi-resolution pyramidal tiled images. Alternatively, it is recommended to prioritise .png or .tif formats to avoid any loss of resolution. It is also important to note that, in cases where only a single resolution file format from a pyramidal file format is needed, only the higher resolution file should be present in the raw data.
