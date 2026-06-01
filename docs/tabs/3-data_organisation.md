@@ -107,7 +107,7 @@ Finally, the files MUST be named in a certain way to be machine-readable. There 
 
 ![BIDS file name structure](../assets/images/BIDS2_Improved_Sanne.png){width="600"}
 
-*Figure 3.2* - Structure of the file name following the BIDS format - adapted from: [BIDS](https://bids.neuroimaging.io/getting_started/folders_and_files/files.html).
+*Figure 3.2* - Structure of the file name following the BIDS format (adapted from: [BIDS](https://bids.neuroimaging.io/getting_started/folders_and_files/files.html)).
 
 > If at this point you are lost and don’t know where to start, we recommend you check the [BIDS starter kit](https://bids-standard.github.io/bids-starter-kit/) and consult experienced people on the field or the BIDS community. 
 
@@ -149,7 +149,7 @@ In summary, this type of data storage, which is constantly evolving and improvin
 
 ![illustration following BIDS format](../assets/images/BIDS3_Improved_Sanne.png){width="600"}
 
-*Figure 3.3* - Illustration of rat spinal cord SEM overview following a BIDS format, modified from Zaimi et al., 2018 and extract from Bourget et al. 2022.
+*Figure 3.3* - Illustration of rat spinal cord SEM overview following a BIDS format (modified from Zaimi et al., 2018 and extract from Bourget et al. 2022).
 
 ### 4.3) Big Genetic Datasets
 There are many ways to capture interindividual genetic variation. In order to make it simple, we are going to look at the most commonly analysed variants: Single Nucleotide Polymorphisms (SNPs). SNPs are places in the genome where one letter differs between people, for example, in chromosome 19, position 44908822 some people have a C (Cytosine) base, others have a T (Thymine). This is the APOE SNP, an important genetic factor for Alzheimer’s disease. This SNP would be represented either by a SNP ID - in this case, <mark style="background-color: #FFF9A0">19</mark>:<mark style="background-color: #C3F5BB">45412079</mark>:<mark style="background-color: #A8E8F5">C_T</mark> (usually written in the form  <mark style="background-color: #FFF9A0">chromosome</mark>:<mark style="background-color: #C3F5BB">base pair</mark>:<mark style="background-color: #A8E8F5">allele1_allele2</mark>) - or by its rsID - rs7412 (which you have to look up online).
