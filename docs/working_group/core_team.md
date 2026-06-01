@@ -1,4 +1,4 @@
-# OPEN SCIENCE Guidebook for Neuroscientist Team
+# Open Science Guidebook for Neuroscientists Team
 
 Meet the people behind the project!
 
