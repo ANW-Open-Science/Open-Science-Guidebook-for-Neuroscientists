@@ -224,10 +224,6 @@ Quality control of structural neuroimaging data is important as errors in brain 
 | [fMRIPrep](https://fmriprep.org/en/stable/)                                                                  | While primarily used for preprocessing, fMRIPrep includes built-in QC features that help flag problematic scans in fMRI datasets, offering both visual reports and metrics for each scan.               | fully open                                             |
 | [FSQC](https://github.com/Deep-MI/fsqc)                                                                      | Open-source tool designed to perform quality assessment of FreeSurfer outputs.                                                                                                                          | fully open                                             |
 
-### 4.3) Quality Assessment of Other Types of Data
-This section is coming soon 
-{: .label .label-yellow }
-
 ## 5. Anonymising Data: Defacing and Editing Headers
 To anonymize and deface brain scan data (typically MRI or CT scans in DICOM or NIfTI formats), several well-established tools are used in neuroimaging research. These tools help remove or obscure facial features and metadata that could be used to identify participants, which is essential for complying with privacy regulations.
 Theyers and colleagues (2021) found that the defacing algorithms provided below vary in their defacing efficiency. Specifically, their analysis shows that the afni_reface and pydeface had the highest accuracy rates. Keep this in mind when choosing your own defacing header!
