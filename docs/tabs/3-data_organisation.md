@@ -2,13 +2,13 @@
 **Authors: Mar Barrantes-Cepas, Eva van Heese, Lucas Baudouin, Bernardo de Azevedo Pinto Castro Maciel, Janneke Lemmerzaal; Reviewer: Chris Vriend**
 
 ### This chapter...
-- describes basic meta data for data;
-- describes documentation for data processing and analysis;
-- explains different licenses;
-- introduces the FAIR principles;
-- provides guidance on data organisation for different data types;
-- provides tips on sharing your own data openly;
-- lists openly available datasets.
+- describes **basic meta data** for data;
+- describes **documentation** for data processing and analysis;
+- explains different **licenses**;
+- introduces the **FAIR** principles;
+- provides **guidance on data organisation** for different data types;
+- provides tips on **sharing your own data** openly;
+- lists **openly available datasets**.
 
 ## 1. Data Definition 
 
