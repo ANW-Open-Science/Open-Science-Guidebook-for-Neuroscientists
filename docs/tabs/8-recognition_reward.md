@@ -1,4 +1,4 @@
-# Chapter 8: Rewards and Recognition
+# Chapter 8: Recognition and Reward
 
 **Authors: Niels Reijner, Eduarda Centeno, Thecla van Wageningen; Reviewers: Nadza Dzinalija, Linda Douw**
 
