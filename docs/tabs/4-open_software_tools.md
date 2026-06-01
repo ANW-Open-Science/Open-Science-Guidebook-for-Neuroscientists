@@ -261,10 +261,3 @@ We’ll review a selection of often applied software and tools:
 | [CAT12](#)                                                                     | Anatomical T1w/T2w images                             | Perform diverse morphometric analyses such as VBM, SBM, DBM, RBM                                                                                                                                                                    | Tool itself is open, but requires Matlab (paid licence) & SPM  | [Andy's Brain Book - VBM in CAT12](#)                                                               |
 | [QSIPREP](#)                                                                   | Diffusion images                                      | BIDS-compatible preprocessing pipeline that standardizes and automates processing of diffusion MRI data, including denoising, motion correction, and reconstruction to prepare for analysis                                        | fully open                                                     |                                                                                                    |
 
-
-## 7. Lab Analysis Tools
-This section is coming soon 
-{: .label .label-yellow }
-
-
-
