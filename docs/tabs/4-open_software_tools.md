@@ -87,25 +87,24 @@ To create a GitHub account, link it with Git on your local machine, and verify t
 
 1. Create a GitHub Account:
 
-   - Go to [github.com](github.com) and click **Sign up**.
-   - Enter your email, password, and username. Then verify your email when prompted.
-   - After completing the sign-up steps, your account will be created.
+      - Go to [github.com](github.com) and click **Sign up**.
+      - Enter your email, password, and username. Then verify your email when prompted.
+      - After completing the sign-up steps, your account will be created.
 
 3. Install Git (if not already installed):
 
-   - Download Git from git-scm.com and follow the installation instructions for your operating system.
+      - Download Git from git-scm.com and follow the installation instructions for your operating system.
 
 4. Link Git with Your GitHub Account:
-
-   - Open a terminal or command prompt and configure your Git username and email (these should match your GitHub account):
+      - Open a terminal or command prompt and configure your Git username and email (these should match your GitHub account):
 `git config --global user.name "YourGitHubUsername"`
 `git config --global user.email "your_email@example.com"`
-  - Generate an SSH key (if you want to authenticate using SSH, recommended for security):
+     - Generate an SSH key (if you want to authenticate using SSH, recommended for security):
 `ssh-keygen -t ed25519 -C "your_email@example.com"`
-  - Press Enter through the prompts to generate the key pair.
-  - **Add the SSH key to your GitHub account**
-  - Copy the SSH key to your clipboard: `cat ~/.ssh/id_ed25519.pub`
-  - Go to your GitHub profile, click **Settings → SSH and GPG keys**, and paste the SSH key.
+     - Press Enter through the prompts to generate the key pair.
+     - **Add the SSH key to your GitHub account**
+     - Copy the SSH key to your clipboard: `cat ~/.ssh/id_ed25519.pub`
+     - Go to your GitHub profile, click **Settings → SSH and GPG keys**, and paste the SSH key.
     
 4. **Verify the Connection:**
   - In the terminal, test the connection with GitHub: `ssh -T git@github.com`
