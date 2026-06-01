@@ -96,6 +96,7 @@ Inside the session (if it exists) or the subject folder, we should have a subfol
 
 Finally, the files MUST be named in a certain way to be machine-readable. There are three main types of data (or extensions): **.json** files containing metadata, **.tsv** files containing tables of metadata and raw data images (with **.jpg** or **.nii.gz**). All files follow a similar structure that includes using **keys**, the corresponding **value** to that key, a **suffix** and, finally, the **extension**. Keys are always paired with values, some of them are mandatory to have, for instance, the subject name (i.e. key would be sub- and the value is the corresponding SUBJID). Others are recommended or optional. Suffixes are mandatory and indicate the kind of data. For a given sequence (recognized by its suffix), some so-called “entities” are required (Fig. 3.2). An entity is a key-value pair that provides metadata about a file, such as subject ID, session, modality, or acquisition parameters. More information about the specifications for each kind of data can be found [here](https://bids-specification.readthedocs.io/en/stable/modality-agnostic-files.html). 
 
+![BIDS file name structure](../assets/images/BIDS2.png){width="600"}
 ![BIDS file name structure](../assets/images/BIDS2_Improved_Sanne.png){width="600"}
 
 *Figure 3.2* - Structure of the file name following the BIDS format.
@@ -140,6 +141,7 @@ Different manufacturers typically utilise various file formats to store metadata
 In summary, this type of data storage, which is constantly evolving and improving, provides a consistent way to associate a file with the necessary metadata needed to perform further image analysis (Fig 3.3). A more comprehensive and exhaustive overview concerning how to properly apply the BIDS format on your dataset can be found [here](https://bids-specification.readthedocs.io/en/stable/modality-specific-files/microscopy.html). 
 
 ![illustration following BIDS format](../assets/images/BIDS3.png){width="600"}
+![illustration following BIDS format](../assets/images/BIDS3_Improved_Sanne.png){width="600"}
 
 *Figure 3.3* - Illustration of rat spinal cord SEM overview following a BIDS format, modified from Zaimi et al., 2018 and extract from Bourget et al. 2022.
 
