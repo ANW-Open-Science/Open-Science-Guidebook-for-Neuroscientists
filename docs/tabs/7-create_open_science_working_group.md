@@ -2,7 +2,13 @@
 
 **Authors: Eduarda Centeno, Mona Zimmerman, Mar Barrantes-Cepas, Diana Bocancea; Reviewers: Janneke Lemmerzaal, Ruxandra Coman, Linda Douw**
 
-## About this Chapter
+### This chapter...
+- outlines a step-by-step approach for starting an open science working group
+- shares strategies for gaining leadership support, building a diverse team, and organising the group's work
+- emphasises the role of collaboration and continuous evaluation in keeping the group sustainable
+- highlights relevant open science initiatives and networks to connect with
+
+## Introduction
 In this chapter, we would like to take you on a journey and show you how our working group came about. This may inspire you to kick-start your working group and spread OS in your department. When we started to set up our group, we had just one idea: How can we make our department more *open sciency*? 
 
 We quickly realised that a huge amount of motivation and enthusiasm was not enough to answer this question… or even get started. More questions than answers followed: How can we motivate people to adopt OS practices? Is the department's infrastructure even ready to adopt OS principles? And how can we make our efforts sustainable and not just another buzzword endeavour? 
