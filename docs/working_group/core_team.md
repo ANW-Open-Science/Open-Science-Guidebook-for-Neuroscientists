@@ -52,11 +52,11 @@ Authors & Reviewers
   Amsterdam UMC, The Netherlands
 - ![Bernardo](../assets/profile_pictures/bernardo.png){ width="80" } **[<br>Bernardo Maciel]()**  
   VU, The Netherlands
- - ![Tomas](../assets/profile_pictures/tomas.png){ width="80" } **[<br>Tomas Garnier]()**  
+- ![Tomas](../assets/profile_pictures/tomas.png){ width="80" } **[<br>Tomas Garnier]()**  
   Bordeaux, France
-  - ![Juan](../assets/profile_pictures/juan.png){ width="80" } **[<br>Juan García Ruiz]()**  
+- ![Juan](../assets/profile_pictures/juan.png){ width="80" } **[<br>Juan García Ruiz]()**  
   Bordeaux, France
-  - ![Niels](../assets/profile_pictures/niels.png){ width="80" } **[<br>JNiels Reijner]()**  
+- ![Niels](../assets/profile_pictures/niels.png){ width="80" } **[<br>JNiels Reijner]()**  
   Amsterdam UMC, The Netherlands
 </div>
 
