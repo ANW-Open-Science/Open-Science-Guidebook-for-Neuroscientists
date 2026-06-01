@@ -67,7 +67,7 @@ Before creating your own DMP, we recommend consulting with your institution to s
 
 ## 3. FAIR principles  
 
-It's recommended to follow the FAIR principles in data for improving **F**indability, **A**ccessibility, **I**nteroperability, and **R**eusability. If you plan it from the beginning, it is easier to make data [FAIR](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-fair). Making data FAIR is not the same as making it open. **Keep in mind that data should be as open as possible and as closed as necessary.** Accessible means that there is a procedure in place to access the data that could benefit sharing data or methods within your own group, department or institute and re-use existing pipelines without having to put much effort into finding data. 
+It's recommended to follow the FAIR principles in data for improving **F**indability, **A**ccessibility, **I**nteroperability, and **R**eusability. If you plan it from the beginning, it is easier to make data [FAIR](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-fair). Making data FAIR is not the same as making it open. **Keep in mind that data should be as open as possible and as closed as necessary.** Accessible means that there is a procedure in place to access the data that could benefit sharing data or methods within your own group, department or institute and re-use existing pipelines without having to put much effort into finding data. See [GO FAIR](https://www.go-fair.org/) for more details on the FAIR principles.
 
 ## 4. Data Storage and Organisation 
 
