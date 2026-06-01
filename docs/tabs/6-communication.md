@@ -138,8 +138,8 @@ If you think writing is too challenging to explain what is in your mind, resort 
 ## References
 Maher, C., Gyles, T., Nestler, E. J., & Schiller, D. (2024). A guide to science communication training for doctoral students. *Nature Neuroscience*, *27*(7), 1211–1213. [https://doi.org/10.1038/s41593-024-01646-y](https://doi.org/10.1038/s41593-024-01646-y)
 
-*How did English become the language of science? - The World from PRX*. (2014, October 6). The World From PRX. [https://theworld.org/stories/2014/10/06/how-did-english-become-language-science](https://theworld.org/stories/2014/10/06/how-did-english-become-language-science)
+The World from PRX. (2014, October 6). *How did English become the language of science?* [https://theworld.org/stories/2014/10/06/how-did-english-become-language-science](https://theworld.org/stories/2014/10/06/how-did-english-become-language-science)
 
-Saskia Hoving. (2023, October 30). *The impact of good science communication, and how organisations can support | For Librarians | Springer Nature*. [https://www.springernature.com/la/librarians/the-link/researcher-support-blogpost/impact-of-good-science-communication-and-organizational-support/26211838](https://www.springernature.com/la/librarians/the-link/researcher-support-blogpost/impact-of-good-science-communication-and-organizational-support/26211838)
+Hoving, S. (2023, October 30). *The impact of good science communication, and how organisations can support*. Springer Nature. [https://www.springernature.com/la/librarians/the-link/researcher-support-blogpost/impact-of-good-science-communication-and-organizational-support/26211838](https://www.springernature.com/la/librarians/the-link/researcher-support-blogpost/impact-of-good-science-communication-and-organizational-support/26211838)
 
 Howard-Jones, P. A. (2014). Neuroscience and education: myths and messages. *Nature Reviews*. *Neuroscience*, *15*(12), 817–824. [https://doi.org/10.1038/nrn3817](https://doi.org/10.1038/nrn3817)
