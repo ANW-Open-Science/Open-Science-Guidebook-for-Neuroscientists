@@ -4,11 +4,11 @@ Meet the people behind the project!
 
 Web administration 
 <div class="grid cards" markdown>
-- ![Mar](../assets/profile_pictures/mar-barrantes-cepas.jpeg){ width="80" } **[<br>Mar Barrantes-Cepas](https://pure.amsterdamumc.nl/en/persons/mar-barrantes-cepas/)**  
+- ![Mar](../assets/profile_pictures/mar.png){ width="80" } **[<br>Mar Barrantes-Cepas](https://pure.amsterdamumc.nl/en/persons/mar-barrantes-cepas/)**  
   Amsterdam UMC, The Netherlands
 - ![Eva](../assets/profile_pictures/evah.png){ width="80" } **[<br>Eva van Heese](https://pure.amsterdamumc.nl/en/persons/eva-van-heese)**  
   Amsterdam UMC, The Netherlands
-- ![Rikke](../assets/profile_pictures/mar.png){ width="80" } **[<br>Rikke Waard]()**  
+- ![Rikke](../assets/profile_pictures/rikke.png){ width="80" } **[<br>Rikke Waard]()**  
   Amsterdam UMC, The Netherlands
 - ![Tess](../assets/profile_pictures/tess.png){ width="80" } **[<br>Tess Molenaar]()**  
   Amsterdam UMC, The Netherlands
