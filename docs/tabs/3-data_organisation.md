@@ -107,7 +107,7 @@ Finally, the files MUST be named in a certain way to be machine-readable. There 
 
 ![BIDS file name structure](../assets/images/BIDS2_Improved_Sanne.png){width="600"}
 
-*Figure 3.2* - Structure of the file name following the BIDS format.
+*Figure 3.2* - Structure of the file name following the BIDS format - adapted from: [BIDS](https://bids.neuroimaging.io/getting_started/folders_and_files/files.html).
 
 > If at this point you are lost and don’t know where to start, we recommend you check the [BIDS starter kit](https://bids-standard.github.io/bids-starter-kit/) and consult experienced people on the field or the BIDS community. 
 
