@@ -147,7 +147,7 @@ Different manufacturers typically utilise various file formats to store metadata
 
 In summary, this type of data storage, which is constantly evolving and improving, provides a consistent way to associate a file with the necessary metadata needed to perform further image analysis (Fig 3.3). A more comprehensive and exhaustive overview concerning how to properly apply the BIDS format on your dataset can be found [here](https://bids-specification.readthedocs.io/en/stable/modality-specific-files/microscopy.html). 
 
-![illustration following BIDS format](../assets/images/BIDS3_Improved_Sanne.png){width="600"}
+![illustration following BIDS format](../assets/images/BIDS3_Improved_Sanne2.png){width="600"}
 
 *Figure 3.3* - Illustration of rat spinal cord SEM overview following a BIDS format (modified from Zaimi et al., 2018 and extract from Bourget et al. 2022).
 
