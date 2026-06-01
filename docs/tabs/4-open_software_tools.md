@@ -62,7 +62,7 @@ To make your project  as *open sciency* as possible, we provide a few tips:
 This section offers guidance on optimising version control and annotation practices. It covers best practices for streamlining version control, how to integrate them within your team, and the ideal workflow to adopt for maximum efficiency.
 
 ### 3.1) Code annotation 
-When working on a script, it is important to annotate your code. Annotation is essential to make code understandable, discoverable, citable, and reusable. Check out [Chapter 3](https://github.com/marbarrantescepas/OS-neuroscience/blob/main/tabs/3.%20Data%20Organisation.md) to obtain a better general understanding of code annotation. More specific to code annotation, it is important to keep in mind the following:
+When working on a script, it is important to annotate your code. Annotation is essential to make code understandable, discoverable, citable, and reusable. More specific to code annotation, it is important to keep in mind the following:
 
 - At the top of your script, you should describe the aim of the script
 - Declare who wrote the code and when. Is it finished?
