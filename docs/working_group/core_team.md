@@ -44,7 +44,7 @@ Authors & Reviewers
   Amsterdam UMC, The Netherlands
  - ![Sara](../assets/profile_pictures/sara.png){ width="80" } **[<br>Sara Carracedo]()**  
   Bordeaux, France
-  - ![Julitte](../assets/profile_pictures/juliette.png){ width="80" } **[<br>Juliettte Castelot]()**  
+  - ![Juliette](../assets/profile_pictures/juliette.png){ width="80" } **[<br>Juliette Castelot]()**  
   Amsterdam UMC, The Netherlands
 - ![Ruxandra](../assets/profile_pictures/ruxandra.png){ width="80" } **[<br>Ruxandra Coman]()**  
   Amsterdam UMC, The Netherlands
@@ -56,7 +56,7 @@ Authors & Reviewers
   Bordeaux, France
   - ![Juan](../assets/profile_pictures/juan.png){ width="80" } **[<br>Juan García Ruiz]()**  
   Bordeaux, France
-    - ![Niels](../assets/profile_pictures/niels.png){ width="80" } **[<br>JNiels Reijner]()**  
+  - ![Niels](../assets/profile_pictures/niels.png){ width="80" } **[<br>JNiels Reijner]()**  
   Amsterdam UMC, The Netherlands
 </div>
 
