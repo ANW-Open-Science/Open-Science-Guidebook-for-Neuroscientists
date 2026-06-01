@@ -38,7 +38,7 @@ Virtual environments and containers are tools used in software development to cr
 
 A **virtual environment** in Python is an isolated environment that allows you to install and manage dependencies for a specific project without affecting the global Python installation or other projects. It helps ensure that each project can have its dependencies and versions, avoiding conflicts between projects.
 
-A **container** is an isolated unit, and is much more comprehensive tool that isolates not just the programming environment but the entire software environment, including the operating system, system libraries, runtime, and application code - making it more versatile for deploying and running consistent environments across different systems. Containers offer several advantages [reference](https://www.ibm.com/think/insights/the-benefits-of-containerization-and-what-it-means-for-you):
+A **container** is an isolated unit, and is much more comprehensive tool that isolates not just the programming environment but the entire software environment, including the operating system, system libraries, runtime, and application code - making it more versatile for deploying and running consistent environments across different systems. Containers offer several advantages [(check this page)](https://www.ibm.com/think/insights/the-benefits-of-containerization-and-what-it-means-for-you):
 
 - _Portability and consistency_: Whether a container runs on a developer’s laptop or server, the bundled application will run consistently in various environments. 
 - _Resource efficiency_: Containers are lightweight and use less memory and CPU compared to traditional virtual machines. 
