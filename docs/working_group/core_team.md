@@ -56,7 +56,7 @@ Authors & Reviewers
   Bordeaux, France
 - ![Juan](../assets/profile_pictures/juan.png){ width="80" } **[<br>Juan García Ruiz]()**  
   Bordeaux, France
-- ![Niels](../assets/profile_pictures/niels.png){ width="80" } **[<br>JNiels Reijner]()**  
+- ![Niels](../assets/profile_pictures/niels.png){ width="80" } **[<br>Niels Reijner]()**  
   Amsterdam UMC, The Netherlands
 </div>
 
