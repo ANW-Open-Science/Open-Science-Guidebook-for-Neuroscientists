@@ -1,0 +1,1652 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../2-preregistration_protocols/">
+      
+      
+        <link rel="next" href="../4-open_software_tools/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/logos/logo_OS_Guidebook.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>3. Data Organisation - Open Science Guidebook for Neuroscientists</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-3-open-data-in-neuroscience" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Open Science Guidebook for Neuroscientists" class="md-header__button md-logo" aria-label="Open Science Guidebook for Neuroscientists" data-md-component="logo">
+      
+  <img src="../../assets/logos/logo_OS_Guidebook.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Open Science Guidebook for Neuroscientists
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              3. Data Organisation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Open Science Guidebook for Neuroscientists" class="md-nav__button md-logo" aria-label="Open Science Guidebook for Neuroscientists" data-md-component="logo">
+      
+  <img src="../../assets/logos/logo_OS_Guidebook.png" alt="logo">
+
+    </a>
+    Open Science Guidebook for Neuroscientists
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapters
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chapters
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2-preregistration_protocols/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Preregistration & Protocols
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Data Organisation
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Data Organisation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#this-chapter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        This chapter...
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-data-definition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Data Definition
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Data Definition">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-personal-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1) Personal data
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-documentation-and-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2) Documentation and Metadata
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2) Documentation and Metadata">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#for-datasets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For datasets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-data-processing-and-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For data processing and analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-creative-commons-and-data-licensing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3) Creative Commons and data licensing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-data-management-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Data Management Plan
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-fair-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. FAIR principles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-data-storage-and-organisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Data Storage and Organisation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Data Storage and Organisation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-brain-imaging-data-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1) Brain Imaging Data Standards
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1) Brain Imaging Data Standards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bids-project-folder-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BIDS project folder structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bids-file-naming-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BIDS file naming structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bids-converter-and-validation-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BIDS converter and validation tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bids-citations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BIDS citations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-bids-in-microscopic-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2) BIDS in Microscopic Data
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.2) BIDS in Microscopic Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#for-which-type-of-acquisition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For which type of acquisition?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-which-kind-of-species" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For which kind of species?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-kind-of-information-may-be-found" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What kind of information may be found?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#which-format-can-be-used-for-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Which format can be used for metadata?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-big-genetic-datasets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3) Big Genetic Datasets
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.3) Big Genetic Datasets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#genomic-builds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Genomic builds
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-clinical-data-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4) Clinical data management
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-work-in-progress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5) Work in progress
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-sharing-your-own-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Sharing your own data
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Sharing your own data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-dans-data-archiving-and-networked-services-dans-knaw" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1) DANS: Data Archiving and Networked Services (Dans-KNAW)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-data-curation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2) Data curation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-using-open-datasets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Using Open Datasets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4-open_software_tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Open Software & Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5-publishing_preprints/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. Publishing & Preprints
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6-communication/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6. Science Communication
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7-create_open_science_working_group/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7. Set up Your Own Working Group
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../8-recognition_reward/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8. Recognition & Reward
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../working_group/core_team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About the team
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../awards/aumc_awards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amsterdam UMC Open Science Awards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#this-chapter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        This chapter...
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-data-definition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Data Definition
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Data Definition">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-personal-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1) Personal data
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-documentation-and-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2) Documentation and Metadata
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2) Documentation and Metadata">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#for-datasets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For datasets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-data-processing-and-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For data processing and analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-creative-commons-and-data-licensing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3) Creative Commons and data licensing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-data-management-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Data Management Plan
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-fair-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. FAIR principles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-data-storage-and-organisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Data Storage and Organisation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Data Storage and Organisation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-brain-imaging-data-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1) Brain Imaging Data Standards
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1) Brain Imaging Data Standards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bids-project-folder-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BIDS project folder structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bids-file-naming-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BIDS file naming structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bids-converter-and-validation-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BIDS converter and validation tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bids-citations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BIDS citations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-bids-in-microscopic-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2) BIDS in Microscopic Data
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.2) BIDS in Microscopic Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#for-which-type-of-acquisition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For which type of acquisition?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-which-kind-of-species" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For which kind of species?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-kind-of-information-may-be-found" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What kind of information may be found?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#which-format-can-be-used-for-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Which format can be used for metadata?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-big-genetic-datasets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3) Big Genetic Datasets
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.3) Big Genetic Datasets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#genomic-builds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Genomic builds
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-clinical-data-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4) Clinical data management
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-work-in-progress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5) Work in progress
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-sharing-your-own-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Sharing your own data
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Sharing your own data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-dans-data-archiving-and-networked-services-dans-knaw" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1) DANS: Data Archiving and Networked Services (Dans-KNAW)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-data-curation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2) Data curation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-using-open-datasets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Using Open Datasets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="chapter-3-open-data-in-neuroscience">Chapter 3: Open Data in Neuroscience</h1>
+<p><strong>Authors: Mar Barrantes-Cepas, Eva van Heese, Lucas Baudouin, Bernardo de Azevedo Pinto Castro Maciel, Janneke Lemmerzaal; Reviewer: Chris Vriend</strong></p>
+<h3 id="this-chapter">This chapter...</h3>
+<ul>
+<li>describes <strong>basic meta data</strong> for data;</li>
+<li>describes <strong>documentation</strong> for data processing and analysis;</li>
+<li>explains different <strong>licenses</strong>;</li>
+<li>introduces the <strong>FAIR</strong> principles;</li>
+<li>provides <strong>guidance on data organisation</strong> for different data types;</li>
+<li>provides tips on <strong>sharing your own data</strong> openly;</li>
+<li>lists <strong>openly available datasets</strong>.</li>
+</ul>
+<h2 id="1-data-definition">1. Data Definition</h2>
+<p>First, what is neuroscience data? Neuroscience data encompasses everything you use or produce during the research cycle, from raw to derived datasets, software, code, workflow, models, figures, tables, articles, etc. Everything contains a piece of information, such as brain imaging (for instance, MRI, PET, EEG, MEG), cognitive and behavioural data, and cellular, histological, and molecular evaluations of brain samples from humans or animals. All this data follows a <a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-data">lifecycle</a> that involves data creation, use, publication and sharing, archiving, and re-use or destruction. </p>
+<p>The scope of the present chapter includes data organisation and (open) sharing; all information related to software, code, and workflows is explained in <a href="https://anw-open-science.github.io/Open-Science-Guidebook-for-Neuroscientists/tabs/4-open_software_tools/">Chapter 4</a>.  </p>
+<h3 id="11-personal-data">1.1) Personal data</h3>
+<p>Personal data in neuroscience refers to an individual's personal information that can identify the person, i.e. birth date, address, security number, raw (structural) MRI scan, genetic information, etc. The use of personal data has significant implications for privacy and ethical considerations. Personal data is not always as evident or attainable to identify as we think. For example, imaging DICOM headers might contain the person’s name or date of birth, or from structural MRI scans, we can easily identify the person’s face if it’s not defaced (see <a href="https://anw-open-science.github.io/Open-Science-Guidebook-for-Neuroscientists/tabs/4-open_software_tools/#5-anonymising-data-defacing-and-editing-headers">Chapter 4 - Anonymising Data: Defacing and Editing Headers</a>). As researchers, we must ensure responsible handling of personal data by anonymising our data properly in case of storing and sharing it, following the ethical protocols.</p>
+<h3 id="12-documentation-and-metadata">1.2) Documentation and Metadata</h3>
+<h4 id="for-datasets"><strong>For datasets</strong></h4>
+<p>Data without context is of no use. However, metadata and documentation can provide provenance and context to datasets. Therefore, you should ensure that any dataset, but especially open datasets, includes consistent metadata and documentation that provides insightful information about how the data was collected (at least!) and other characteristics. Metadata is often intended for machine reading, but some forms are human-readable. Basic metadata can be described on the level of the dataset (title, study summary, keywords, contact information, licence) and data elements (variable name, description, unit, modification date). Advanced metadata may describe the frequency of updates and what has changed or been updated (e.g., a changelog), temporal coverage (cross-sectional, longitudinal, follow-up duration), and spatial coverage (i.e. geographic area). </p>
+<h4 id="for-data-processing-and-analysis"><strong>For data processing and analysis</strong></h4>
+<p>For data processing and analysis, keeping organised and descriptive documentation about the step-by-step process is key. Whereas each lab generally does this in its own manner, the movement of open data and open scripting has set some standards on how to improve documentation for yourself and others. If you want to read more specific suggestions on how to annotate your code, please check out <a href="https://anw-open-science.github.io/Open-Science-Guidebook-for-Neuroscientists/tabs/4-open_software_tools/#3-code-annotation-and-version-control">Chapter 4 - Code annotation and Version Control</a>. A couple of essential elements to include in your documentation are:</p>
+<ul>
+<li><strong>A summary of the general steps (i.e from raw data to outcome)</strong><ul>
+<li>For example in a flowchart</li>
+<li>For example a participant flowchart (mention inclusion and exclusion criteria, reasons for data exclusion or missing data)</li>
+</ul>
+</li>
+<li><strong>The software, automated pipelines, scripts or other tools applied</strong><ul>
+<li>Specify version, platform, and other environmental details</li>
+<li>Specify decisions made (manual settings)</li>
+<li>For code: provide examples from your actual code</li>
+<li>Correctly cite these tools and their documentation</li>
+</ul>
+</li>
+<li><strong>Troubleshooting: issues you encountered and their solutions</strong><ul>
+<li>Describe common mistakes</li>
+<li>Describe steps that require a cautious approach</li>
+<li>Cite solutions or workarounds provided online</li>
+</ul>
+</li>
+<li><strong>Quality assessment</strong><ul>
+<li>Which checks should and could be performed?</li>
+<li>How does good/bad data look? Provide examples (images!)</li>
+</ul>
+</li>
+</ul>
+<p>Documentation will look different for each analysis and can be described in many formats: a (shared) document, spreadsheet, or environment that allows for files and code to be incorporated (for example <a href="https://github.com/">Github</a> or <a href="https://zenodo.org/">Zenodo</a>). Important is that the documentation can be understood by anyone (with the expected background knowledge) and used as a guide to perform the analysis described. </p>
+<h3 id="13-creative-commons-and-data-licensing">1.3) Creative Commons and data licensing</h3>
+<p>Licenses provide a standardized way for others to use your creative work under copyright legislation. The different Creative Commons (CC) licenses describe what permissions the public has to do with your work. The license types are formed by combinations of sharing principles:</p>
+<ul>
+<li><strong>BY:</strong> Credit must be given to the creator</li>
+<li><strong>NC:</strong> Only non-commercial uses of the work are permitted</li>
+<li><strong>SA:</strong> Adaptations must be shared under the same terms</li>
+<li><strong>ND:</strong> No derivatives or adaptations of the work are permitted</li>
+</ul>
+<p>Together, they result in six licence types (CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, CC BY-NC-ND). A seventh licence type (CC Zero or CC0) allows the creator to give up their copyright and all public users to adapt, build upon, and distribute the original work without any conditions. You can consult the online tool <a href="https://chooser-beta.creativecommons.org/">Licence Chooser from CC</a> if you struggle to choose a license for your work. Interested to read more about CC licenses? Check out <a href="https://creativecommons.org/share-your-work/cclicenses/">this page</a>. </p>
+<h2 id="2-data-management-plan">2. Data Management Plan</h2>
+<p>How to manage your data is usually described in a Data Management Plan (DMP). It provides information on six main topics: </p>
+<ol>
+<li>Roles and responsibilities</li>
+<li>Type and size of the data collected and documentation or metadata generated</li>
+<li>Type of data stored used and backup procedures that are in place</li>
+<li>Preservation of the research outputs after the project</li>
+<li>Re-use of your research outputs by others</li>
+<li>Costs</li>
+</ol>
+<p><em>(See more details at <a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-dmp#rr-rdm-dmp">Turing Way</a>)</em> .</p>
+<p>Before creating your own DMP, we recommend consulting with your institution to see if they have a specific template for the DMP. If you are from the Amsterdam UMC, please check <a href="https://www.amsterdamumc.org/en/research/support/services-facilities/data-management/data-management-plan-dmp.htm">their page</a>. Moreover, we recommend creating a checklist/roadmap before starting your research with the steps that need to be performed in order to make your project as according to open science principles, and the requirement or things you need to check for each step. For example, can everyone from your team understand how the data is organised or where to find it with the minimum knowledge? More information can be found at <a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-checklist">Turing Way</a> or in the case of <a href="https://www.amsterdamumc.org/en/research/research-roadmap.htm">Amsterdam UMC</a>.   </p>
+<h2 id="3-fair-principles">3. FAIR principles</h2>
+<p>It's recommended to follow the FAIR principles in data for improving <strong>F</strong>indability, <strong>A</strong>ccessibility, <strong>I</strong>nteroperability, and <strong>R</strong>eusability. If you plan it from the beginning, it is easier to make data <a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-fair">FAIR</a>. Making data FAIR is not the same as making it open. <strong>Keep in mind that data should be as open as possible and as closed as necessary.</strong> Accessible means that there is a procedure in place to access the data that could benefit sharing data or methods within your own group, department or institute and re-use existing pipelines without having to put much effort into finding data. See <a href="https://www.go-fair.org/">GO FAIR</a> for more details on the FAIR principles.</p>
+<h2 id="4-data-storage-and-organisation">4. Data Storage and Organisation</h2>
+<p>Storing your data correctly is important to prevent data loss, which happens more often than we would like. To avoid data loss, it’s recommended to pick a suitable storage system and back up your data frequently (if not already done automatically by the storage facility). Your institution will usually provide information on how to store your data. Consult what the different storage systems of your institution are and how you can back up data correctly. You can either consider using cloud storage if your data protection allows it or encrypting your data before storage (ensure keep the decryption password safely!).  </p>
+<p>At the same time, organising data in a meaningful and FAIR way may be challenging, especially at the beginning of new projects where we are not fully sure of all the intermediate files. You should use a clear folder structure to ensure you can find your files; ideally not one you make up yourself but based on consensus with your colleagues, institute or research community.</p>
+<p>In the following paragraphs, we divided our recommendations depending on which kind of <strong>neuroscience data</strong> you are working with: brain imaging (MRI, PET, EEG, MEG), cognitive, behavioural, cellular, histological, or molecular data. </p>
+<h3 id="41-brain-imaging-data-standards">4.1) Brain Imaging Data Standards</h3>
+<p>Brain Imaging Data Standards (BIDS) is a community-driven consensus on how to organise and share data obtained in neuroimaging experiments (everybody can become part of the <a href="https://bids.neuroimaging.io/get_involved.html">community</a>). Lack of consensus led to time wasted on rearranging data or rewriting scripts to fit the data structure. More information about the guidelines and <a href="https://bids-specification.readthedocs.io/en/stable/index.html">specifications</a> can be found at <a href="https://bids.neuroimaging.io/">BIDS webpage</a>.  </p>
+<h4 id="bids-project-folder-structure"><strong>BIDS project folder structure</strong></h4>
+<p>Briefly, each project has a main folder containing a <em>sourcedata</em>, <em>rawdata</em> and <em>derivatives</em> folder, where different types of data will be stored. <em>Sourcedata</em> is meant to be for data before any kind of conversion, reconstruction and/or harmonisation (i.e. DICOM), <em>rawdata</em> is expected to contain the data converted to NIFTI and JSON format, and finally, <em>derivatives</em> should contain all the files derived from your analysis. </p>
+<p><img alt="BIDS1" src="../../assets/images/BIDS1.png" width="600" /></p>
+<p><em>Figure 3.1</em> -  Structure of the project folder organised according to BIDS format.</p>
+<p>Inside <em>sourcedata</em> and <em>rawdata</em>, we should have a folder for each subject of the study named <strong>sub-SUBID</strong>, where SUBID is the code or identifier of that particular participant, and a <strong>tsv file</strong> containing the information of our dataset. Inside the subject folder, it is expected to have a subfolder per session in case of longitudinal data. We would recommend adding a session folder even in cross-sectional studies. You never know if it will be longitudinal later on! 
+Inside the session (if it exists) or the subject folder, we should have a subfolder for each modality i.e. anat, func, dwi, etc., containing anatomical, functional, diffusion or other type of data respectively. See more information about the <a href="https://bids-specification.readthedocs.io/en/stable/modality-agnostic-files.html">specifications of different modalities</a>. </p>
+<h4 id="bids-file-naming-structure"><strong>BIDS file naming structure</strong></h4>
+<p>Finally, the files MUST be named in a certain way to be machine-readable. There are three main types of data (or extensions): <strong>.json</strong> files containing metadata, <strong>.tsv</strong> files containing tables of metadata and raw data images (with <strong>.jpg</strong> or <strong>.nii.gz</strong>). All files follow a similar structure that includes using <strong>keys</strong>, the corresponding <strong>value</strong> to that key, a <strong>suffix</strong> and, finally, the <strong>extension</strong>. Keys are always paired with values, some of them are mandatory to have, for instance, the subject name (i.e. key would be sub- and the value is the corresponding SUBJID). Others are recommended or optional. Suffixes are mandatory and indicate the kind of data. For a given sequence (recognized by its suffix), some so-called “entities” are required (Fig. 3.2). An entity is a key-value pair that provides metadata about a file, such as subject ID, session, modality, or acquisition parameters. More information about the specifications for each kind of data can be found <a href="https://bids-specification.readthedocs.io/en/stable/modality-agnostic-files.html">here</a>. </p>
+<p><img alt="BIDS file name structure" src="../../assets/images/BIDS2_Improved_Sanne.png" width="600" /></p>
+<p><em>Figure 3.2</em> - Structure of the file name following the BIDS format (adapted from: <a href="https://bids.neuroimaging.io/getting_started/folders_and_files/files.html">BIDS</a>).</p>
+<blockquote>
+<p>If at this point you are lost and don’t know where to start, we recommend you check the <a href="https://bids-standard.github.io/bids-starter-kit/">BIDS starter kit</a> and consult experienced people on the field or the BIDS community. </p>
+</blockquote>
+<h4 id="bids-converter-and-validation-tools"><strong>BIDS converter and validation tools</strong></h4>
+<p>There are some tools that organise DICOM data directly to BIDS format. From our personal experience, we recommend <strong>BIDScoin</strong> and <strong>dcm2bids</strong>. However, there are more tools available that can be used for converting your source data into BIDS format. Find more about these tools <a href="https://bids.neuroimaging.io/benefits.html#software-currently-supporting-bids">on this page</a>.</p>
+<p>Furthermore, there is a validator available to check if your data is correctly organised, called <a href="https://github.com/bids-standard/bids-validator">BIDS validator</a>. Although the tool can be useful, the validator is not always up to date with the latest version of the BIDS structure. If you are struggling with the validator, please check it with someone more experienced or contact the BIDS community directly. </p>
+<h4 id="bids-citations"><strong>BIDS citations</strong></h4>
+<p>Be nice and don’t forget to cite in your study the BIDS citations if you are using them! </p>
+<h3 id="42-bids-in-microscopic-data">4.2) BIDS in Microscopic Data</h3>
+<p>Whereas BIDS has been originally designed for macroscale data, the BIDS specification has recently been extended to the microscopy field, which included a wild variety of applications. </p>
+<p>As explained at the beginning of this section, the ideas behind this initiative remain the same: to properly identify which type of experiments have been conducted on one sample and have a track record of the parameters used during the acquisition of the specimen. All to avoid confusion and facilitate the comprehension of methods.  </p>
+<p>Our department has yet to fully embrace this classification method, which is why we only provide a complete overview of the differences between this microscopy section and the original version, as well as the types of data to which it may be applicable.</p>
+<h4 id="for-which-type-of-acquisition"><strong>For which type of acquisition?</strong></h4>
+<p>BIDS format can be applied to 17 different types of data, covering all conventional microscopy methods. This includes fluorescent imaging (epifluorescence, confocal and super-resolution), electron microscopy (SEM and TEM) and multi-photon imaging (2P and 3P). </p>
+<h4 id="for-which-kind-of-species"><strong>For which kind of species?</strong></h4>
+<p>As the original format was designed for human studies, an additional description has been added in the participants.tsv file to include animal or cell metadata. In this description, three columns have been added to specify the species itself but also the name of the strain of the species and its research resource identifier (RRID) that could be very helpful in case of transgenic animal or cell line. </p>
+<h4 id="what-kind-of-information-may-be-found"><strong>What kind of information may be found?</strong></h4>
+<p>As explained in the previous part, all details regarding the parameters used to acquire an image can be found into the accompanying .json files. It must contain the same type of critical information that should be included into a material and method section of a publication to ensure the reproducibility of the experiment. This include parameters such as:</p>
+<ul>
+<li>Image acquisition (pixels size, lens numerical aperture, magnification)</li>
+<li>Sample characteristics and how it has been proceeded (body localization, fixative/embedding used, coloration/staining)</li>
+<li>Chunk transformations (in case the field acquire is composed by multiples tiles)</li>
+<li>Hardware information (Manufacturer and software characteristics) </li>
+</ul>
+<h4 id="which-format-can-be-used-for-metadata"><strong>Which format can be used for metadata?</strong></h4>
+<p>Different manufacturers typically utilise various file formats to store metadata, such as .czi for ZEISS, .lif for Leica, and .vsi for Olympus. However, these specific formats often necessitate the use of specialised (non-open access) software, which can hinder the process of data sharing. In this context, it is recommended to prioritise the OME-TIFF file format (.ome.tif) as it allows for multiple image planes and supports multi-resolution pyramidal tiled images. Alternatively, it is recommended to prioritise .png or .tif formats to avoid any loss of resolution. It is also important to note that, in cases where only a single resolution file format from a pyramidal file format is needed, only the higher resolution file should be present in the raw data.</p>
+<p>In summary, this type of data storage, which is constantly evolving and improving, provides a consistent way to associate a file with the necessary metadata needed to perform further image analysis (Fig 3.3). A more comprehensive and exhaustive overview concerning how to properly apply the BIDS format on your dataset can be found <a href="https://bids-specification.readthedocs.io/en/stable/modality-specific-files/microscopy.html">here</a>. </p>
+<p><img alt="illustration following BIDS format" src="../../assets/images/BIDS3_Improved_Sanne2.png" width="600" /></p>
+<p><em>Figure 3.3</em> - Illustration of rat spinal cord SEM overview following a BIDS format (modified from Zaimi et al., 2018 and extract from Bourget et al. 2022).</p>
+<h3 id="43-big-genetic-datasets">4.3) Big Genetic Datasets</h3>
+<p>There are many ways to capture interindividual genetic variation. In order to make it simple, we are going to look at the most commonly analysed variants: Single Nucleotide Polymorphisms (SNPs). SNPs are places in the genome where one letter differs between people, for example, in chromosome 19, position 44908822 some people have a C (Cytosine) base, others have a T (Thymine). This is the APOE SNP, an important genetic factor for Alzheimer’s disease. This SNP would be represented either by a SNP ID - in this case, <mark style="background-color: #FFF9A0">19</mark>:<mark style="background-color: #C3F5BB">45412079</mark>:<mark style="background-color: #A8E8F5">C_T</mark> (usually written in the form  <mark style="background-color: #FFF9A0">chromosome</mark>:<mark style="background-color: #C3F5BB">base pair</mark>:<mark style="background-color: #A8E8F5">allele1_allele2</mark>) - or by its rsID - rs7412 (which you have to look up online).</p>
+<p>“Genomic data” usually refers to data either from whole genome/exome sequencing or from SNP arrays. Because we mostly know which positions of the DNA are SNPs, we mostly use SNP arrays to genotype people as this technology is more accessible than whole genome sequencing, especially for genotyping (large) datasets of clinical populations, which is why we will focus on this method in this chapter. However, it is important to keep in mind that this approach has certain limitations: it may fail to detect genetic variations that are not part of the SNP array being used, which is particularly important to keep in mind if we are interested in rare genetic variation. 
+Here’s a video if you want to know more about <a href="https://www.youtube.com/watch?v=PeFOjLEJkrA">SNP arrays</a> or <a href="https://www.youtube.com/watch?v=MvuYATh7Y74&amp;t=1s">next generation sequencing (whole genome/whole exome) genotyping</a>.</p>
+<p>SNP arrays can be seen as a bunch of lightbulbs on a plate: if the SNP is present, the well lights up, if it isn’t present, it doesn’t. This information is usually stored in VCF (variant call format) files. The first step of every genetic analysis pipeline is quality control of these reads and hard-calling them, that is, make the good quality SNPs a 0 (absent) or a 1 (present). For more information on quality control, see <a href="https://www.youtube.com/watch?v=xkA0qRxfDLs">this video</a>. </p>
+<h4 id="genomic-builds"><strong>Genomic builds</strong></h4>
+<p>One of the most crucial aspects to consider when handling a VCF file is the genomic build on which it is founded. The genomic build is a different reindexing of the genome. This has consequences for genomic positions and SNP IDs (and rsIDs). There are two main builds, equally used, GRCh37 and GRCh38. Most of the newer big datasets are using GRCh38 but a lot of the data is still in build GRCh37. The same APOE SNP is 19:44908822:C_T in GRCh38 and 19:45412079:C_T in GRCh37, which can lead to major interpretation errors! Here’s <a href="https://www.youtube.com/watch?v=DeZTPCOKZrg">a video</a> with more information on genomic builds.</p>
+<p>Once you have hard-called the SNP data as described above, they can be stored in VCF format or transferred to a more optimised binary format like the plink format. Plink is a popular state-of-the-art tool in statistical genetics that allows you to do all sorts of quality control, genome-wide association studies, etc. Plink format (.bim, .bed, .fam) is widely used and supported across many different genetic tools. Plink format contains 3 files. The build of the genome is not specified anywhere in these formats. You always have to mind the meta-data. </p>
+<pre><code>- .bim is the file with all the variant information: chromosome (19), position (45412079), name (19:45412079:C_T), reference allele (C) and alternative allele (T). You can use the information of this file to check the build. Look for the chromosome and position of some SNPs in dbSNP to see whether they match build GRhC37 or 38.
+- .fam file which contains subject information and relatives' information (whether the subject has any relatives in the sample).
+- .bed is a non-human readable binary file with a gigantic matrix with the information of your subjects (rows are SNPs, columns are subjects).
+</code></pre>
+<p>This text serves merely as an overview. The critical aspect to consider is that these files cannot be altered manually as doing so may result in misalignment, compromising all analyses. Furthermore, these files cannot be separated as they contain complementary information, and software programs require all of them to function properly. For additional information, please refer to the following <a href="https://www.cog-genomics.org/plink/1.9/formats#fam">page</a>. </p>
+<p>There are quite some steps missing to perform your analyses, but this should give you an idea of the basics! For more information on all of the steps from collecting DNA to discovering processes relevant for disease you can look up the following resources:
+<a href="https://pgcanalytics.github.io/pgcvideotextbook/">PGC Video Textbook</a>
+<a href="http://gusevlab.org/projects/hsq/">A molecular genetics perspective on the heritability of human behaviour and group differences</a>
+<a href="https://cloufield.github.io/GWASTutorial/">GWAS Tutorial Guide</a>
+Or contact me! (b.maciel@vu.nl).</p>
+<h3 id="44-clinical-data-management">4.4) Clinical data management</h3>
+<p>For clinical, demographic, and behavioural data, accurate and meticulous data management is essential to create a high-quality database for statistical analysis. Procedures to ensure high-quality standards include database designing, data entry, data annotation, data validation, discrepancy management, and database locking. A review article highlights the processes and recommended tools for clinical data management. Common software for Electronic Data Capture (EDC) include: REDcap, Castor, Greenlight Guru Clinical, Medidata Rave, Clinion.</p>
+<p>Spreadsheets and documents are widely used for various purposes including collecting, storing, manipulating, analysing, and documenting research data. However, it's important to exercise caution as improper use of them can lead to significant errors in workflows. Our recommendation is to follow the <a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage">Turing Way</a>. </p>
+<h3 id="45-work-in-progress">4.5) Work in progress</h3>
+<p>For some data types, there is no standard yet. Efforts are ongoing in various fields to develop standardised approaches for data storage and sharing. While there's still progress to be made, we recommend reaching out to colleagues engaged in similar work or data. Collaborating and sharing experiences can provide valuable insights into effective data storage practices.</p>
+<h2 id="5-sharing-your-own-data">5. Sharing your own data</h2>
+<p>Besides sharing your results in a manuscript, it is becoming good practice to also share your methods (scripts, pipelines) and even your data (raw or processed) with the world. This way, others can apply your methods to their own data, or even replicate or further investigate your results in the original dataset. We’ve already discussed the sharing of analysis documentation earlier in this chapter. Several platforms exist to facilitate the sharing of raw and processed data. </p>
+<p>Importantly, always ensure you know what you are permitted to share and what is restricted. Before sharing anything, we recommend consulting with your institution's legal team and privacy officer. If data sharing is not allowed (e.g., due to a lack of participant consent), shift your focus to sharing other valuable components like metadata or documentation as part of promoting transparency. </p>
+<h3 id="51-dans-data-archiving-and-networked-services-dans-knaw">5.1) DANS: Data Archiving and Networked Services (Dans-KNAW)</h3>
+<p><a href="https://dans.knaw.nl/nl/">DANS</a> is a service offered by the Dutch national centre of expertise and repository for research data, which supports researchers in making their data available for reuse. DANS is not specific to neuroscience but ensures sustainable access to research data in fields ranging from social sciences to life, and physical sciences. DANS currently offers more than 200.000 datasets in their repository. It is possible to either <a href="https://dans.knaw.nl/en/depositing-data-manual/">deposit data</a> or search for data in their field-specific data stations. When depositing data, you sign a deposit agreement, stating the terms of the licences for reuse. There are two access categories: open access (accessible to everyone, no login required) and restricted access (with your prior consent users may view and download data). After publication by DANS, the dataset receives a persistent identifier and will be permanently archived and accessible to others. When downloading a dataset from the repository, users have to accept a data use agreement (Fig. 3.4). Note that for pseudonymous data, most institute ethical boards require that the data are deleted after 15 years. This is possible, but not facilitated by DANS (the user agreement states that you may request changes, temporary unavailability, or permanent removal of your data from the platform). </p>
+<p><img alt="choosing a license" src="../../assets/images/DANS_license.png" width="600" /></p>
+<p><em>Figure 3.4</em> - <a href="https://dans.knaw.nl/nl/">DANS repository</a> - choosing a license.</p>
+<h3 id="52-data-curation">5.2) Data curation</h3>
+<p>Data curation, in other words, means “cleaning up your data for them to be used for any purpose”. After data collection, the process of data curation can be broken down into several steps:</p>
+<ul>
+<li><strong>Appraisal:</strong> Select the appropriate data
+Enter, digitise, transcribe, check, validate, clean, and (pseudo)anonymise the data</li>
+<li><strong>Disposal:</strong> Discard data based on the appraisal step
+Archive, transfer ownership of, or destroy the data</li>
+<li><strong>Description:</strong> Write documentation and metadata, choose a licence</li>
+<li><strong>Preservation and access:</strong> Keep the dataset and its descriptions in a data repository based on the sharing restrictions of the data (restricted/open access)</li>
+<li><strong>Transformation:</strong> Process and analyse the data to generate new information</li>
+</ul>
+<p>More information on these data curation steps and tips to help you curate your data can be found <a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-data-curation">here</a>. </p>
+<h2 id="6-using-open-datasets">6. Using Open Datasets</h2>
+<p>Besides repositories such as DANS - where researchers can share their datasets collected for specific projects and research questions - there are some large open datasets out there which are collected for the purpose of being used by anyone interested. These datasets generally contain a wide range of variables (demographic, clinical, lab, neuroimaging) that are less specific, but collected in many participants. Some can be accessed for free, some require a membership for which the costs can range between a couple hundred to ten thousand euros.</p>
+<p>Wikipedia hosts an extensive list of available open datasets related to neuroscience <a href="https://en.wikipedia.org/wiki/List_of_neuroscience_databases">here</a>. We summarised a couple of well-known open datasets below:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Platform</th>
+<th style="text-align: left;">Links</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">OpenNeuro</td>
+<td style="text-align: left;">Main page: https://openneuro.org/ Documentation: https://docs.openneuro.org/ Search Engine: https://openneuro.org/search</td>
+<td style="text-align: left;">A free and open platform for validating and sharing BIDS-compliant MRI, PET, MEG, EEG, and iEEG data. Contains 994 public datasets of 40,098 participants</td>
+</tr>
+<tr>
+<td style="text-align: left;">ADNI: Alzheimer's Disease Neuroimaging Initiative</td>
+<td style="text-align: left;">https://adni.loni.usc.edu/</td>
+<td style="text-align: left;">Sharing Alzheimer’s researchdata with the world (MRI, PET, genetics, cognitive tests, CSF and blood biomarkers). Contains three large datasets of MCI, AD, and elderly controls</td>
+</tr>
+<tr>
+<td style="text-align: left;">HCP: Human Connectome Project</td>
+<td style="text-align: left;">http://www.humanconnectomeproject.org/</td>
+<td style="text-align: left;">The Human Connectome Project provides an compilation of neural data, an interface to graphically navigate this data and the opportunity to achieve never before realised conclusions about the living human brain.</td>
+</tr>
+<tr>
+<td style="text-align: left;">UK Biobank</td>
+<td style="text-align: left;">https://www.ukbiobank.ac.uk/</td>
+<td style="text-align: left;">The UK BioBank hosts a uniquely powerful biomedical database that can be accessed globally by approved researchers. It contains de-identified data from half a million UK Biobank participants with neuroimaging, genetic, clinical, cognitive, and biological sample data.</td>
+</tr>
+<tr>
+<td style="text-align: left;">NeuroMorpho</td>
+<td style="text-align: left;">https://neuromorpho.org/</td>
+<td style="text-align: left;">NeuroMorpho is an initiative undertaken by George Mason University with the objective of assembling and disseminating 3D reconstructions of neuronal and glial structures across various species (from C. elegans to human).</td>
+</tr>
+<tr>
+<td style="text-align: left;">BioImage Archive</td>
+<td style="text-align: left;">https://www.ebi.ac.uk/bioimage-archive/</td>
+<td style="text-align: left;">This archive aims to enable FAIR data sharing by collecting biological images from multiple fields of expertise. The primary goal is to bridge the gap between research biologists, computational scientists, and imaging experts.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Image Data Resource (IDR)</td>
+<td style="text-align: left;"><a href="https://idr.openmicroscopy.org/">IDR WebPage</a> and <a href="https://www.nature.com/articles/nmeth.4326">Paper Williams et al., 2017</a></td>
+<td style="text-align: left;">IDR is is a public repository of image datasets from published articles, mainly focus on cell and tissue acquisition from electron microscopy to super-resolution staining, that is constantly updated.</td>
+</tr>
+<tr>
+<td style="text-align: left;">CellMarker 2.0</td>
+<td style="text-align: left;"><a href="http://bio-bigdata.hrbmu.edu.cn/CellMarker/">CellMarker WebPage</a> and <a href="https://academic.oup.com/nar/article/51/D1/D870/6775381">Paper Hu et al., 2023</a></td>
+<td style="text-align: left;">CellMarker, version 2.0, is an extensive database of marker, based on single-cell RNAseq approach, from a wild variety of tissue and cell types from human and mouse samples. Ideal if you don’t know where to look for immunostaining or qPCR.</td>
+</tr>
+<tr>
+<td style="text-align: left;">A call for public archives for biological image data</td>
+<td style="text-align: left;"><a href="https://www.nature.com/articles/s41592-018-0195-8">Review Ellenberg et al., 2018</a></td>
+<td style="text-align: left;">This comprehensive review published in 2018 lists a consistent and impressive array of open databases for all disciplines and expertise, some of which are listed above, highlighting the necessity to promote the accessibility of billions of data ready to be re-used.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="references">References</h2>
+<p>Bourget, M., Kamentsky, L., Ghosh, S. S., Mazzamuto, G., Lazari, A., Markiewicz, C. J., Oostenveld, R., Niso, G., Halchenko, Y. O., Lipp, I., Takerkart, S., Toussaint, P., Khan, A. R., Nilsonne, G., Castelli, F. M., Maintainers, B., &amp; Cohen-Adad, J. (2022). Microscopy-BIDS: An Extension to the Brain Imaging Data Structure for Microscopy Data. <em>Frontiers in Neuroscience</em>, <em>16</em>, 871228. <a href="https://doi.org/10.3389/fnins.2022.871228">https://doi.org/10.3389/fnins.2022.871228</a></p>
+<p>Gorgolewski, K. J., Auer, T., Calhoun, V. D., Craddock, R. C., Das, S., Duff, E. P., Flandin, G., Ghosh, S. S., Glatard, T., Halchenko, Y. O., Handwerker, D. A., Hanke, M., Keator, D., Li, X., Michael, Z., Maumet, C., Nichols, B. N., Nichols, T. E., Pellman, J., . . . Poldrack, R. A. (2016). The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments. <em>Scientific Data</em>, <em>3</em>(1), 160044. <a href="https://doi.org/10.1038/sdata.2016.44">https://doi.org/10.1038/sdata.2016.44</a></p>
+<p>Krishnankutty, B., Bellary, S., Kumar, B. N., &amp; Moodahadu, L. (2012). Data management in clinical research: An overview. <em>Indian Journal Of Pharmacology</em>, <em>44</em>(2), 168. <a href="https://doi.org/10.4103/0253-7613.93842">https://doi.org/10.4103/0253-7613.93842</a></p>
+<p>Uffelmann, E., Huang, Q. Q., Munung, N. S., De Vries, J., Okada, Y., Martin, A. R., Martin, H. C., Lappalainen, T., &amp; Posthuma, D. (2021). Genome-wide association studies. <em>Nature Reviews Methods Primers</em>, <em>1</em>(1). <a href="https://doi.org/10.1038/s43586-021-00056-9">https://doi.org/10.1038/s43586-021-00056-9</a></p>
+<p>Zaimi, A., Wabartha, M., Herman, V., Antonsanti, P., Perone, C. S., &amp; Cohen-Adad, J. (2018). AxonDeepSeg: automatic axon and myelin segmentation from microscopy data using convolutional neural networks. <em>Scientific Reports</em>, <em>8</em>(1), 3816. <a href="https://doi.org/10.1038/s41598-018-22181-4">https://doi.org/10.1038/s41598-018-22181-4</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

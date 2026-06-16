@@ -1,0 +1,1714 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../3-data_organisation/">
+      
+      
+        <link rel="next" href="../5-publishing_preprints/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/logos/logo_OS_Guidebook.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>4. Open Software & Tools - Open Science Guidebook for Neuroscientists</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-4-open-source-software-and-tools-for-neuroscience" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Open Science Guidebook for Neuroscientists" class="md-header__button md-logo" aria-label="Open Science Guidebook for Neuroscientists" data-md-component="logo">
+      
+  <img src="../../assets/logos/logo_OS_Guidebook.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Open Science Guidebook for Neuroscientists
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              4. Open Software & Tools
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Open Science Guidebook for Neuroscientists" class="md-nav__button md-logo" aria-label="Open Science Guidebook for Neuroscientists" data-md-component="logo">
+      
+  <img src="../../assets/logos/logo_OS_Guidebook.png" alt="logo">
+
+    </a>
+    Open Science Guidebook for Neuroscientists
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapters
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chapters
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2-preregistration_protocols/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Preregistration & Protocols
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3-data_organisation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Data Organisation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Open Software & Tools
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Open Software & Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#this-chapter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        This chapter...
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-reproducible-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Reproducible Science
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-coding-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Coding Fundamentals
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Coding Fundamentals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-basic-concepts-about-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1) Basic concepts about programming
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-programming-languages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2) Programming languages
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-other-development-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3) Other development tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-tips-and-tricks-on-the-coding-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4) Tips and tricks on the coding fundamentals
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-code-annotation-and-version-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Code annotation and Version Control
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Code annotation and Version Control">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-code-annotation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1) Code annotation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-git-and-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2) Git and GitHub
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2) Git and GitHub">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-create-your-own-github-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to create your own GitHub account
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-git-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to use Git &amp; GitHub
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-ignore-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Git Ignore File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#readme-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Readme File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contributing-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contributing File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#licences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Licences
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-code-review-and-code-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3) Code Review and Code Test
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-quality-assessment-of-your-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Quality Assessment of Your Data
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Quality Assessment of Your Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-packages-for-data-descriptives-and-visualization-in-python-and-r" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1) Packages for Data Descriptives and Visualization in Python and R
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-quality-control-of-neuroimaging-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2) Quality Control of Neuroimaging Data
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-anonymising-data-defacing-and-editing-headers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Anonymising Data: Defacing and Editing Headers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-open-neuroimaging-analysis-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Open Neuroimaging Analysis Tools
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5-publishing_preprints/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. Publishing & Preprints
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6-communication/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6. Science Communication
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7-create_open_science_working_group/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7. Set up Your Own Working Group
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../8-recognition_reward/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8. Recognition & Reward
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../working_group/core_team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About the team
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../awards/aumc_awards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amsterdam UMC Open Science Awards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#this-chapter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        This chapter...
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-reproducible-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Reproducible Science
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-coding-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Coding Fundamentals
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Coding Fundamentals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-basic-concepts-about-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1) Basic concepts about programming
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-programming-languages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2) Programming languages
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-other-development-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3) Other development tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-tips-and-tricks-on-the-coding-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4) Tips and tricks on the coding fundamentals
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-code-annotation-and-version-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Code annotation and Version Control
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Code annotation and Version Control">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-code-annotation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1) Code annotation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-git-and-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2) Git and GitHub
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2) Git and GitHub">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-create-your-own-github-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to create your own GitHub account
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-git-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to use Git &amp; GitHub
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-ignore-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Git Ignore File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#readme-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Readme File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contributing-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contributing File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#licences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Licences
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-code-review-and-code-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3) Code Review and Code Test
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-quality-assessment-of-your-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Quality Assessment of Your Data
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Quality Assessment of Your Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-packages-for-data-descriptives-and-visualization-in-python-and-r" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1) Packages for Data Descriptives and Visualization in Python and R
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-quality-control-of-neuroimaging-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2) Quality Control of Neuroimaging Data
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-anonymising-data-defacing-and-editing-headers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Anonymising Data: Defacing and Editing Headers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-open-neuroimaging-analysis-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Open Neuroimaging Analysis Tools
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="chapter-4-open-source-software-and-tools-for-neuroscience">Chapter 4: Open Source Software and Tools for Neuroscience</h1>
+<p><strong>Authors: Mar Barrantes-Cepas, Eva van Heese, Eva Koderman, Diana Bocancea, Lucas Baudouin; Reviewer: Chris Vriend</strong></p>
+<h3 id="this-chapter">This chapter...</h3>
+<ul>
+<li>provides an introduction to <strong>coding fundamentals</strong>; </li>
+<li>shares <strong>practical pointers</strong> on code annotation;</li>
+<li>advises on version control using <strong>git/github</strong>;</li>
+<li>suggests a workflow for <strong>code review</strong> and <strong>testing</strong>;</li>
+<li>supplies lists of <strong>open-source packages</strong> and <strong>tools</strong> for data processing &amp; visualisation, quality control, and anonymisation.</li>
+</ul>
+<h2 id="1-reproducible-science">1. Reproducible Science</h2>
+<p>In this chapter, we’ll show you practical tools and software to help make your neuroscience research more reproducible. By using scripts instead of graphical user interfaces, open source software, and version control, you’ll not only make your work easier to manage, but also ensure others can replicate your findings and easily collaborate with you. This way you can easily follow the <strong>FAIR</strong> principles for improving <strong>F</strong>indability, <strong>A</strong>ccessibility, <strong>I</strong>nteroperability, and <strong>R</strong>eusability (see <a href="https://www.go-fair.org/fair-principles/">GO FAIR</a> for more details on the FAIR principles).</p>
+<p><strong>Reproducibility</strong> is at the core of good science – it helps move the field forward by making sure discoveries can be verified and expanded upon. Increasing reproducibility in neuroscience can be approached in two ways: ‘top-down’, where institutions reshape incentives and frameworks (i.e. changes at the meso-level, see <a href="https://zenodo.org/records/10663903">here</a>, and from the ‘bottom-up‘, where individual researchers adopt better practices. While both approaches are necessary, this chapter focuses on the bottom-up approach, providing you with the tools and guidelines to enhance your work. </p>
+<p>Although sharing data in clinical neuroscience can be challenging due to privacy, legal concerns and logistical barriers, this shouldn’t be an excuse not to share your code and materials. Developing your work with this in mind, you can help promote transparency and reproducibility by ensuring that your code is shareable and accessible to others.</p>
+<h2 id="2-coding-fundamentals">2. Coding Fundamentals</h2>
+<p>You might already know much of what will be discussed in the following section. Should that be the case, you can browse through the headers to double-check your knowledge! Otherwise, here is a summary of some concepts you need for best coding practices. </p>
+<h3 id="21-basic-concepts-about-programming">2.1) Basic concepts about programming</h3>
+<p>A <strong>Graphical User Interface (GUI)</strong> is a digital interface that allows users to interact with graphical elements such as icons, buttons, and menus (e.g., SPSS or MATLAB). GUIs are user-friendly because they provide intuitive visual cues for navigation and task execution. However, they are less effective for reproducibility, as it can be challenging to track or recall the exact steps and parameters used during analysis if you don’t note them somewhere. Moreover, scripts provide more flexibility, can optimise compute efficiency through job parallelisation, and require less manual work, resulting in greater control over your data.</p>
+<p>To address these issues, it is advisable to <strong>use scripts for your methodology</strong>. Scripts provide a record of all actions taken and parameters used, making it easier to reproduce and share your work with others. Fortunately, many software packages and pipelines also offer the option to execute commands directly through a terminal. For instance, if properly installed, FSL commands can run from the terminal. To learn more about this, consult the log files or documentation specific to the tool you are using.</p>
+<h3 id="22-programming-languages">2.2) Programming languages</h3>
+<p>In programming, just as in everyday life, a wide array of languages are available for writing your scripts—more than you might imagine! Check out the <a href="https://en.wikipedia.org/wiki/List_of_programming_languages">List of programming languages - Wikipedia</a>. The most commonly used languages for data analysis in neuroscience are <strong>Bash, C++, Python, MATLAB, and R</strong>. An additional language that can help with your publication manuscript is <strong>LaTeX</strong>. The choice of language often depends on your personal preferences and the specific needs of your project. In this section, we outline the main differences between these languages, discuss Open Science-related considerations, and offer tips for maximizing the benefits of each.</p>
+<p><a href="https://www.gnu.org/software/bash/">Bash</a> is excellent for automating command-line tasks and system administration. It enables you to execute and automate terminal commands and call various tools through scripts. </p>
+<p><a href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a> is used for computationally intensive projects, and most command-line tools are programmed with it due to its performance capabilities.</p>
+<p><a href="https://www.python.org/">Python</a>, <a href="https://nl.mathworks.com/products/matlab.html">MATLAB</a>, and <a href="https://www.r-project.org/about.html#:~:text=R%20is%20a%20language%20and,by%20John%20Chambers%20and%20colleagues.">R</a> are high-level languages, meaning they are easy to use, understand, portable, and independent from specific hardware. Python is a versatile and user-friendly programming language, making it an ideal choice for data analysis. R is designed specifically for statistical analysis and data visualisation, making it popular among statisticians and data scientists. MATLAB excels in numerical computation and visualisation but requires a paid licence.</p>
+<p>A programming tool that is not strictly speaking a data analysis pipeline development tool but can still help you in the preparation of your manuscript for publication is <a href="https://www.latex-project.org/">LaTeX</a>. Some journals even offer their LaTeX templates! It is specifically useful when your manuscript contains formulas, graphs that are still in the making, or pieces of code, since it allows you to easily add everything beautifully without spending too much time looking for the correct character. Different editors, such as Overleaf or Visual Studio Code, will enable you to use it. Some extra tools that will enhance your experience with LaTeX are <a href="https://detexify.kirelabs.org/classify.html">Detexify</a>, which helps to find characters you might not know how they are called, or a <a href="https://www.tablesgenerator.com/">Tables converter</a> into LaTeX format.</p>
+<p>An extra thing to consider when choosing your programming language is your <a href="https://datascience.aero/green-programming-reducing-your-carbon-emissions-when-coding/">carbon emission when coding</a>. High-level languages, like Python, tend to consume more energy and need more time to run than compiled languages, like C.</p>
+<h3 id="23-other-development-tools">2.3) Other development tools</h3>
+<p>But there’s more to consider! Besides programming languages, you’ll also need to manage <a href="https://careerfoundry.com/en/blog/web-development/programming-library-guide/">libraries</a>. </p>
+<p><strong>Libraries</strong> are collections of pre-written code that extend the functionality of a programming language, simplifying complex tasks. Just as programming languages have different versions, libraries can also have multiple versions due to updates and bug fixes. When multiple people work on the same coding file (see below - <a href="https://anw-open-science.github.io/Open-Science-Guidebook-for-Neuroscientists/tabs/4-open_software_tools/#32-git-and-github">Version control</a>), it is important to use consistent versions of programming languages and libraries across the team. In addition, different versions of libraries may introduce, change, or remove functions, so a specific function might only work with a particular version due to compatibility requirements. <strong>Software tools</strong> can act as GUIs to simplify data analysis. However, tools can be built using programming that is not open source (i.e., Matlab) and therefore the tools themselves are also not open source. </p>
+<p>Virtual environments and containers are tools used in software development to create <strong>isolated and controlled environments</strong> for running applications and managing dependencies.</p>
+<p>A <strong>virtual environment</strong> in Python is an isolated environment that allows you to install and manage dependencies for a specific project without affecting the global Python installation or other projects. It helps ensure that each project can have its dependencies and versions, avoiding conflicts between projects.</p>
+<p>A <strong>container</strong> is an isolated unit, and is much more comprehensive tool that isolates not just the programming environment but the entire software environment, including the operating system, system libraries, runtime, and application code - making it more versatile for deploying and running consistent environments across different systems. Containers offer several advantages (<a href="https://www.ibm.com/think/insights/the-benefits-of-containerization-and-what-it-means-for-you">check this page</a>):</p>
+<ul>
+<li><em>Portability and consistency</em>: Whether a container runs on a developer’s laptop or server, the bundled application will run consistently in various environments. </li>
+<li><em>Resource efficiency</em>: Containers are lightweight and use less memory and CPU compared to traditional virtual machines. </li>
+<li><em>Flexibility</em>: Individual components of an application can be updated, scaled, or deployed independently, leading to a more flexible development and deployment process. </li>
+</ul>
+<p>Containerised software is particularly useful in neuroscience research because it guarantees that processing pipelines run reliably and uniformly across different computing environments without researchers worrying about variations in software dependencies or system configurations, for example in collaborations between different institutes. This consistency is crucial for reproducibility in research.</p>
+<p>Useful open-source tools within science also include LibreOffice and Inkscape. <a href="https://www.libreoffice.org/download/download-libreoffice/">LibreOffice</a> is a free and open-source alternative to Microsoft Office applications like Word, PowerPoint, Excel, and Access. It offers similar functionalities for document creation, presentations, spreadsheets, and database management. For poster creation or data visualisation, you can opt for <a href="https://inkscape.org/">Inkscape</a>. It is a free and open-source vector graphics editor that is widely used for creating and editing scalable vector graphics (SVG) files. </p>
+<h3 id="24-tips-and-tricks-on-the-coding-fundamentals">2.4) Tips and tricks on the coding fundamentals</h3>
+<p>To make your project  as <em>open sciency</em> as possible, we provide a few tips:</p>
+<ul>
+<li>GUIs might help you get acquainted with the preprocessing or analysis steps. However, once you have that understanding, it might be better to <strong>switch to scripts</strong>.</li>
+<li>Opt for open-source programming languages and tools that don’t require a paid license. While MATLAB might be available through your institute, remember that someone still pays for it. </li>
+<li>If you need a specific tool available in MATLAB, <strong>consider finding an open-source alternative</strong>. For example, <a href="https://pypi.org/project/bctpy/">bctpy</a> is an open-source Python version of the MATLAB-based tool Brain Connectivity Toolbox. </li>
+<li>If you're developing a tool, <strong>open-source software can be beneficial</strong>: Even if you're used to MATLAB, exploring other languages like Python, R, or C++ could be a valuable opportunity to expand your skills!</li>
+<li>Opt for open-source tools that can be easily put in a container. For example, Python with Docker is far more container-friendly than MATLAB. </li>
+<li>To ensure consistency and avoid issues, <strong>it's crucial to keep track of the versions of both the programming language and the libraries you use</strong>. When using Python, we recommend using <a href="https://docs.python.org/3/library/venv.html">virtual environments</a> to manage multiple project environments and to keep your libraries and their versions organised. This approach will make it easier to handle libraries, maintain your projects, and share them with others. </li>
+</ul>
+<h2 id="3-code-annotation-and-version-control">3. Code annotation and Version Control</h2>
+<p>This section offers guidance on optimising version control and annotation practices. It covers best practices for streamlining version control, how to integrate them within your team, and the ideal workflow to adopt for maximum efficiency.</p>
+<h3 id="31-code-annotation">3.1) Code annotation</h3>
+<p>When working on a script, it is important to annotate your code. Annotation is essential to make code understandable, discoverable, citable, and reusable. More specific to code annotation, it is important to keep in mind the following:</p>
+<ul>
+<li>At the top of your script, you should describe the aim of the script</li>
+<li>Declare who wrote the code and when. Is it finished?</li>
+<li>Has anyone reviewed this code? When?</li>
+<li>Declare required libraries with their versions or create a requirements.txt file for python or R that contains library version and can be used to create a virtual environment</li>
+<li>Describe the desired input and expected output of your code</li>
+<li>Each programming language comes with its own sets of syntax standards. Therefore, beware of specific <a href="https://www.freecodecamp.org/news/programming-naming-conventions-explained/">programming languages naming conventions</a></li>
+<li>Annotate your code using <a href="https://en.wikipedia.org/wiki/Docstring">Docstrings</a></li>
+<li>Leave useful comments throughout the script to help others understand your code (i.e., what does a function do?). Avoid unnecessary comments (i.e., if the function’s role is already evident from the function name).</li>
+</ul>
+<p>To help get you started, you can check out these <a href="https://github.com/marbarrantescepas/script-templates">script templates</a>, guidance, and examples. This tool is also useful for formatting your code (and making it beautiful!) - <a href="https://black.readthedocs.io/en/latest/">Black Vercel</a>. </p>
+<h3 id="32-git-and-github">3.2) Git and GitHub</h3>
+<p><a href="https://book.the-turing-way.org/reproducible-research/vcs">Version control</a> is a method used to document and manage changes to a file or collection of files over time. It allows you and your collaborators to monitor the history of revisions, review modifications, and revert to previous versions when necessary. This is useful, especially when working together on a script. The most prevalent version control system that can help with that is Git.</p>
+<p><strong>Git</strong> is a <a href="https://en.wikipedia.org/wiki/Version_control">version control</a> system that tracks file changes. This can be helpful when working on your own scripts, as well as for the coordination of work among multiple people on a project. <strong>GitHub</strong> and <strong>GitLab</strong> are web-based platforms that host <strong>Git repositories</strong>, along with additional features like issue tracking, code reviews, and continuous integration. The main difference between them is that GitHub is more focused on open-source collaboration and has a large user community, while GitLab offers more built-in tools and is known for its flexibility in deployment options, including self-hosting. Both of them allow the creation of private and public repositories. </p>
+<p>If you want to learn more about pros and cons and the current status of Git(-related) tools at Amsterdam UMC, please check <a href="https://zenodo.org/records/11065899">this link</a>. Check with your (co)supervisors about the best option to use or if they already have an account for the group. If the account hasn’t been created yet, take the initiative and set it up yourself by following the simple instructions below.</p>
+<h4 id="how-to-create-your-own-github-account">How to create your own GitHub account</h4>
+<p>To create a GitHub account, link it with Git on your local machine, and verify the connection, follow these steps:</p>
+<ol>
+<li>
+<p>Create a GitHub Account:</p>
+<ul>
+<li>Go to <a href="github.com">github.com</a> and click <strong>Sign up</strong>.</li>
+<li>Enter your email, password, and username. Then verify your email when prompted.</li>
+<li>After completing the sign-up steps, your account will be created.</li>
+</ul>
+</li>
+<li>
+<p>Install Git (if not already installed):</p>
+<ul>
+<li>Download Git from git-scm.com and follow the installation instructions for your operating system.</li>
+</ul>
+</li>
+<li>
+<p>Link Git with Your GitHub Account:</p>
+<ul>
+<li>Open a terminal or command prompt and configure your Git username and email (these should match your GitHub account):
+<code>git config --global user.name "YourGitHubUsername"</code>
+<code>git config --global user.email "your_email@example.com"</code></li>
+<li>Generate an SSH key (if you want to authenticate using SSH, recommended for security):
+<code>ssh-keygen -t ed25519 -C "your_email@example.com"</code></li>
+<li>Press Enter through the prompts to generate the key pair.</li>
+<li><strong>Add the SSH key to your GitHub account</strong></li>
+<li>Copy the SSH key to your clipboard: <code>cat ~/.ssh/id_ed25519.pub</code></li>
+<li>Go to your GitHub profile, click <strong>Settings → SSH and GPG keys</strong>, and paste the SSH key.</li>
+</ul>
+</li>
+<li>
+<p><strong>Verify the Connection:</strong></p>
+<ul>
+<li>In the terminal, test the connection with GitHub: <code>ssh -T git@github.com</code></li>
+<li>If successful, you'll see a message like: <code>Hi username! You've successfully authenticated.</code></li>
+</ul>
+</li>
+</ol>
+<p>Now Git is linked to your GitHub account, and you can push, pull, and collaborate on projects directly from your local machine. Not sure what these terms mean? Check below!</p>
+<h4 id="how-to-use-git-github">How to use Git &amp; GitHub</h4>
+<p>Once you have a good feeling of the Github lingo, the version control should be easy peasy. Here are some basics on the terminology and a tutorial to help get you started:</p>
+<ul>
+<li>A <strong>repository</strong> (or "repo") is a central location where a project's code, along with its version history, is stored and managed. It is essentially a folder in which your project's files and folders reside, along with all the necessary information to track changes, collaborate with others, and version control the project over time.</li>
+<li>A <strong>branch</strong> is an independent line of development within a repository. It allows you to work on different features, bug fixes, or experiments without affecting the main codebase. By default, every repository starts with a ‘<strong>main</strong>‘ (or previously ‘<strong>master</strong>’) branch, which is typically considered the primary or production-ready branch.</li>
+<li><strong>Pulling</strong> a branch means fetching the latest changes from a remote repository (like GitHub) to your local environment. It updates your local copy with any new commits made by others.</li>
+<li><strong>Pushing</strong> a branch means sending your local changes to the remote repository, making them available to others by updating the remote branch. You can also opt to use a private repository which means even pushing to the remote branch won’t make the changes public.</li>
+</ul>
+<p>Here is a <a href="https://docs.github.com/en/get-started/start-your-journey/hello-world">quick tutorial</a> to help get you started with the basics and a visual representation of a GitHub workflow.</p>
+<p><img alt="github workflow" src="../../assets/images/Git_branches.png" width="600" /></p>
+<p><em>Figure 4.1</em> - Visual representation of a GitHub workflow (Image source: <a href="https://onesignal.com/blog/converting-github-repositories-to-main/">OneSignal</a>).</p>
+<p>The main (or previously called the master branch) is where your code lives as the main character. All the other branches are created for the development of a specific feature (or you can think of them as side quests). After the feature development is complete and the code is fully tested and functional, you can merge it back into the main branch. Continue this process until all the feature development is complete.</p>
+<h4 id="git-ignore-file">Git Ignore File</h4>
+<p>Before creating a new GIT repository and linking it to GitHub or GitLab, it is <strong>EXTREMELY</strong> important to make a .gitignore file. Without it, all files in your project, including potentially sensitive or personal data, will be tracked and uploaded by default. This could lead to unintentional data exposure that cannot be shared due to privacy regulations. </p>
+<p>To avoid this, make sure to create a .gitignore file listing all the file types and folders you want to exclude from version control. You can find more detailed guidance in the <a href="https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files">Ignoring files - GitHub Docs</a> and browse <a href="https://github.com/github/gitignore">Some common .gitignore configurations</a> for examples. </p>
+<h4 id="readme-file">Readme File</h4>
+<p>A <a href="https://en.wikipedia.org/wiki/README">README</a> is a text file that introduces and explains a repository because no one can read your mind (yet). If you want to learn how to properly create a README file check: <a href="https://www.makeareadme.com/">Make a README</a> (they also provide templates!) </p>
+<h4 id="contributing-file">Contributing File</h4>
+<p>A <a href="https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors">CONTRIBUTING.md</a> file is a document placed in the root of a project that provides clear guidelines for anyone who wants to contribute to the project. It explains the different ways people can help, such as reporting bugs, suggesting features, improving documentation, or submitting code, and outlines the steps for setting up the project locally, following coding standards, and submitting pull requests. Including this file helps create a welcoming environment, sets expectations, and makes collaboration easier and more organized.</p>
+<h4 id="licences">Licences</h4>
+<p>To check more about licences and licensing, check <a href="https://anw-open-science.github.io/Open-Science-Guidebook-for-Neuroscientists/tabs/3-data_organisation/#13-creative-commons-and-data-licensing">Chapter 3</a>. </p>
+<h3 id="33-code-review-and-code-test">3.3) Code Review and Code Test</h3>
+<p>A <strong>general code workflow</strong> should include several iterations of peer review and end with the scripts being uploaded on GitHub. Peer review ensures that the code is correct and functions well, while the publication of scripts online ensures these are shared with the wider scientific community and improves the reproducibility. In scripts, <strong>correctness</strong> refers to the code's ability to produce the intended results accurately according to specified requirements. In contrast, <strong>reproducibility</strong> ensures that these results can be consistently obtained by different users or in different environments when the same code is run with identical inputs. While correctness confirms that the code functions as intended, reproducibility guarantees that the outcomes can be reliably replicated, which is essential for validating research findings.</p>
+<p>The general workflow of code review that ensures correctness and reproducibility is summarized in the figure below:</p>
+<p><img alt="code review workflow" src="../../assets/images/Code_buddy_fig_Improved_Sanne3.png" width="600" /></p>
+<p><em>Figure 4.2</em> - Visualisation of the workflow for code review.
+As you might notice, there should always be a code owner and a code reviewer who have separate tasks. </p>
+<p><strong>For the code owner:</strong></p>
+<ol>
+<li>Start with your script. Try to write documentation in parallel with your computations, as this will save you time and help build good habits.</li>
+<li>Talk to your supervisor about work ethic - are there standards on how the data should be stored? Data privacy guidelines? </li>
+<li>Create a GitHub account and version control your codes. At the end of your project, you should transfer your version controlled codes to the public repository.</li>
+<li>Talk to your supervisor / the team about potential coding checkpoints for your project (e.g. “check codes together once we have Table or Figure 1”)</li>
+<li>Find a suitable code reviewer at least one month before the end of your project. </li>
+<li>At this point, it is time to put your scripts onto an internal repository.</li>
+<li>You will need your own private GitHub account</li>
+<li><a href="https://www.howtogeek.com/714112/how-to-create-a-new-branch-in-github/">Create a branch</a> for your project</li>
+<li>Open a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request">Pull Request</a></li>
+<li>When reviewers are assigned to your codes, the material should be ready for someone else to use them (e.g. formatted, documented, with a <a href="https://www.freecodecamp.org/news/python-requirementstxt-explained/">requirements.txt</a>, or similar for R/Matlab)</li>
+<li>Implement the changes suggested by the reviewers (or discuss them in person, if necessary)</li>
+<li>Celebrate the end of your project!</li>
+</ol>
+<p><strong>For the reviewer:</strong>
+Please confirm that the code is understandable and well-documented. It is not your job to rewrite the code for the code owner or to test the code’s functionality. If you have to spend too much time on it, send it back to the owner with your remarks and ask them to improve it before your final revision.</p>
+<ol>
+<li>Please check if the owner indicated the mandatory information (what the script is about, who wrote the code and when, declaring libraries with their versions)</li>
+<li>Code peer review tutorials suggest not revising more than 400 lines in one go. Split the job to keep your eyes fresh!</li>
+<li>If your revision is more on the computation/mathematical side, please ensure everything is correct, and results will not be compromised</li>
+<li>Please indicate your suggestions in the GitHub Pull Request. This allows us to keep track of the comments and changes</li>
+<li>For Python users, we strongly recommend the use of <a href="https://docs.python.org/3/library/venv.html">virtual environments</a></li>
+</ol>
+<p>Additional good coding practice, in addition to the code review, is <strong>code testing</strong>. Code-based testing encompasses various methods to ensure software reliability and quality. Techniques like <a href="https://codefresh.io/learn/unit-testing/unit-testing-vs-integration-testing-5-key-differences-and-why-you-need-both/">unit and integration testing</a> help developers validate their code. Unit testing checks individual components of code for correctness, while integration testing ensures that combined components work together as expected.</p>
+<p>A key element of code testing is building a solid foundation of tests that cover different scenarios and edge cases. These tests serve as a safety net, offering ongoing feedback on code functionality. By thoroughly testing, developers can catch and fix issues early, reducing the time and effort needed for debugging and maintenance.</p>
+<h2 id="4-quality-assessment-of-your-data">4. Quality Assessment of Your Data</h2>
+<p>Ensuring the quality of your data is a crucial step in minimising errors and avoiding mistakes that could affect the validity of your research. This applies to all types of data in neuroscience, not just large datasets like neuroimaging, but also to more basic data such as demographics, behavioural scores, or clinical outcomes. Even seemingly simple data can contain errors that may go unnoticed without careful inspection. It’s important to invest time in performing sanity checks, validating your data, and identifying potential errors early on. </p>
+<p>As emphasized in this chapter, adopting ‘bottom-up’ practices, like using scripts, version control, and code review/code test, can help you create more reproducible workflows which can significantly increase the reliability of your findings. Quality assessment is at the core of these practices - helping you catch errors, identify inconsistencies, and ensure that your data is solid, facilitating transparency and collaboration. Cleaning and assessing your data thoroughly can prevent small issues from snowballing into larger problems down the line. By prioritising data quality control (QC) at critical steps during your analysis, you set the foundation for reliable and reproducible research. Below we guide you through practical approaches to assess data quality, from visualizing distributions to performing neuroimaging checks, while highlighting open-source tools that make these tasks more efficient and accessible. </p>
+<h3 id="41-packages-for-data-descriptives-and-visualization-in-python-and-r">4.1) Packages for Data Descriptives and Visualization in Python and R</h3>
+<p>Descriptive statistics and data visualisation are critical first steps in assessing the quality and distribution of your dataset. Visualizing your data, you can quickly identify outliers, assess distributions, and spot inconsistencies that might not be obvious by the raw values. While the exact procedures are dataset and modality specific, here are some <strong>general guidelines</strong> and examples for visualizing data for quality checks, along with the tools to implement them:</p>
+<ul>
+<li><strong>Check Distributions:</strong> Understanding the distribution of each variable is a fundamental step in quality assessment. Look for unexpected skewness, multimodal distributions, or values outside a plausible range. Visual tools: histograms, box plots.</li>
+<li><strong>Look for Outliers:</strong> Outliers can indicate errors or interesting features of your data. Use scatter plots to explore relationships between variables and identify points that fall outside expected ranges. Visual tools: scatter plots, pair plots.</li>
+<li><strong>Assess Missing Data:</strong> Missing data can be visualized to identify patterns and understand whether missingness is random or systematic. Visual tools: heatmaps of missing data, barplots of missing values.</li>
+<li><strong>Validate Categorical Variables:</strong> For categorical data, visualize counts for each category to check for unexpected or inconsistent values. Visual tools: barplots</li>
+<li><strong>Check Relationships in Multivariate Data:</strong> Assess correlations or trends between variables to identify inconsistencies. Visual tools: correlation heatmaps.</li>
+<li><strong>Time Series Data:</strong> For time series data, look for gaps, trends, or anomalies over time. Visual Tools: line plots.</li>
+</ul>
+<p>There are various open-source tools that provide functionalities to easily check and visualize your data:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Language</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OpenRefine</td>
+<td>N/A</td>
+<td>Cleaning and validating structured datasets, especially for demographics or clinical data, as it allows for easy spotting and correction of inconsistencies</td>
+</tr>
+<tr>
+<td>Pandas</td>
+<td>Python</td>
+<td>Data manipulation and summary statistics</td>
+</tr>
+<tr>
+<td>Matplotlib / Seaborn</td>
+<td>Python</td>
+<td>Tools for creating basic (Matplotlib) and advanced (Seaborn) visualizations</td>
+</tr>
+<tr>
+<td>Plotly</td>
+<td>Python</td>
+<td>Creating interactive and dynamic visualizations</td>
+</tr>
+<tr>
+<td>Pandas profiling</td>
+<td>Python</td>
+<td>Automates the generation of detailed data reports, useful for data exploration</td>
+</tr>
+<tr>
+<td>dplyr</td>
+<td>R</td>
+<td>Simplifies data manipulation and allows for descriptive statistics calculation</td>
+</tr>
+<tr>
+<td>ggplot2</td>
+<td>R</td>
+<td>High-quality visualization tool widely used for creating publication-ready plots</td>
+</tr>
+<tr>
+<td>janitor</td>
+<td>R</td>
+<td>Cleaning messy data, removing empty rows, renaming columns, and identifying duplicates</td>
+</tr>
+<tr>
+<td>DataExplorer</td>
+<td>R</td>
+<td>Generating comprehensive data reports to identify missing data, outliers, and distributions</td>
+</tr>
+</tbody>
+</table>
+<h3 id="42-quality-control-of-neuroimaging-data">4.2) Quality Control of Neuroimaging Data</h3>
+<p>Quality control of structural neuroimaging data is important as errors in brain segmentation can lead to inaccurate volume/thickness estimates. Visual inspection is still the gold standard, but as dataset sizes grow, this approach becomes more time-consuming. Thus, automated QC tools are becoming more necessary. Researchers are actively developing tools to handle QC across different imaging modalities, and while many tools are still in development, there are some noteworthy options already available. Automated QC methods are an ongoing area of development, and it's essential to stay updated on new tools that can improve the QC process in neuroimaging.</p>
+<table>
+<thead>
+<tr>
+<th>Software/Tool</th>
+<th>Purpose</th>
+<th>Openness?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://mriqc.readthedocs.io/en/stable/">MRIQC</a></td>
+<td>Open-source tool designed to perform automated quality control on MRI datasets, providing reports on data quality across various MRI metrics.</td>
+<td>fully open</td>
+</tr>
+<tr>
+<td><a href="https://qsiprep.readthedocs.io/en/latest/">QSIPREP</a></td>
+<td>Quality control and processing of diffusion-weighted MRI data.</td>
+<td>fully open</td>
+</tr>
+<tr>
+<td><a href="https://enigma.ini.usc.edu/protocols/imaging-protocols/">ENIGMA QC Protocols</a></td>
+<td>Protocols and guidelines defined by the ENIGMA consortium for performing visual quality checks on segmented MRI data from Freesurfer.</td>
+<td>fully open</td>
+</tr>
+<tr>
+<td><a href="https://www.fil.ion.ucl.ac.uk/spm/software/spm12/">SPM - Matlab</a></td>
+<td>Offers visualization tools for quality checking segmentation outputs. Extensions like CAT12 provide additional QC functionalities.</td>
+<td>Tool itself is open, but requires Matlab (paid licence)</td>
+</tr>
+<tr>
+<td><a href="https://nipype.readthedocs.io/en/latest/">SPM - Python</a></td>
+<td>SPM tool described as above but translated to Python and made fully accessible.</td>
+<td>fully open</td>
+</tr>
+<tr>
+<td><a href="https://fmriprep.org/en/stable/">fMRIPrep</a></td>
+<td>While primarily used for preprocessing, fMRIPrep includes built-in QC features that help flag problematic scans in fMRI datasets, offering both visual reports and metrics for each scan.</td>
+<td>fully open</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Deep-MI/fsqc">FSQC</a></td>
+<td>Open-source tool designed to perform quality assessment of FreeSurfer outputs.</td>
+<td>fully open</td>
+</tr>
+</tbody>
+</table>
+<h2 id="5-anonymising-data-defacing-and-editing-headers">5. Anonymising Data: Defacing and Editing Headers</h2>
+<p>To anonymize and deface brain scan data (typically MRI or CT scans in DICOM or NIfTI formats), several well-established tools are used in neuroimaging research. These tools help remove or obscure facial features and metadata that could be used to identify participants, which is essential for complying with privacy regulations.
+Theyers and colleagues (2021) found that the defacing algorithms provided below vary in their defacing efficiency. Specifically, their analysis shows that the afni_reface and pydeface had the highest accuracy rates. Keep this in mind when choosing your own defacing header!</p>
+<table>
+<thead>
+<tr>
+<th>Tool Name</th>
+<th>Description &amp; Link</th>
+<th>Openly Accessible</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pydeface</td>
+<td><a href="https://github.com/poldracklab/pydeface">Defaces NIfTI MRI scans using a pre-trained face mask</a></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td>mri_deface</td>
+<td><a href="https://surfer.nmr.mgh.harvard.edu/fswiki/mri_deface">Part of FreeSurfer; uses anatomical templates to remove facial features</a></td>
+<td>✅ Yes <em>(FreeSurfer required)</em></td>
+</tr>
+<tr>
+<td>fsl_deface</td>
+<td><a href="https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/fsl_deface">FSL tool to deface T1-weighted images using probabilistic masks</a></td>
+<td>✅ Yes <em>(FSL license)</em></td>
+</tr>
+<tr>
+<td>dcmodify</td>
+<td><a href="https://dicom.offis.de/dcmtk.php.en">DCMTK command-line tool to modify or anonymize DICOM headers</a></td>
+<td>✅ Yes <em>(Source-available)</em></td>
+</tr>
+<tr>
+<td>dcm2niix</td>
+<td><a href="https://github.com/rordenlab/dcm2niix">Converts DICOM to NIfTI and can remove private metadata</a></td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td>dicom-anonymizer</td>
+<td><a href="http://dicom-anonymizer.sourceforge.net/">Java-based GUI tool for anonymizing DICOM files</a></td>
+<td>✅ Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="6-open-neuroimaging-analysis-tools">6. Open Neuroimaging Analysis Tools</h2>
+<p>Within the neuroimaging field of neuroscience, many tools are open source Some require a free licence that can be requested. 
+We’ll review a selection of often applied software and tools:</p>
+<table>
+<thead>
+<tr>
+<th>Software/Tool</th>
+<th>Type of Data</th>
+<th>Purpose</th>
+<th>Openness?</th>
+<th>Recommended Tutorials and Resources</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://fsl.fmrib.ox.ac.uk/fsl/docs/#/">FSL</a></td>
+<td>Several types of MR images</td>
+<td>Process or view images from a variety of modalities</td>
+<td>fully open</td>
+<td><a href="#">FSL Course - YouTube</a></td>
+</tr>
+<tr>
+<td><a href="https://surfer.nmr.mgh.harvard.edu/">FreeSurfer</a></td>
+<td>Anatomical T1w/T2w images</td>
+<td>Perform cortical, subcortical and subfield parcellation</td>
+<td>free licence required (<a href="https://surfer.nmr.mgh.harvard.edu/fswiki/License">request here</a>)</td>
+<td><a href="#">Introduction to FreeSurfer - YouTube</a></td>
+</tr>
+<tr>
+<td><a href="#">fMRIPrep</a></td>
+<td>Functional images</td>
+<td>Perform fMRI preprocessing steps</td>
+<td>fully open</td>
+<td><a href="#">How to Use fMRIPrep - YouTube</a></td>
+</tr>
+<tr>
+<td><a href="#">ANTs</a></td>
+<td>Several types of MR images</td>
+<td>Perform registration, segmentation, and brain extraction of different images</td>
+<td>fully open</td>
+<td><a href="#">Andy's Brain Book - Advanced Normalization Tools (ANTs)</a></td>
+</tr>
+<tr>
+<td><a href="#">CONN</a></td>
+<td>Functional images</td>
+<td>Perform functional connectivity analysis</td>
+<td>fully open</td>
+<td><a href="#">conn-toolbox - YouTube</a></td>
+</tr>
+<tr>
+<td><a href="#">DIPY</a></td>
+<td>Diffusion images</td>
+<td>Perform analysis on diffusion images</td>
+<td>fully open (Python toolbox)</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#">EEGLAB</a></td>
+<td>EEG and other signal data</td>
+<td>Perform signal analysis (from preprocessing to statistical analysis)</td>
+<td>Tool itself is open, but requires Matlab (paid licence)</td>
+<td><a href="#">EEGLAB - YouTube</a></td>
+</tr>
+<tr>
+<td><a href="#">NeuroKit2</a></td>
+<td>EEG and other signal data</td>
+<td>Perform signal analysis (from preprocessing to statistical analysis)</td>
+<td>fully open (Python toolbox)</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#">MNE-Python</a></td>
+<td>EEG signal processing</td>
+<td>Perform signal analysis (from preprocessing to statistical analysis)</td>
+<td>fully open (Python toolbox)</td>
+<td><a href="#">MNE YouTube tutorial</a></td>
+</tr>
+<tr>
+<td><a href="#">PyNets</a></td>
+<td>Structural and functional connectomes</td>
+<td>Perform sampling and analysis for individual structural and functional connectomes</td>
+<td>fully open (Python toolbox)</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#">Spinal Cord Toolbox</a></td>
+<td>Anatomical T1w/T2(*)weighted images</td>
+<td>Perform automated spinal cord segmentation</td>
+<td>fully open</td>
+<td><a href="#">Tutorials - Spinal Cord Toolbox documentation</a></td>
+</tr>
+<tr>
+<td><a href="#">SPM</a></td>
+<td>Time-series (fMRI, PET, SPECT, EEG, MEG)</td>
+<td>Construction and assessment of spatially extended statistical processes used to test hypotheses about functional imaging data</td>
+<td>Tool itself is open, but requires Matlab (paid licence)</td>
+<td><a href="#">Andy's Brain Book - SPM Overview</a></td>
+</tr>
+<tr>
+<td><a href="#">DSI-Studio</a></td>
+<td>Diffusion images</td>
+<td>Perform analysis on diffusion images</td>
+<td>fully open</td>
+<td><a href="#">DSI Studio Workshop - YouTube</a></td>
+</tr>
+<tr>
+<td><a href="#">MRtrix3</a></td>
+<td>Diffusion images</td>
+<td>Perform analysis on diffusion images</td>
+<td>fully open</td>
+<td><a href="#">Diffusion Analysis with MRtrix - YouTube</a></td>
+</tr>
+<tr>
+<td><a href="#">CAT12</a></td>
+<td>Anatomical T1w/T2w images</td>
+<td>Perform diverse morphometric analyses such as VBM, SBM, DBM, RBM</td>
+<td>Tool itself is open, but requires Matlab (paid licence) &amp; SPM</td>
+<td><a href="#">Andy's Brain Book - VBM in CAT12</a></td>
+</tr>
+<tr>
+<td><a href="#">QSIPREP</a></td>
+<td>Diffusion images</td>
+<td>BIDS-compatible preprocessing pipeline that standardizes and automates processing of diffusion MRI data, including denoising, motion correction, and reconstruction to prepare for analysis</td>
+<td>fully open</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="references">References</h2>
+<p>GitHub. (n.d.). <em>GitHub Docs</em>. https://docs.github.com/en/</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
