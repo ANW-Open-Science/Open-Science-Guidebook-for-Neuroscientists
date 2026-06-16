@@ -12,7 +12,7 @@ Our project seeks to spread Open Science in the field of Neuroscience. The guide
 
 - :fontawesome-solid-people-group:{ .lg .middle } __Team__
 
-    [:octicons-arrow-right-24: The people behind this guidebook](working_group/team.md)
+    [:octicons-arrow-right-24: The people behind this guidebook](working_group/core_team.md)
 
 </div>
 
